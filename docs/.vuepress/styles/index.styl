@@ -1,0 +1,48 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+.home .hero img
+  max-width 450px!important
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans&family=Work+Sans&display=swap');
+
+:root {
+    --accent: #024fff
+}
+body {
+    //font-family: 'Fira Mono', monospace;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    color: #1C1C1C;
+}
+
+p {
+    font-size: 0.9rem;
+    line-height: 1.6em;
+    letter-spacing: 0.05em;
+}
+img {
+    transform: scale(0.7);
+}
+
+h1, h2, h3, h4, h5, h6, .site-name {
+    font-weight: 400 !important;
+    font-family: 'Fira Mono', monospace;
+}
+h1 {
+    font-size: 2.6rem;
+}
+h2 {
+    font-size: 1.9rem;
+    margin-bottom: 0.4rem !important;
+}
+.callout {
+    border: 1px solid #ddd;
+    border-left: 4px solid var(--accent);
+    padding: 8px 16px;
+    background: aliceblue;
+    vertical-align: middle;
+}
