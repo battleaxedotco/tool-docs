@@ -1,4 +1,6 @@
-# Overlord
+# Getting started
+
+<img :src="$withBase('/overlord/header.gif')" alt="Overlord header">
 
 Whether you draw your own illustrations and spend hours prepping Illustrator files for import, or work alongside a team and constantly have to remind designers how to split art onto layers, there should be a smarter way to work. 
 
@@ -6,7 +8,7 @@ Illustrator and After Effects should feel like companion applications, not rival
 
 Work with shapes, not files.
 
-<img :src="$withBase('/overlord/header.gif')" alt="Overlord header">
+<a href="http://battleaxe.co/overlord" class="nav-link action-button">Buy Overlord</a>
 
 
 ## Selections

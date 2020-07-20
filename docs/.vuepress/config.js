@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'battle axe',
+  title: 'Battle Axe',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    smoothScroll: true,
     logo: '/MagicSquare.svg',
     nav: [
       {
@@ -42,24 +43,57 @@ module.exports = {
         text: 'Overlord',
         link: '/overlord/'
       },
-      {
-        text: 'Timelord',
-        link: '/timelord/'
-      }
+      // {
+      //   text: 'Timelord',
+      //   link: '/timelord/'
+      // },
     ],
     sidebar: {
       '/rubberhose/': [
-        '',
-        'More Informations'
+        {
+          title: 'RubberHose',
+          collapsable: false,
+          children: [
+            '',
+            'install',
+            'build',
+            // 'style',
+            // 'manage',
+            // 'controls',
+            // 'tutorials',
+            // 'bonus',
+            // 'changelog',
+          ],
+        }
       ],
       '/overlord/': [
-        '',
-        'push-pull',
-        'modifiers'
+        {
+          title: 'Overlord',
+          collapsable: false,
+          children: [
+            '',
+            'install',
+            'push-pull',
+            'modifiers',
+            'gradients',
+            'update-shapes',
+            'bonus',
+            'changelog',
+          ]
+        }
       ],
       '/timelord/': [
-        '',
-        'getting-started'
+        {
+          title: 'Timelord',
+          collapsable: false,
+          children: [
+            '',
+            'workflow',
+            'transfer',
+            'frame-tools',
+            'changelog',
+          ]
+        },
       ],
     }
   },

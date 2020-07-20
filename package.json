@@ -1,7 +1,7 @@
 {
   "name": "help-docs",
   "version": "0.0.1",
-  "description": "Battle Axe tool documentation",
+  "description": "Battle Axe tool documentation and manuals",
   "main": "index.js",
   "authors": {
     "name": "Adam Plouff",
@@ -9,11 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/adamplouff/help-docs.git/help-docs"
+    "url": "https://github.com/battleaxedotco/tool-docs.git"
   },
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "license": "MIT",
   "devDependencies": {

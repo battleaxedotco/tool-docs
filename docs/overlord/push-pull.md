@@ -9,7 +9,7 @@ Shapes may be pushed or pulled based on your style of working. Select shapes and
 
 Fills, strokes, naming, grouping and hierarchy will be preserved. Some Ai features are unsupported simply because Ae works different than Ai.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/sP95Xab0i6k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<Video url="https://www.youtube.com/embed/sP95Xab0i6k" />
 
 ## Ai → Ae
 
@@ -19,6 +19,7 @@ This process may be modified by the small switches next to Push and Pull to expl
 
 ### Modifier keys
 Holding SHIFT will add selected AI shapes to the selected AE layers.
+
 
 
 ## Ae → Ai

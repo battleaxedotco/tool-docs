@@ -1,7 +1,16 @@
-# Guide
+# Getting started
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Everything inside of the RubberHose system is designed specifically to never need a manual. This is the manual that you will hopefully never need. 
 
-## This is awesome
+## Tutorial project
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut la
+<Screenshot 
+    url="/rubberhose2/tutorial.gif" 
+    alt="RH2 build buttons"
+    width="400px" 
+    right />
+
+Get up and running as fast as possible by downloading the [RubberHose Tutorial Project](). It's a hands-on walkthrough of all the main features inside of the system. 
+
+Note: the tutorial project requires RubberHose 2 to be installed. 
+

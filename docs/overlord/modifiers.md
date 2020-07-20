@@ -7,31 +7,42 @@ permalink: /modifiers
 
 These tiny switches adjust how shapes are sent to After Effects. They have no effect on how shapes are sent to Illustrator.
 
-## Split
+## Split layers
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vfRHG_MywpE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<Video url="https://www.youtube.com/embed/vfRHG_MywpE" />
 
 Enabling this option create new layers for each top-level shape or group selected. Shapes nested within a group will be combined into a single layer, so ungroup shapes as needed in Illustrator.
 
 Disabling this option will cause all shapes to be transferred to a single layer.
 
-For more advanced and flexible exploding and merging of shape layers, be sure to use <a href="https://aescripts.com/explode-shape-layers/" target="_blank">Explode Shape Layers</a>.
+For more advanced and flexible exploding and merging of shape layers, be sure to use [Explode Shape Layers](https://aescripts.com/explode-shape-layers/).
 
 
 
-## Ai → Ae
+## Parametric shapes
 
-This is the core mechanic of Overlord. Select the shapes you want in Ai, regardless of layering, and transfer them to Ae. 
+<Video url="https://www.youtube.com/embed/BdR5DqKrq-E" />
 
-This process may be modified by the small switches next to Push and Pull to explode shapes to layers, detect parametric ellipses and rectangles, and more. 
+All shapes in Illustrator are basic paths, but by enabling this option, the system will automatically detect Ellipses and Rectangles. 
 
-### Modifier keys
-Holding SHIFT will add selected AI shapes to the selected AE layers.
+Note: Vertical and horizontal scaling of a shape is fine, but any path manipulation or rotation to the shape will make it impossible for Overlord to detect these parametric shapes. If Overlord still isn't detecting shapes the right way, check out [Parametric Converter](https://gumroad.com/l/ARmYL).
 
 
-## Ae → Ai
-Overlord is first of all a tool for After Effects, so priority is given to the transfer of Ai shapes to Ae. The vector editing tools in Ai are a lot easier to use than twirling menus in shape layers so Overlord allows you to send shape layers back to Ai for editing. This will effectively allow Illustrator to be used as the drawing interface for shape layers. 
+## Center anchor point
 
-### Modifier keys
+<Video url="https://www.youtube.com/embed/yVmYUmT7Gxo" />
 
-Holding **ALT** will clear the AI document before adding sending shapes to it. It's a good idea to create a new dedicated document if this is how you plan to work. 
+Enabling this option will automatically reposition the anchor point to the center of the shape(s).
+
+Disabling this option will place the anchor point at the comp center. 
+
+This is also available through the menu Layer > Transform > Center Anchor Point in Layer Content and with [Motion 2](https://gumroad.com/l/mtmo_motion).
+
+
+## Center shape in comp
+
+<Video url="https://www.youtube.com/embed/K4qtSqCcCoc" />
+
+When working off an oversized artboard it might me desirable to simply send objects to Ae to be repositioned later.
+
+Enabling this option will automatically reposition the anchor point to the center of the shape(s) and adjust the position to comp center. This will also enable the [Center Anchor Point](#center-anchor-point) option.
