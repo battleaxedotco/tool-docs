@@ -1,0 +1,24 @@
+<svg width="424" height="424" viewBox="0 0 424 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0)">
+<g clip-path="url(#clip1)">
+<circle cx="212.132" cy="44.132" r="24.3528" transform="rotate(45 212.132 44.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="128.132" cy="128.132" r="24.3528" transform="rotate(45 128.132 128.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="44.132" cy="212.132" r="24.3528" transform="rotate(45 44.132 212.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="296.132" cy="128.132" r="24.3528" transform="rotate(45 296.132 128.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="212.132" cy="212.132" r="24.3528" transform="rotate(45 212.132 212.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="128.132" cy="296.132" r="24.3528" transform="rotate(45 128.132 296.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="380.132" cy="212.132" r="24.3528" transform="rotate(45 380.132 212.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="296.132" cy="296.132" r="24.3528" transform="rotate(45 296.132 296.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<circle cx="212.132" cy="380.132" r="24.3528" transform="rotate(45 212.132 380.132)" fill="#313131" stroke="#313131" stroke-width="1.18794"/>
+<path d="M128.132 128.132L380.132 212.132L128.132 296.132L212.132 380.132V44.132L296.132 128.132L44.132 212.132L296.132 296.132" stroke="#313131" stroke-width="11.8794" stroke-linejoin="round"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0">
+<rect width="424" height="424" fill="white"/>
+</clipPath>
+<clipPath id="clip1">
+<rect width="356.382" height="356.382" fill="white" transform="translate(212.132 -39.868) rotate(45)"/>
+</clipPath>
+</defs>
+</svg>
