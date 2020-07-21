@@ -5,7 +5,6 @@ Timelord is designed to simplify frame-based animation in Photoshop and Animate 
 <Video url="https://www.youtube.com/embed/qYU8VjpeoAY" />
 
 ## Installation
-
 <Install 
     extension 
     name="Timelord" 

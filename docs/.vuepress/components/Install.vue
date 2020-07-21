@@ -29,7 +29,7 @@
         </div>
 
         <div v-else-if="scriptUI">
-            <h2>CC2019+</h2>
+            <h3>CC2019+</h3>
             <Screenshot 
                 url="/install/CC2019-Install.png" 
                 alt="Ae script install" 
@@ -41,7 +41,7 @@
             </p>
 
 
-            <h2>CC2018 and older</h2>
+            <h3>CC2018 and older</h3>
             <Screenshot 
                 url="/install/Rubberhose-Install.png" 
                 alt="RubberHose install" 
@@ -54,11 +54,11 @@
                 <li>{{ name }} will be available in the <b>Window</b> menu at the top of the screen. Scroll down to find the installed scripts.</li>
             </ul>
 
-            <h3>Install paths</h3>
+            <h4>Install paths</h4>
             <p><b>OSX:</b> <code>Applications\After Effects #version#\Scripts\ScriptUI Panels</code></p>
             <p><b>Windows:</b> <code>Program Files\Adobe\Adobe After Effects #version#\Support Files\Scripts\ScriptUI Panels</code></p>
 
-            <h2>Allow scripts to write files</h2>
+            <h3>Allow scripts to write files</h3>
             <p>
                 If you haven't enabled this weird setting before you will get an error the first time you run {{ name }}. 
             </p>

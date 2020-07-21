@@ -1,5 +1,20 @@
 # Changelog
 
+## 0.8.3
+Released: July 21, 2020
+
+### Added
+- Settings button because sometimes we're too old to remember to right click
+
+### Fixed 
+- Ps/An toolbar removes scrolling when below 60px tall
+- Settings export button
+- Ps New Timeline undo back to the creation of doc
+  
+### Changes
+- Context (right-click) Configure renamed Settings
+- Context menu moves Show Tooltips to Settings menu
+
 ## 0.8.2
 Released: July 15, 2020
 
@@ -7,7 +22,7 @@ Released: July 15, 2020
 - An masks: reapplying masking to layers
 - An masks: correct track matte layer in Ae
 - Better logic if imported rendered layer is in the comp (Ps/An)
-- Importd .mov into An sets layer to guide layer
+- Imported .mov into An sets layer to guide layer
 - Selected An guide layers are skipped when exporting
 
 ### Added

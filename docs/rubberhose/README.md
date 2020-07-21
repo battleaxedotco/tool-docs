@@ -14,3 +14,12 @@ Get up and running as fast as possible by downloading the [RubberHose Tutorial P
 
 Note: the tutorial project requires RubberHose 2 to be installed. 
 
+
+<!-- <img class="zoom" src="/install/Rubberhose-Install.png"> -->
+
+## Installation
+<Install 
+    scriptUI 
+    name="RubberHose 2"
+    :hosts="['After Effects']"
+/>

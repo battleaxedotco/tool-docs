@@ -55,7 +55,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'install',
+            // 'install',
             'build',
             // 'style',
             // 'manage',
@@ -72,7 +72,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'install',
+            // 'install',
             'push-pull',
             'modifiers',
             'gradients',
@@ -93,7 +93,7 @@ module.exports = {
             'frame-tools',
             'changelog',
           ]
-        },
+        },  
       ],
     }
   },
@@ -101,8 +101,15 @@ module.exports = {
   /**
    * Apply plugins，ref：https://v1.vuepress.vuejs.org/zh/plugin/
    */
-  plugins: [
-    '@vuepress/plugin-back-to-top',
-    '@vuepress/plugin-medium-zoom',
-  ]
+  plugins: {
+    // '@vuepress/plugin-back-to-top',
+    '@vuepress/medium-zoom': {
+      selector: '.zoom',
+      // medium-zoom options here
+      // See: https://github.com/francoischalifour/medium-zoom#options
+      options: {
+        margin: 16
+      }
+    }
+  }
 }
