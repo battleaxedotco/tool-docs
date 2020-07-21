@@ -1,4 +1,4 @@
-<!-- ---
+---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Battle Axe tool documentation
@@ -12,7 +12,7 @@ features:
 - title: Feature 3 Title
   details: Feature 3 Description
 footer: © 2020 Battle Axe Inc. Atlanta, GA.
---- -->
+---
 
 <!-- <Redirect to="https://kazoo-herring-p7sw.squarespace.com/help" /> -->
-<Redirect to="https://battleaxe.co/help" />
+<!-- <Redirect to="https://battleaxe.co/help" /> -->
