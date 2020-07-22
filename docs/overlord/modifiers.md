@@ -1,9 +1,4 @@
----
-title: Transfer Modifiers
-permalink: /modifiers
----
-
-# {{ $frontmatter.title }}
+# Transfer Modifiers
 
 These tiny switches adjust how shapes are sent to After Effects. They have no effect on how shapes are sent to Illustrator.
 

@@ -37,7 +37,7 @@ module.exports = {
     nav: [
       {
         text: 'RubberHose',
-        link: '/rubberhose/',
+        link: '/rubberhose2/',
       },
       {
         text: 'Overlord',
@@ -49,20 +49,19 @@ module.exports = {
       // },
     ],
     sidebar: {
-      '/rubberhose/': [
+      '/rubberhose2/': [
         {
-          title: 'RubberHose',
+          title: 'RubberHose2',
           collapsable: false,
           children: [
             '',
-            // 'install',
             'build',
-            // 'style',
-            // 'manage',
-            // 'controls',
-            // 'tutorials',
-            // 'bonus',
-            // 'changelog',
+            'style',
+            'manage',
+            'controls',
+            'tutorials',
+            'addons',
+            'changelog',
           ],
         }
       ],
@@ -72,12 +71,12 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            // 'install',
             'push-pull',
             'modifiers',
             'gradients',
             'update-shapes',
             'bonus',
+            'tutorials',
             'changelog',
           ]
         }
