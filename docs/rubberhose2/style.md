@@ -39,7 +39,7 @@ Whether you created and saved your own Style Preset or downloaded on for another
 
 ## Included styles
 
-<ImageGrid :tiles="[
+<!-- <ImageGrid :tiles="[
     {   
         name: 'Tapered hose',
         text: 'The most requested feature in RubberHose history. The Tapered Hose is the simple way to add shape variety to arms and legs. The fat end may be shifted by to the opposite end with a negative value in Taper %.',
@@ -105,7 +105,7 @@ Whether you created and saved your own Style Preset or downloaded on for another
         text: 'Stylistic alternate of TwoTone.',
         url:'/rubberhose2/styles-twotone-dash.png'
     },
-    ]" />
+    ]" /> -->
 
 
 ## Tips
