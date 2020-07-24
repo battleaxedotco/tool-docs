@@ -1,10 +1,21 @@
 # Changelog
 
-## 0.8.3
-Released: July 21, 2020
+## 0.8.4
+Released: July 24, 2020
 
 ### Added
-- Settings button because sometimes we're too old to remember to right click
+- An Render Timeline button for generating a single SWF instead of layers
+
+### Fixed
+- An Settings button not a function
+- Icon sizes for Ps/An
+- An export layers: skip hidden layers
+
+### Changes
+- Inital panel size increased to 250x166 for more visibility during onboarding 
+- Adjust the padding between toolbar button tooltips
+- Adjust the vertical threshold for tooltips displaying to the right 
+
 
 ### Fixed 
 - Ps/An toolbar removes scrolling when below 60px tall
