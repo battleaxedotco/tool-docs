@@ -16,6 +16,8 @@ Released: July 24, 2020
 - Adjust the padding between toolbar button tooltips
 - Adjust the vertical threshold for tooltips displaying to the right 
 
+## 0.8.3
+Released: July 21, 2020
 
 ### Fixed 
 - Ps/An toolbar removes scrolling when below 60px tall
