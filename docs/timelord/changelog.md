@@ -12,7 +12,7 @@ Released: July 24, 2020
 - An export layers: skip hidden layers
 
 ### Changes
-- Inital panel size increased to 250x166 for more visibility during onboarding 
+- Initial panel size increased to 250x166 for more visibility during onboarding 
 - Adjust the padding between toolbar button tooltips
 - Adjust the vertical threshold for tooltips displaying to the right 
 
@@ -25,8 +25,8 @@ Released: July 21, 2020
 - Ps New Timeline undo back to the creation of doc
   
 ### Changes
-- Context (right-click) Configure renamed Settings
-- Context menu moves Show Tooltips to Settings menu
+- Context (right-click) *Configure* renamed *Settings*
+- Context menu moves *Show Tooltips* to Settings menu
 
 ## 0.8.2
 Released: July 15, 2020

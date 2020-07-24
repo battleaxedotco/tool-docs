@@ -14,6 +14,7 @@ Hose controls are  where characters become your own. Don't just accept the prese
 The main concept behind RubberHose is that a hose bends based on its length. A hose can be stretched beyond its defined length, but once the distance between controllers is less than the Hose Length, the hose will bend to get out of the way. 
 
 
+<br />
 
 ## Bend radius
 
@@ -31,6 +32,7 @@ Every hose bends once the distance between controllers goes below the Hose Lengt
 Bend Radius can be pushed into negative numbers to create an overlapped loop, or past 100 to exaggerate roundness. 
 
 
+<br />
 
 ## Realism
 
@@ -45,6 +47,7 @@ Anyone familiar with traditional IK knows well the snap that happens when a limb
 With the Realism value you dial in how true to reality or soft and squishy you want the hose to straighten.  
 
 
+<br />
 
 ## Bend direction
 
@@ -59,6 +62,7 @@ The direction or a bend is fully customizable and animatable. Set the direction 
 The intermediate values between -100 and 100 can be helpful when a character's move must be pushed into perspective. This foreshortening effect could be accomplished with a reduction of the Hose Length, but is easier controlled by thinking of the *Bend Direction* as a kind of multiplier. 
 
 
+<br />
 
 ## Auto rotate
 
@@ -75,6 +79,7 @@ These controllers may be rotated and keyframed like normal —the automatic rota
 If you don't need automatic rotation just switch it off in the RubberHose 2 effect panel. Disabling will save a tiny amount of render-time. 
 
 
+<br />
 
 ## Stretch feedback
 
@@ -90,6 +95,7 @@ In order to provide as much flexibility (yes, pun intended) as possible, hoses c
 If you don't care about this then feel free to disable Stretch Feedback in [settings](manage.html#settings). 
 
 
+<br />
 
 ## Math stuff
 
@@ -104,6 +110,7 @@ If you don't care about this then feel free to disable Stretch Feedback in [sett
 This is the spot dedicated to doing most of the fancy math that makes RubberHose work. Don't mess with this stuff. Seriously. 
 
 
+<br />
 
 ## Center bias
 

@@ -22,6 +22,12 @@ After layers finish exporting, After Effects will be instructed to batch import 
     width="auto"
     />
 
+
+<Screenshot 
+    url="/timelord/icon/render.svg" 
+    alt="Render selected layers" 
+    toolbar />
+
 ## Photoshop → Ae
 
 Photoshop files may contain timeline or still layers. Timelord will first check which kind of file it is. If it has a timeline, it will export selected layer groups as PNG sequences. If the project is static, selected layers will be exported as PNGs with transparency. 
@@ -33,6 +39,11 @@ Blending modes will also be transferred with exported layers when adding layers 
 ::: tip Render range
 The length of the png sequence is determined by the frame range of the Ps timeline. Because files are overwritten with each export, this also means it is possible to export only a range of frames and leave those outside the frame range unaffected.
 :::
+
+<Screenshot 
+    url="/timelord/icon/render.svg" 
+    alt="Render selected layers" 
+    toolbar />
 
 ## Animate → Ae
 
@@ -51,6 +62,8 @@ After layers finish exporting, After Effects will batch import the layers and ad
 Render the open Ae comp as a video for reference as you draw. From Ae, buttons are color-coded to which app it will be sent. The open Ae comp will be rendered, compressed as an h.264 and imported into Ps/An.
 
 Ae rendering is done with a selected output module first,  then recompressed to h.264. Lossless is the default but may be reassigned from the dropdown. If you create a new output module and do not see it in the list, right-click the panel to reload and update the dropdown. 
+
+<br />
 
 ### Color shift
 h.264 is a requirement for Animate and keeps temporary file sizes low for Photoshop. This is a lossy compression and there will be a color shift. Do not color pick this layer and expect accurate color representation.
@@ -127,9 +140,11 @@ This might be completely new and that's ok. This is a short-hand for how compute
 ../../ = Two directories up
 ```
 
+<br />
+
 <Screenshot 
     url="/timelord/ae-relative.png" 
-    alt="Relative export path" 
+    alt="Open render folder" 
     width="220px"
     right />
 
@@ -139,13 +154,22 @@ If you misplace where the relative path is located on your drive, **SHIFT** clic
 
 
 <Screenshot 
+    url="/timelord/icon/render-all.svg" 
+    alt="Render timeline" 
+    toolbar />
+
+## Render full timeline (An only) 
+Some workflows may prefer to export a SWF of your full timeline rather than individual layers. This button is [hidden by default](workflow.html#customize-toolbar)
+
+
+<Screenshot 
     url="/timelord/icon/send-proj.svg" 
-    alt="Frame duration" 
+    alt="Import PSD/FLA" 
     toolbar />
 
 ## Import full PSD/FLA files
 
-This behavior goes against some of the proposed Timelord conventions but hey, it's your project. Work how you want. These buttons are not visible by default but may be un-hidden by right clicking one of the Timelord panels then **Customize**.
+This behavior goes against some of the proposed Timelord conventions but hey, it's your project. Work how you want. These buttons are [hidden by default](workflow.html#customize-toolbar).
 
 ### PSD → Ae
 
@@ -153,4 +177,5 @@ When importing a PSD to Ae, you will be asked how to import:
 
 - As a single layer of footage
 - As a mullti-layer comp
-    - Great for importing a prepped and final PSD. Note, this is a one way import and changes made to the PSD
+    - Great for importing a prepped and final PSD. 
+    - Note, this is a one way import and changes made to the PSD will not update.

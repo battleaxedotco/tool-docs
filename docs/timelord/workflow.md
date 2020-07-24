@@ -85,7 +85,7 @@ Most of Timelord's buttons are used to work with frames-by-frame animation. Butt
 
 ## Customize toolbar
 
-Hide and show buttons by right clicking any Timelord panel > **Customize**. These settings may be exported/imported for use on different computers.
+Hide and show buttons by right clicking any Timelord panel > **Settings**. These settings may be exported/imported for use on different computers.
 
 <Screenshot 
     url="/timelord/settings.png" 

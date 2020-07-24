@@ -27,7 +27,6 @@ Customized styles may be saved and added to the library (see below), but the qui
 
 Select a layer (hose or controller) that belongs to the style you would like to save. Hold ALT and click the Copy Style button. A file save dialog will popup. Save the file to your desktop or somewhere easy to locate. When you press Save you will likely be presented with a similar warning about the save location being outside of the default.  AE just wants you to know that the preset wont be available in the Effects & Presets panel. We don't want it there. This is normal and may be ignored.
 
-
 ## Installing a style
 <Screenshot 
     url="/rubberhose2/style-install.gif" 

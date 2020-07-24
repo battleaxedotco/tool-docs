@@ -14,7 +14,10 @@ Included with [v2.11](changelog.html#_2-11). Lookup and [download](http://licens
 
 <a href="http://battleaxe.co/overlord" class="nav-link action-button">Download</a>
 
+<br />
+
 ### The Steve Kirby pack
+
 <Screenshot 
     url="/rubberhose2/addons-kirby.gif" 
     alt="RH2 build buttons"
@@ -25,6 +28,7 @@ Many thanks to [Steve](https://stevekirby.co.uk/) for creating these super high 
 
 <a href="http://battleaxe.co/overlord" class="nav-link action-button">Download</a>
 
+<br />
 
 ## Hose builder
 <Screenshot 
