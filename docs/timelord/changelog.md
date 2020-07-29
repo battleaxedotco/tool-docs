@@ -1,5 +1,15 @@
 # Changelog
 
+## 0.8.5
+Released: July 24, 2020
+
+### Added
+- Settings options to add timestamp to rendered filenames to work around Adobe caching issues
+
+### Fixed
+- An imported mp4 added at frame zero
+- Ps render cancel if no layers selected
+
 ## 0.8.4
 Released: July 24, 2020
 
