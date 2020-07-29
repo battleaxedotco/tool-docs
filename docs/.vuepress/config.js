@@ -90,6 +90,7 @@ module.exports = {
             'workflow',
             'transfer',
             'frame-tools',
+            'settings',
             'changelog',
           ]
         },  

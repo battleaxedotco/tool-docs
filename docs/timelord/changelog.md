@@ -9,6 +9,7 @@ Released: July 24, 2020
 ### Fixed
 - An imported mp4 added at frame zero
 - Ps render cancel if no layers selected
+- An frame clear for multiple selected frames
 
 ## 0.8.4
 Released: July 24, 2020

@@ -159,7 +159,7 @@ If you misplace where the relative path is located on your drive, **SHIFT** clic
     toolbar />
 
 ## Render full timeline (An only) 
-Some workflows may prefer to export a SWF of your full timeline rather than individual layers. This button is [hidden by default](workflow.html#customize-toolbar)
+Some workflows may prefer to export a SWF of your full timeline rather than individual layers. This button is [hidden by default](settings.html#customize-toolbar). Via [Johannes Fast](https://www.instagram.com/johanimation)
 
 
 <Screenshot 
@@ -169,7 +169,7 @@ Some workflows may prefer to export a SWF of your full timeline rather than indi
 
 ## Import full PSD/FLA files
 
-This behavior goes against some of the proposed Timelord conventions but hey, it's your project. Work how you want. These buttons are [hidden by default](workflow.html#customize-toolbar).
+This behavior goes against some of the proposed Timelord conventions but hey, it's your project. Work how you want. These buttons are [hidden by default](settings.html#customize-toolbar).
 
 ### PSD → Ae
 

@@ -34,7 +34,7 @@ Photoshop and Animate's Timelord panels do not need to to be visible in order to
 
 ### New comp
 
-[Hidden by default](#customize-toolbar), it is also possible to create a new comp to match your open Ps/An timeline if you prefer to start projects by drawing. 
+[Hidden by default](settings.html#customize-toolbar), it is also possible to create a new comp to match your open Ps/An timeline if you prefer to start projects by drawing. 
 
 
 
@@ -82,29 +82,3 @@ Yep, that's possible too.
 Most of Timelord's buttons are used to work with frames-by-frame animation. Buttons are designed to add new functionality and simplify common tasks while creating as much of a uniform experience between Photoshop and Animate as possible.
 
 [Read more about each frame tool](./frame-tools) →
-
-## Customize toolbar
-
-Hide and show buttons by right clicking any Timelord panel > **Settings**. These settings may be exported/imported for use on different computers.
-
-<Screenshot 
-    url="/timelord/settings.png" 
-    alt="All Ps buttons" 
-    width="auto"
- />
-
-### Default buttons (An)
-
-<Screenshot 
-    url="/timelord/toolbar-default-an.png" 
-    alt="Default An buttons" 
-    width="425px"
- />
-
-### All buttons (Ps)
-
-<Screenshot 
-    url="/timelord/toolbar-all-ps.png" 
-    alt="All Ps buttons" 
-    width="734px"
- />
