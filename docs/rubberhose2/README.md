@@ -2,6 +2,8 @@
 
 Everything inside of the RubberHose system is designed specifically to never need a manual. This is the manual that you will hopefully never need. 
 
+<a href="http://battleaxe.co/rubberhose" class="nav-link action-button">Buy RubberHose 2</a>
+
 ## Tutorial project
 
 <Screenshot 

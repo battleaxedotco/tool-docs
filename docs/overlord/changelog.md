@@ -1,5 +1,7 @@
 # Changelog
 
+<a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
+
 ## 1.22
 Released: July 23, 2019
 ### Changed
@@ -137,7 +139,7 @@ Released: October 11, 2017
 ### Fixed
 - Removed error when pushing Ai art with no elements selected
 - New Ray palette can now be the first Ae comp created
-- Text justification was not factored in and become misaligned when transfered
+- Text justification was not factored in and become misaligned when transferred
 - Removed an error when trying to update a path with a text object
 - Catch for updating a path and having a keyframe selected
 
@@ -189,7 +191,7 @@ Released: September 30, 2017
 
 
 ## 0.22
-Released:  Speptember 25, 2017
+Released:  September 25, 2017
 ### Fixed
 - Creating a new doc from an AE comp created a 1920x1080 instead of pulling the comp data
 - Accidentally removed the interface brightness adjustments

@@ -1,5 +1,7 @@
 # Changelog
 
+<a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
+
 ## 2.11 
 Released: June 10, 2020
 ### Added

@@ -1,5 +1,7 @@
 # Changelog
 
+<a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
+
 ## 0.8.5
 Released: July 29, 2020
 
@@ -66,7 +68,7 @@ Released: July 9, 2020
 
 ### Fixed
 
-- An export multiple layers exports seperately
+- An export multiple layers exports separately
 - An layer import order
 - An 20.5 removed BridgeTalk support so reintroducing Amulets newFla() when An is open
 
