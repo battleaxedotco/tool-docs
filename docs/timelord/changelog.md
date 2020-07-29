@@ -1,7 +1,7 @@
 # Changelog
 
 ## 0.8.5
-Released: July 24, 2020
+Released: July 29, 2020
 
 ### Added
 - Settings options to add timestamp to rendered filenames to work around Adobe caching issues
