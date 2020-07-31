@@ -113,7 +113,7 @@ Creates a new layer above the currently selected layer with a blank frame ready 
 
 ### Duplicate blank layer
 
-Duplicates the selected layer with cleared frames. This can often be useful to create a new layer based on the timing of frames in an existing layer (cleanup, tiedown, coloring, etc). Via [Taylor Jon Peters](https://tjpeters.ca/)
+Duplicates the selected layer with cleared frames. This can often be useful to create a new layer based on the timing of frames in an existing layer (cleanup, tiedown, coloring, etc). Idea via [Taylor Jon Peters](https://tjpeters.ca/)
 
 <Screenshot 
     url="/timelord/icon/layer-solo.svg" 
@@ -134,7 +134,7 @@ If the state of soloing becomes too unruly with all the layer renaming, Shift-cl
 
 ### Wait, solo is already in Photoshop?
 
-In the Layers panel, Alt-Click a layer's eyeball to solo that layer. Tip via: [JT DiMartile](https://variablemedium.com/).
+In the Layers panel, Alt-Click a layer's eyeball to solo that layer. Tip via [JT DiMartile](https://variablemedium.com/).
 
 
 

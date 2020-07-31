@@ -65,9 +65,9 @@ When this checkbox is disabled, you will be asked each time where to save. This 
 
 ### What about still Ps layers?
 
-As a bonus, it is also possible to export layers and groups from Photoshop to Ae –like [Overlord](battleaxe,.co/overlord) for raster files. 
+As a bonus, it is also possible to export layers and groups from Photoshop to Ae –like [Overlord](battleaxe.co/overlord) for raster files. 
 
-### [Importing a whole PSD/FLA](#import-full-psd-fla-files)
+### [Importing a whole PSD/FLA](transfer.html#import-full-psd-fla-files)
 
 Yep, that's possible too.
 

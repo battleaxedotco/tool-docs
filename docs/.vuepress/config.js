@@ -34,6 +34,9 @@ module.exports = {
     lastUpdated: false,
     smoothScroll: true,
     logo: '/MagicSquare.svg',
+    markdown: {
+      anchor: { permalink: true, permalinkBefore: true, permalinkSymbol: '#' }
+    },
     nav: [
       {
         text: 'RubberHose',
@@ -103,13 +106,11 @@ module.exports = {
    */
   plugins: {
     // '@vuepress/plugin-back-to-top',
-    '@vuepress/medium-zoom': {
-      selector: '.zoom',
-      // medium-zoom options here
-      // See: https://github.com/francoischalifour/medium-zoom#options
-      options: {
-        margin: 16
-      }
-    }
+    // '@vuepress/medium-zoom': {
+    //   selector: '.zoom',
+    //   options: {
+    //     margin: 16
+    //   }
+    // }
   }
 }

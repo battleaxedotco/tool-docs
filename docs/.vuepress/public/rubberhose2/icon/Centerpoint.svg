@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="24px" viewBox="0 0 60 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #262626;">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Centerpoint</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Centerpoint" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#262626" x="0" y="0" width="60" height="24"></rect>
+        <polygon id="Path-7" fill="#FFD740" points="35 8 34.75 9 34 10 33 11 54 23 56 20"></polygon>
+        <polygon id="Combined-Shape" fill="#FFD740" points="33.75 5.5 34 6 34 8 33 10 31 11 29 11 27 10 26 8 26 6 27 4 29 3 31 3 33 4 33.75 5.5 28.5 5.5 28.5 8.5 31.5 8.5 31.5 5.5"></polygon>
+        <polygon id="Path-7" fill="#FFD740" points="25 8 25.25 9 26 10 27 11 6 23 4 20"></polygon>
+        <polygon id="Rectangle" fill="#FFD740" points="23 2 25 3 25 4 23 3"></polygon>
+        <polygon id="Rectangle-2" fill="#FFD740" points="22 6 24 6 24 7 22 7"></polygon>
+        <polygon id="Rectangle-5" fill="#FFD740" points="28 13 29 13 28 15 27 15"></polygon>
+        <polygon id="Rectangle-6" fill="#FFD740" points="31 13 32 13 33 15 32 15"></polygon>
+        <polygon id="Path-8" fill="#FFD740" points="36 7 36 6 38 6 38 7"></polygon>
+        <polygon id="Path-9" fill="#FFD740" points="35 3 35 4 37 3 37 2"></polygon>
+    </g>
+</svg>

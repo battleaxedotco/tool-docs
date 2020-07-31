@@ -5,6 +5,11 @@
     alt="RH2 style buttons"
     width="800px" />
 
+<Screenshot 
+    url="/rubberhose2/icon/StyleApply.svg" 
+    alt="Apply style" 
+    toolbar />
+
 ## Applying styles
 Select a layer (hose or controller) from the desired hose group, select a style from the style library, and press the Apply button. The current style will be removed and the new one applied. 
 
@@ -14,10 +19,20 @@ Select a layer (hose or controller) from the desired hose group, select a style 
     width="500px" 
     center />
 
+<Screenshot 
+    url="/rubberhose2/icon/StyleCopyPaste.svg" 
+    alt="Copy/paste style" 
+    toolbar />
+
 ## Copy/paste style
 Customized styles may be saved and added to the library (see below), but the quickest way to get a style on another hose is to copy. Select a layer (hose or controller) and press Style Copy. Select a layer from the desired hose group and press Style Paste to overwrite the current style. Holding the Shift key will paste the new style to the existing without overwriting.
 
-## Saving and installing styles
+<Screenshot 
+    url="/rubberhose2/icon/AltCopy.svg" 
+    alt="Create style" 
+    toolbar />
+
+## Saving styles
 
 <Screenshot 
     url="/rubberhose2/style-warning.png" 
@@ -25,7 +40,7 @@ Customized styles may be saved and added to the library (see below), but the qui
     width="450px" 
     right/>
 
-Select a layer (hose or controller) that belongs to the style you would like to save. Hold ALT and click the Copy Style button. A file save dialog will popup. Save the file to your desktop or somewhere easy to locate. When you press Save you will likely be presented with a similar warning about the save location being outside of the default.  AE just wants you to know that the preset wont be available in the Effects & Presets panel. We don't want it there. This is normal and may be ignored.
+Select a layer (hose or controller) that belongs to the style you would like to save. Hold **ALT** and click the Copy Style button. A file save dialog will popup. Save the file to your desktop or somewhere easy to locate. When you press Save you will likely be presented with a similar warning about the save location being outside of the default.  AE just wants you to know that the preset wont be available in the Effects & Presets panel. We don't want it there. This is normal and may be ignored.
 
 ## Installing a style
 <Screenshot 
@@ -110,13 +125,13 @@ Whether you created and saved your own Style Preset or downloaded on for another
 ## Tips
 
 ### Factory reset
-Know that before [resetting the script]() and all of its settings, that all style presets will also be reset to the factory de. Be sure to save a copy of 
+Know that before [resetting the script](./manage.html#reset-everything) and all of its settings, that all style presets will also be reset to the factory de. Be sure to save a copy of 
 
-If you ever feel inclined to [reset the script]() and all it's settings it's good to remember that all the preset files will also be deleted. I'm sure you're a great computer user and back up all your important files (right?), but be sure you save a copy of your custom style presets before resetting the script.
+If you ever feel inclined to [reset the script](./manage.html#reset-everything) and all it's settings it's good to remember that all the preset files will also be deleted. I'm sure you're a great computer user and back up all your important files (right?), but be sure you save a copy of your custom style presets before resetting the script.
 
 ### Version compatibility
 Be aware that when saving presets for sharing with others the Ae version you save from will be the lowest version that may apply the preset. To save a CC2020 style for use with users on CC2019, you will first have to (File>Save As>Save a Copy as [lower version]…). Open the newly saved project file then repeat the Style Preset saving process inside of the lower version.
 
 
 ### Locked hose
-Styles may still be applied to hose layers that are locked. This is helpful if you enable Lock Hose at Creation in the script [settings]() (to avoid accidental selection when animating).
+Styles may still be applied to hose layers that are locked. This is helpful if you enable Lock Hose at Creation in the script [settings](./manage.html#settings) (to avoid accidental selection when animating).

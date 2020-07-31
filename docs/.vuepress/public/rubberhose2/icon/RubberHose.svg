@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="24px" viewBox="0 0 60 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #262626;">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>RubberHose Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="RubberHose-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#262626" x="0" y="0" width="60" height="24"></rect>
+        <polygon id="Combined-Shape" fill="#00E5FF" points="52.0349954 16.0349954 52.0349954 17.5349954 50.5349954 17.5349954 48.5349959 17.5349957 48.5349954 19.5349954 50.5349954 19.5349954 50.5349954 17.5349954 52.0349954 17.5349954 52.0349954 21.0349954 47.0349954 21.0349954 47.0349954 17.4425082 32.7836359 4.15852631 11.5566094 8.42256055 9.5707515 11.366716 5.42556364 8.5707515 8.22152815 4.42556364 9.46508451 5.26435299 8.62629516 6.50790935 7.50790935 8.1659845 9.1659845 9.2843703 10.2843703 7.62629516 8.62629516 6.50790935 9.46508451 5.26435299 11.2224751 6.4497279 33.3831587 1.99814286 48.4582701 16.0349954"></polygon>
+        <polygon id="Combined-Shape" fill="#00E5FF" points="31 13 31 10 28 10 28 13 25 13 25 16 28 16 28 19 31 19 31 16 34 16 34 13"></polygon>
+    </g>
+</svg>

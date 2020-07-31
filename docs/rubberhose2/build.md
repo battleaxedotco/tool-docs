@@ -5,7 +5,14 @@
     alt="RH2 build buttons"
     width="800px" />
 
+<Screenshot 
+    url="/rubberhose2/icon/RubberHose.svg" 
+    alt="Create RubberHose" 
+    width="80px"
+    toolbar />
+
 ## RubberHose
+
 
 <Screenshot 
     url="/rubberhose2/build-hose.gif" 
@@ -35,14 +42,19 @@ Bend Radius
 - Bend Direction
 - Controller Auto Rotate
   
-For more detailed explanation, read up on the [Controls]() page.
+For more detailed explanation, read up on the [Controls](./controls) page.
 
 ### Settings
 Maybe you always to turn up the Realism, maybe you like a lower Bend Radius, maybe you work at a smaller resolution and wish controllers could were smaller, maybe you wish hoses could be locked at the time of creation because you always end up clicking the hose instead of the controller. 
 
-The more you use RubberHose the more of your own style you'll discover. To save yourself some time updating hoses every time you build, you can dial in your hose settings under the [Manage]() group.
+The more you use RubberHose the more of your own style you'll discover. To save yourself some time updating hoses every time you build, you can dial in your hose settings under the [Manage](./manage.html#settings) group.
 
 
+<Screenshot 
+    url="/rubberhose2/icon/RubberRig.svg" 
+    alt="Create RubberHose" 
+    width="80px"
+    toolbar />
 
 ## RubberRig
 <Screenshot 
@@ -96,6 +108,11 @@ If your rig creation produces some kind of weird, inside-out rotation and alignm
 
 Select layers in the right order or embrace the weird looking.
 
+<Screenshot 
+    url="/rubberhose2/icon/RubberPin.svg" 
+    alt="Create RubberHose" 
+    width="80px"
+    toolbar />
 
 ## RubberPin
 
@@ -142,7 +159,7 @@ RubberPin rigs are created by connecting the individual pin points to controller
     width="400px" 
     right />
 
-By default, Puppet Pins bend pretty smooth but it would nice to customize the quality of a bend like [Bend Radius]() on a hose. Sadly that's not how pins work. Along with Pins you can add Starch points. This allows a layer to be straightened in areas and curved in others. 
+By default, Puppet Pins bend pretty smooth but it would nice to customize the quality of a bend like [Bend Radius](./controls.html#bend-radius) on a hose. Sadly that's not how pins work. Along with Pins you can add Starch points. This allows a layer to be straightened in areas and curved in others. 
 
 Play around with adding Starch near the end controllers or varying the Amount of a Starch point in the center. It opens up a new level of customization. 
 
@@ -170,8 +187,8 @@ At this point the you can set the pinned layer to preserve transparency or the o
 <Screenshot 
     url="/rubberhose2/build-naming.png" 
     alt="Controller naming"
-    width="400px" 
-    center />
+    width="350px" 
+    right />
 
 No matter how you rig, everything built with RubberHose needs a name. Each new rig group will be named based on **Hose Name…** field and the **controller pairs** selector. Controller pairs are reused as characters typically have the same kinds of parts (arms, legs, necks).
 Each time a hose or rigging group is created the name must be manually renamed, or it will be automatically incremented. This gives groups a unique name and avoiding expressions targeting the wrong layers.

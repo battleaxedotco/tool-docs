@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="24px" viewBox="0 0 60 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #262626;">
+    <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+    <title>Dup</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Dup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#262626" x="0" y="0" width="60" height="24"></rect>
+        <polygon id="Combined-Shape" fill="#FFD740" points="9 19 8 18.75 7.5 17.5 8 16.25 9 16 11 16 11 15 6 15 6 20 11 20 12 20 12 21 5 21 5 14 12 14 12 16 32 16 32 14 39 14 39 21 32 21 32 20 33 20 38 20 38 15 33 15 33 16 35 16 36 16.25 36.5 17.5 36 18.75 35 19"></polygon>
+        <polygon id="Combined-Shape" fill="#FFD740" points="25 8 24 7.75 23.5 6.5 24 5.25 25 5 27 5 27 4 22 4 22 9 27 9 28 9 28 10 21 10 21 3 28 3 28 5 48 5 48 3 55 3 55 10 48 10 48 9 49 9 54 9 54 4 49 4 49 5 51 5 52 5.25 52.5 6.5 52 7.75 51 8"></polygon>
+        <polygon id="Combined-Shape" fill="#FFD740" points="48.25 19 49 18 50.5 18 49 20 50.5 22 49 22 48.25 21 47.5 22 46 22 47.5 20 46 18 47.5 18"></polygon>
+        <polygon id="Combined-Shape" fill="#FFD740" points="52.5 16 52 16 52 18 53 18 53 17 56 17 56 17.4444444 52 21 52 22 57 22 57 21 53.625 21 57 18 57 16.5 57 16"></polygon>
+    </g>
+</svg>

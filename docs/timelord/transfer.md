@@ -159,7 +159,7 @@ If you misplace where the relative path is located on your drive, **SHIFT** clic
     toolbar />
 
 ## Render full timeline (An only) 
-Some workflows may prefer to export a SWF of your full timeline rather than individual layers. This button is [hidden by default](settings.html#customize-toolbar). Via [Johannes Fast](https://www.instagram.com/johanimation)
+Some workflows may prefer to export a SWF of your full timeline rather than individual layers. This button is [hidden by default](settings.html#customize-toolbar). Idea via [Johannes Fast](https://www.instagram.com/johanimation)
 
 
 <Screenshot 
