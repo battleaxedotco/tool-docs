@@ -69,7 +69,7 @@ Ae rendering is done with a selected output module first,  then recompressed to 
 h.264 is a requirement for Animate and keeps temporary file sizes low for Photoshop. This is a lossy compression and there will be a color shift. Do not color pick this layer and expect accurate color representation.
 
 ::: warning Ps fails to update
-If you re-render your Ae comp and the imported video in Ps is unchanged, restart Photoshop. The way video files are stored in Ps memory is related to the file name and it cannot always tell when you overwrite a video file. 
+If the imported video in Ps is unchanged upon re-rendering, restart Photoshop or enable [timestamps](settings.html#add-timestamp-to-render-filename) for renders from Ae. The way Ps stores video data in memory is related to the file name and it cannot always tell when you overwrite a video file. 
 :::
 
 ## Manual export path

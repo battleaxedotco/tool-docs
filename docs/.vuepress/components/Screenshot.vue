@@ -60,7 +60,7 @@ export default {
 }
 .toolbar>img {
     height: 50px;
-    margin-right: 8px;
+    margin-right: 16px;
 }
 .left, .toolbar {
     float: left;
