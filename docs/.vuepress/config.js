@@ -35,6 +35,10 @@ module.exports = {
     smoothScroll: true,
     logo: '/MagicSquare.svg',
     nav: [
+      // {
+        //   text: 'Timelord',
+        //   link: '/timelord/'
+        // },
       {
         text: 'RubberHose',
         link: '/rubberhose2/',
@@ -43,12 +47,24 @@ module.exports = {
         text: 'Overlord',
         link: '/overlord/'
       },
-      // {
-      //   text: 'Timelord',
-      //   link: '/timelord/'
-      // },
+      {
+        text: 'Freebies',
+        link: '/freebies/',
+      },
     ],
     sidebar: {
+      '/freebies/': [
+        {
+          title: 'Freebies',
+          collapsable: false,
+          children: [
+            '',
+            'hylian',
+            'beatgrid',
+            'cylendroid',
+          ],
+        }
+      ],
       '/rubberhose2/': [
         {
           title: 'RubberHose2',

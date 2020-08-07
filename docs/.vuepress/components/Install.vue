@@ -19,13 +19,39 @@
                         <li>Change the extension of the {{name}}.zxp file to .zip. It might give you a dialog warning about changing the file type but ignore it.</li>
                         <li>Unzip this file to get a folder called {{name}}</li>
                         <li>Navigate to the Adobe extensions folder:</li>
-                        <ul><li><b>Mac</b>: /Users/**username**/Library/Application Support/Adobe/CEP/extensions/</li></ul>
-                        <ul><li><b>Win</b>: C:/Users/**username**/AppData/Roaming/Adobe/CEP/extensions/</li></ul>
+                        <ul><li><b>Mac</b>: <code>/Users/**username**/Library/Application Support/Adobe/CEP/extensions/</code></li></ul>
+                        <ul><li><b>Win</b>: <code>C:/Users/**username**/AppData/Roaming/Adobe/CEP/extensions/</code></li></ul>
                         <li>Copy this {{name}} folder to the /extensions/ folder</li>
                         <li>Restart Ae and look for {{name}} in the Window>Extensions folder</li>
                     </ul>
                 </p>
             </div>
+        </div>
+
+        <div v-else-if="preset">
+            <h3>Basic install</h3>
+            Copy .ffx files into the Ae presets folder, then restart Ae.
+            <ul>
+                <li><b>OS X</b>:<code>~/Documents/Adobe/After Effects CC 2020/Presets/</code></li>
+                <li><b>Windows</b>:<code>My Documents\Adobe\After Effects CC 2020\Presets\</code></li>
+            </ul> 
+            
+            
+
+
+
+            <p>Presets will be available in the <b>Effects & Presets</b> panel by searching or under <br />
+            <b>*Animation Presets > Presets</b></p>
+
+            <h3>Ultra productive install</h3>
+            <p>A much quicker way to use presets is to save them way to use presets is with <a href="https://aescripts.com/kbar/">KBar</a> from <a href="https://aescripts.com/">aescripts + aeplugins</a>. Save your .ffx preset files to a main location (bonus nerd points for using a shared folder like Dropbox).</p>
+            <ul>
+                <li>Right click the KBar panel > <b>KBar Settings</b></li>
+                <li>Click <b>Add Button</b></li>
+                <li>Click Apply Preset</li>
+                <li>Navigate to the .ffx file on disk</li>
+                <li>Name it and set an icon</li>
+            </ul>
         </div>
 
         <div v-else-if="scriptUI">
@@ -90,6 +116,10 @@ export default {
             default: false
         },
         scriptUI: {
+            type: Boolean,
+            default: false
+        },
+        preset: {
             type: Boolean,
             default: false
         },
