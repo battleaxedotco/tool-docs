@@ -2,6 +2,15 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 0.8.6
+Released: Aug 14, 2020
+
+### Added
+- Duplicate frame button
+
+### Fixed
+- Ps Render Layer button not responding to settings
+
 ## 0.8.5
 Released: July 29, 2020
 

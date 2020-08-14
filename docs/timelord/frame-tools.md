@@ -66,6 +66,15 @@ Creates new blank frames after the currently selected frames. Any following fram
 Removes the currently selected frame(s) from the timeline. Any following frames will be moved forward in time to where the deleted frame started.
 
 <Screenshot 
+    url="/timelord/icon/frame-dup.svg" 
+    alt="Duplicate frame" 
+    toolbar />
+
+### Duplicate frame
+
+Quickly create loops between matching frames. This button is [hidden by default](settings.html#customize-toolbar). Idea via [Jay Quercia](http://jayquercia.com/)
+
+<Screenshot 
     url="/timelord/icon/frame-split.svg" 
     alt="Split frame" 
     toolbar />
