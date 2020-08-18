@@ -61,7 +61,7 @@
                 alt="Ae script install" 
                 width="380px"
                 right />
-            <p>In newer versions of After Effects, it is now possible install {{ name }} and other scripts without digging through your hard drive. </p>
+            <p>In newer versions of After Effects, it is possible to install {{ name }} and other scripts without digging through your hard drive. </p>
             <p><i>File > Scripts > Install Script UI Panel…</i></p>
             <p>Restart Ae and {{ name }} will be available in the <b>Window</b> menu at the top of the screen. Scroll down to find the installed scripts.
             </p>
@@ -88,7 +88,7 @@
             <p>
                 If you haven't enabled this weird setting before you will get an error the first time you run {{ name }}. 
             </p>
-            <p>Open After Effects preferences and find <b>Scripting & Expressions</b>. At the top you'll see one that needs a checkmark:</p>
+            <p>Open the After Effects preferences and find <b>Scripting & Expressions</b>. At the top you'll see one that needs a checkmark:</p>
             <p><b>Allow Scripts to Write Files and Access Network</b></p>
             <Screenshot 
                 url="/install/Allow-scripts-to-write-files.png" 
