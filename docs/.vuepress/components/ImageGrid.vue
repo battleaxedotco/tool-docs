@@ -28,8 +28,8 @@ export default {
         // }
     },
     created() {
-        console.log(this.tiles);
-        console.log( JSON.parse(this.tiles) )
+        // console.log(this.tiles);
+        // console.log( JSON.parse(this.tiles) )
     }
 }
 </script>

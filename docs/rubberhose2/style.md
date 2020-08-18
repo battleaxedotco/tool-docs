@@ -65,62 +65,62 @@ Whether you created and saved your own Style Preset or downloaded on for another
     {   
         name: 'Tapered hose 2020',
         text: 'Since its release in 2017, RubberHose 2 has done its best to create tapered hoses with a lot of weird workarounds. It ran slow and was unable to create the contrast of thick to thin that so many animators were looking for.',
-        url:'/rubberhose2/styles-taper.png'
+        url: '/rubberhose2/styles-taper.png'
     },
     {   
         name: 'Basic hose',
         text: 'Standard hose that is created by default. Sometimes you need to reset everything.',
-        url:'/rubberhose2/styles-basic.png'
+        url: '/rubberhose2/styles-basic.png'
     },
     {   
         name: 'Edge highlight',
         text: 'Highlight created with an Offset Paths, Trim Paths, and Dashed Stroke. Highlight dashes may be customized.',
-        url:'/rubberhose2/styles-edge.png'
+        url: '/rubberhose2/styles-edge.png'
     },
     {   
         name: 'Finger nail',
         text: 'Tap on those rectangle devices without any extra layers. Adjust the location of the fingernail and it follows the animation. Nail and finger colors are changed with the hose Fill as Stroke colors.',
-        url:'/rubberhose2/styles-fingernail.png'
+        url: '/rubberhose2/styles-fingernail.png'
     },
     {   
         name: 'Gradient',
         text: 'Simple gradient, complex gradient, that\'s up to you. The age of the single color hose is over thanks to the almighty Kyle Martinez. The ends of a gradient track to the controller points and colors may be added as needed. ',
-        url:'/rubberhose2/styles-gradient.png'
+        url: '/rubberhose2/styles-gradient.png'
     },
     {   
         name: 'Popeye',
         text: 'For you youngsters who do not know, Popeye was this super strong dude who got hype on some spinach and had weird looking arms. This one is named after him. Inspired by cool stuff from Simon Tibbs.',
-        url:'/rubberhose2/styles-popeye.png'
+        url: '/rubberhose2/styles-popeye.png'
     },
     {   
         name: 'Flat / round',
         text: 'Single layer hoses must be either Round or Flat ended. Sometimes you need pants or shorts and now that\'s easy. Remember, styles can be layered by holding ALT and clicking Apply.',
-        url:'/rubberhose2/styles-flat-round.png'
+        url: '/rubberhose2/styles-flat-round.png'
     },
     {   
         name: 'Round / flat',
         text: 'The exact same as Round-Start Flat-End, but in reverse',
-        url:'/rubberhose2/styles-round-flat.png'
+        url: '/rubberhose2/styles-round-flat.png'
     },
     {   
         name: 'Tight pants',
         text: 'Based on the Tapered Hose style with some extra controls to create a layered pants effect. The length of the pants can be shortened to create shorts.',
-        url:'/rubberhose2/styles-tight-pants.png'
+        url: '/rubberhose2/styles-tight-pants.png'
     },
     {   
         name: 'Track suit',
         text: 'Break it up, break it up, break it up, break down.',
-        url:'/rubberhose2/styles-tracksuit.png'
+        url: '/rubberhose2/styles-tracksuit.png'
     },
     {   
         name: 'TwoTone',
         text: 'Simple hose shape with additional color styling. The color variation is created by two layers of the same color and a Color Dodge blend mode. Manual adjustment is all you chief.',
-        url:'/rubberhose2/styles-twotone.png'
+        url: '/rubberhose2/styles-twotone.png'
     },
     {   
         name: 'TwoTone dash',
         text: 'Stylistic alternate of TwoTone.',
-        url:'/rubberhose2/styles-twotone-dash.png'
+        url: '/rubberhose2/styles-twotone-dash.png'
     },
     ]" />
 
