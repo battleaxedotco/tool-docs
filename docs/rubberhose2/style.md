@@ -8,6 +8,7 @@
 <Screenshot 
     url="/rubberhose2/icon/StyleApply.svg" 
     alt="Apply style" 
+    width="120px"
     toolbar />
 
 ## Applying styles
@@ -21,15 +22,17 @@ Select a layer (hose or controller) from the desired hose group, select a style 
 
 <Screenshot 
     url="/rubberhose2/icon/StyleCopyPaste.svg" 
-    alt="Copy/paste style" 
+    alt="Copy/paste style"
+    width="140px" 
     toolbar />
 
 ## Copy/paste style
-Customized styles may be saved and added to the library (see below), but the quickest way to get a style on another hose is to copy. Select a layer (hose or controller) and press Style Copy. Select a layer from the desired hose group and press Style Paste to overwrite the current style. Holding the Shift key will paste the new style to the existing without overwriting.
+Customized styles may be saved and added to the library (see below), but the quickest way to get a style on another hose is to copy. Select a layer (hose or controller) and press **Style Copy**. Select a layer from the desired hose group and press **Style Paste** to overwrite the current style. Holding the Shift key will paste the new style to the existing without overwriting.
 
 <Screenshot 
     url="/rubberhose2/icon/AltCopy.svg" 
     alt="Create style" 
+    width="90px"
     toolbar />
 
 ## Saving styles
@@ -40,7 +43,7 @@ Customized styles may be saved and added to the library (see below), but the qui
     width="450px" 
     right/>
 
-Select a layer (hose or controller) that belongs to the style you would like to save. Hold **ALT** and click the Copy Style button. A file save dialog will popup. Save the file to your desktop or somewhere easy to locate. When you press Save you will likely be presented with a similar warning about the save location being outside of the default.  AE just wants you to know that the preset wont be available in the Effects & Presets panel. We don't want it there. This is normal and may be ignored.
+Select a layer (hose or controller) that belongs to the style you would like to save. Hold **ALT** and click the **Copy Style** button. A file save dialog will popup. Save the file to your desktop or somewhere easy to locate. When you press **Save** you will likely be presented with a similar warning about the save location being outside of the default.  AE just wants you to know that the preset won't be available in the Effects & Presets panel. We don't want it there so click OK to ignore this error.
 
 ## Installing a style
 <Screenshot 
@@ -49,11 +52,11 @@ Select a layer (hose or controller) that belongs to the style you would like to 
     width="400px" 
     left />
 
-Whether you created and saved your own Style Preset or downloaded on for another user, the installation is the same. Click the small folder icon to open the Styles folder. Drag or copy the desired file into the folder. In order to update the library list in the RubberHose 2 script panel click the refresh button. The list will update and you can apply your new styles all day long. 
+Whether you created and saved your own Style Preset or downloaded on for another user, the installation is the same. Click the small **folder** button to open the Styles folder. Drag or copy the desired file into the folder. In order to update the library list in the RubberHose 2 script panel click the **Refresh** button. The list will update and you can apply your new styles all day long. 
 
 ## Included styles
 
-<!-- <ImageGrid :tiles="[
+<ImageGrid :tiles="[
     {   
         name: 'Tapered hose',
         text: 'The most requested feature in RubberHose history. The Tapered Hose is the simple way to add shape variety to arms and legs. The fat end may be shifted by to the opposite end with a negative value in Taper %.',
@@ -119,18 +122,16 @@ Whether you created and saved your own Style Preset or downloaded on for another
         text: 'Stylistic alternate of TwoTone.',
         url:'/rubberhose2/styles-twotone-dash.png'
     },
-    ]" /> -->
+    ]" />
 
 
 ## Tips
 
 ### Factory reset
-Know that before [resetting the script](./manage.html#reset-everything) and all of its settings, that all style presets will also be reset to the factory de. Be sure to save a copy of 
-
-If you ever feel inclined to [reset the script](./manage.html#reset-everything) and all it's settings it's good to remember that all the preset files will also be deleted. I'm sure you're a great computer user and back up all your important files (right?), but be sure you save a copy of your custom style presets before resetting the script.
+Know that before [resetting the script](./manage.html#reset-everything) and all of its settings, that all style presets will also be reset to the factory default. Be sure to save a copy of custom styles before resetting.
 
 ### Version compatibility
-Be aware that when saving presets for sharing with others the Ae version you save from will be the lowest version that may apply the preset. To save a CC2020 style for use with users on CC2019, you will first have to (File>Save As>Save a Copy as [lower version]…). Open the newly saved project file then repeat the Style Preset saving process inside of the lower version.
+Be aware that when saving presets for sharing with others the Ae version you are currently using from will be the lowest version that may apply the preset. To save a CC2020 style for use with users on CC2019, you will first have to (File>Save As>Save a Copy as [lower version]…). Open the newly saved project file then repeat the Style Preset saving process inside of the lower version.
 
 
 ### Locked hose

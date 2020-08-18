@@ -1,9 +1,8 @@
 <template>
     <div class="screenshot" :style="">
         <div class="img" 
-            :class="{ center : center, left : left, right : right, toolbar : toolbar }" 
-            :style="{ 'max-width' : maxWidth }">
-            <img :src="url" :alt="alt" >
+            :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
+            <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }">
         </div>
     </div>
 </template>
