@@ -51,7 +51,7 @@ export default {
 
 .screenshot {
     margin: 16px 0;
-    clear: both;
+    /* clear: both; */
 }
 .center {
     margin-left: auto;

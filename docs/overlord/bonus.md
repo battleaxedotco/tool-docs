@@ -18,8 +18,6 @@ Artboards in Illustrator may be any size, but it's a good idea to work at the sa
 ### Modifier keys
 Holding SHIFT when pressing the New Artboard/Comp, does the inverse –new Ai comp button (orange) becomes a new comp button (purple). 
 
-Holding ALT will create the non-selected option without having to update your settings. Example: with New Document selected in settings, holding alt will create a new artboard.
-
 
 ## Push swatches
 

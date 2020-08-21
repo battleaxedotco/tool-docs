@@ -1,9 +1,9 @@
 # Gradients
 
-New to Overlord v1.1 is support for Illustrator Gradients. 
+New in Overlord v1.1 is support for Illustrator Gradients. 
 
 ### Is this a big deal?
-Yep. The standard Illustrator file import does support gradients at all –it just turns the layer grey. In previous versions of Overlord, a simple white to black gradient would be applied because the panel that sets the colors is not available to developers (bummer). Through some fancy workarounds, it’s now possible. We all rejoice together. 
+Yep. The standard Illustrator file import does support gradients at all –it just turns the layer grey. Through some fancy workarounds, it’s now possible. We all rejoice together. 
 
 <Video url="https://www.youtube.com/embed/xM2DhTNwfHc" />
 

@@ -33,19 +33,20 @@ module.exports = {
     editLinkText: '',
     lastUpdated: false,
     smoothScroll: true,
+    searchMaxSuggestions: 10,
     logo: '/MagicSquare.svg',
     nav: [
-      // {
-        //   text: 'Timelord',
-        //   link: '/timelord/'
-        // },
       {
-        text: 'RubberHose',
-        link: '/rubberhose2/',
+        text: 'Timelord',
+        link: '/timelord/'
       },
       {
         text: 'Overlord',
         link: '/overlord/'
+      },
+      {
+        text: 'RubberHose',
+        link: '/rubberhose2/',
       },
       {
         text: 'Freebies',

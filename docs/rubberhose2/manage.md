@@ -8,61 +8,68 @@
 <Screenshot 
     url="/rubberhose2/icon/Autoflop.svg" 
     alt="Add autoflop" 
+    width="90px"
     toolbar />
 
 ## Autoflop
-
-Bend direction can be changed and transitioned easily with all RubberHose rigging methods, but this process may also be automated as a controller passes a threshold point by adding an AutoFlop. Click to create a discrete layer that follows the Start Controller. This AutoFlop layer may be rotated and it's threshold widened to customize the interaction. 
 
 <Screenshot 
     url="/rubberhose2/manage-autoflop.gif" 
     alt="RH2 Styles"
     width="350px" 
     right />
-In v1, autoflop was located within the Start controller and made visible with dedicated buttons, after quite a bit of use, it became clear that wasn't the best solution (when the start controller was parented the Autoflop angle shifted too). Now autoflop has been moved to its own layer that can be turned on and off with normal visibility controls. The falloff angle and disabling of autoflop can be found on the Autoflop layer itself.
+
+Bend direction may be [switched](./controls.html#bend-direction) easily in all RubberHose rigging methods, but this process may also be automated. Click to create a new Autoflop layer that follows the *Start controller*. As a *End controller* passes through the threshold, the bend direction will flip. The AutoFlop layer may be rotated and it's threshold widened to customize the interaction. 
 
 
 <Screenshot 
     url="/rubberhose2/icon/Duplicate.svg" 
     alt="Duplicate hose group" 
+    width="90px"
     toolbar />
 
 ## Duplicate
-Select some RubberHose layers (from one or several groups) and click to duplicate groups. Hose names will be incremented automatically, along with a set of contextual incrementing (_R becomes _L and _F becomes _B). 
+Select RubberHose layers (from one or several groups) and click to duplicate groups.
 
-If you have a master null that serves as a parent to all of you rig, select the parent and ALT+Click to duplicate a whole rig and batch rename all child layers. 
+Hoses and Rigs have a lot of fancy math and naming going on under the hood to make everything work. For this reason it's not possible to just CMD/CTRL+D to duplicate a group. 
 
-Hoses and Rigs have a lot of fancy math and naming going on under the hood to make everything work. For this reason it's not possible to just CMD/CTRL+D to duplicate a group with its own set of controls –hose layers will always be connected. 
+### Duplicate full rig
+If you have a master null that serves as a parent to the full rig, select the parent layer and ALT+click the duplicate button to create a whole new rig and batch rename all child layers. 
 
-This new level of interconnectedness means that you no longer need the Linked Layer button from v1. Just duplicate a hose and style it up as you like. The linking of the hose length, bend direction, bend radius, etc will stay active. 
+### Name incrementing
+Easily duplicate rigs for the opposite side of the body without renaming. Hose names ending in **_R** will be duplicated to end with **_L** (and vice versa). Hose names ending in **_F** will be duplicated to end with **_B** (and vice versa). 
 
+::: tip Duplicate linked hose
+While CMD/CTRL+D will not duplicate a full rig, it will create a duplicate hose that's still linked to the controllers. Use this for use as a matte for more complex compositing. 
+:::
 
 <Screenshot 
     url="/rubberhose2/icon/Centerpoint.svg" 
     alt="Add center point" 
+    width="90px"
     toolbar />
 
 ## Centerpoint
-New to v2 is the ability to add a real layer to the bend point of a hose. Select a layer and click to add a new centerpoint. Rotation on this layer can also be disabled with the layer's effect panel if needed.
-
-This can be used for parenting elbows and knees or setting up a connection point for other rigs. And that new rig could have its own center point. Oh man, it could go on forever. Get wild. 
+Create a new control layer at the bend point of a selected hose. This can be used for parenting elbows and knees or setting up a connection point for other rigs. And that new rig could have its own center point. Oh man, it could go on forever. Get wild. 
 
 This center point is added automatically with RubberRig and RubberPin (and serves as the foundational mechanic for both new rigging methods). 
 
 <Screenshot 
     url="/rubberhose2/icon/Rename.svg" 
     alt="Rename hose group" 
+    width="90px"
     toolbar />
 
 ## Rename
-For the same reason that you can't just duplicate a hose group the way you would with normal After Effects layers, you can’t just rename them either. There's lots of internal stuff going on so you'll want to rename all layers in the group and update their inner-workings with the button. 
+For the same reason  you can't just duplicate a hose group the way you would with normal After Effects layers, you can’t just rename them either. There's lots of internal naming and manually renaming all group layers and their hidden groups is not reasonable. 
 
-Select at least one layer of the group you want to rename and click. A dialog will pop-up to enter an new hose or rig name and/or the controller pairs. All related layers across the comp will be renamed. 
+Select at least one layer of the rig and click. A dialog will pop-up to enter an new hose or rig name and/or the controller pairs. All related layers across the comp will be renamed. 
 
 
 <Screenshot 
     url="/rubberhose2/icon/Visibility.svg" 
     alt="Toggle controller visibility" 
+    width="90px"
     toolbar />
 
 ## Controller visibility
@@ -76,12 +83,13 @@ We need controllers to make the stuff work, but too many can clutter up a scene 
 <Screenshot 
     url="/rubberhose2/icon/Select.svg" 
     alt="Select hose group" 
+    width="90px"
     toolbar />
 
 ## Select groups/controls
-Rigs can get complicated with additional support layers that can easily become scattered throughout a comp. 
+Rigs can get complicated quickly and additional support layers that can easily become scattered throughout a comp. Select all rig layers to rearrange them as a group.
 
-- Click to select all layers a part of the same group as the selected layer.
+- Select a single layer and click to select all layers part of the same group.
 - Select multiple layers to select all related layers.
 - Alt+Click to select all controllers within a comp.
 
@@ -95,33 +103,29 @@ Rigs can get complicated with additional support layers that can easily become s
     width="350px" 
     right />
 
-Math is hard. Computers a really good at this stuff but if you throw a ton at even the strongest system, it's going to slow down. The way After Effects is designed doesn't make drawing hoses easy, so it takes a lot of math to make it work. The more hoses you add to a comp, the more math has to be done. RubberHose 2 has made a major leap in speed and now runs as fast as After Effects will allow, by removing any trace of redundant math. Sometimes it's still not fast enough.
+Math is hard. Computers a really good at it but if you throw too much at even the strongest system, things are going to slow down. You want this math to be dynamic while animating, but once things are locked take some of the load off.
 
 <Screenshot 
     url="/rubberhose2/icon/Bake.svg" 
     alt="Bake RubberHose Expressions" 
+    width="128px"
     toolbar />
 
 ### Bake
-When you start looking for new hobbies to fill all that time you once used for animating because you have a ton of hoses in a scene, it's time to Bake.
+Less math = less computation time 😉
 
-Simply select a layers any number of hose groups you are not currently animating, click, and the system will get to work building a set of keyframes to take the place of all that crazy math. It could take a little while to process through all of that (depending on the length of your work area), but it'll be worth it.
-
-Less math = less computation time 😘
+Select hose groups and click, the system will get to work building a set of keyframes to take the place of all the math. It might take a little while to process through all of that (depending on the length of your work area), but it'll be worth it.
 
 After the bake, you'll notice that your controllers are now locked so you don't move those anymore. You might also notice that the hose layer is not locked. This means you can still edit the hose style of Independent of the animation. 
 
 <Screenshot 
     url="/rubberhose2/icon/Unbake.svg" 
     alt="Bake RubberHose keyframes" 
+    width="128px"
     toolbar />
     
 ### Unbake
-Baking animation might sound a little intimidating since it's hard to commit to the idea that everything is moving exactly how you like forever. Don't stress about it. Since the early planning stages of version 1.0, it has always been the central priority to keep everything live and fully editable. In the same way that baking is a single click operation, rest easy knowing that by selecting a single layer from baked groups and clicking, you will return a hose to the live state to further refine animation.
-
-> Animation is never final, but deadlines eternal. 
-> 
-> – an imaginary smart person
+Afraid of keyframe commitment? Clicking unbake will return hoses to their dynamic state. 
 
 **Note: the unbaking process tends to run a little slow because of the way After Effects processes through a large collection of keyframes. You didn't do anything wrong.
 
@@ -131,16 +135,18 @@ Baking animation might sound a little intimidating since it's hard to commit to 
 <Screenshot 
     url="/rubberhose2/icon/Upgrade.svg" 
     alt="Upgrade RubberHose Expressions" 
+    width="128px"
     toolbar />
 
 ### Upgrade hoses
-Let's say you used RubberHose v1.0 you made some really killer rigs and you like using them but you wished they ran faster and did all the cool stuff from version 2.0. Click this button. All hoses in need of an upgrade with the current comp will have their inner workings rebuilt.
+Did you build some really killer RubberHose v1.0 rigs but wish to use the new features in 2.0? Click and all hoses in need of an upgrade within the current comp will have their inner workings rebuilt.
 
 Styles will be preserved. Existing property values will be copied over to the new controls. Any keyframes on the effect panel will be preserved on the Keyframe Reference panel and may be copied to the new panel.
 
 <Screenshot 
     url="/rubberhose2/icon/SampleLabel.svg" 
     alt="Match label colors" 
+    width="50px"
     toolbar />
 
 ### Match controller to label color
@@ -151,16 +157,18 @@ Continue the ultra organization and use [Labels](https://aescripts.com/labels/).
 <Screenshot 
     url="/rubberhose2/icon/Help.svg" 
     alt="Open RubberHose online manual" 
+    width="80px"
     toolbar />
 
 ### Learn RubberHose
 Quick access to the pages you're reading right now.
 
-It's easy to forget what buttons do from time to time, so keep on referencing this documentation and make sure things work the way you expect it to.
+It's easy to forget what buttons do from time to time, so keep on referencing this manual and make sure things work the way you expect it to.
 
 <Screenshot 
     url="/rubberhose2/icon/Settings.svg" 
     alt="Show RubberHose settings" 
+    width="80px"
     toolbar />
 
 ### Settings

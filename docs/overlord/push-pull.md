@@ -10,7 +10,7 @@ Fills, strokes, naming, grouping and hierarchy will be preserved. Some Ai featur
 
 This is the core mechanic of Overlord. Select the shapes you want in Ai, regardless of layering, and transfer them to Ae. 
 
-This process may be modified by the small switches next to Push and Pull to explode shapes to layers, detect parametric ellipses and rectangles, and more. 
+This process may be modified by the [small switches](./modifiers) next to Push and Pull to explode shapes to layers, detect parametric ellipses and rectangles, and more. 
 
 ### Modifier keys
 Holding SHIFT will add selected AI shapes to the selected AE layers.

@@ -8,7 +8,7 @@
     width="350px" 
     left />
 
-Since its release in 2017, RubberHose 2 has done its best to create tapered hoses with a lot of weird workarounds. It ran slow and was unable to create the contrast of thick to thin that so many animators were looking for. 
+Ae CC2020.1 made a lot of dreams come true by introducing **Tapered Strokes**. This improved style runs faster and allows for higher contrast between thick and thin.
 
 Included with [v2.11](changelog.html#_2-11). Lookup and [download](http://license.battleaxe.co) the update, then [reset](manage.html#reset-everything) the script to install the update. 
 

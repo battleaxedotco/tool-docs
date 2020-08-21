@@ -11,7 +11,7 @@ Hose controls are  where characters become your own. Don't just accept the prese
     width="350px" 
     right />
 
-The main concept behind RubberHose is that a hose bends based on its length. A hose can be stretched beyond its defined length, but once the distance between controllers is less than the Hose Length, the hose will bend to get out of the way. 
+The main concept behind RubberHose is that a hose bends based on its length. A hose can be stretched beyond its defined length, but once the distance between controllers is less than the Hose Length, the hose is forced to bend to get out of the way. 
 
 
 <br />
@@ -24,7 +24,7 @@ The main concept behind RubberHose is that a hose bends based on its length. A h
     width="350px" 
     right />
 
-Every hose bends once the distance between controllers goes below the Hose Length. You have complete control over how sharp or curved the bend is (or anywhere in-between). 
+Control how sharp or curved the bend is (or anywhere in-between). 
 
 - 0: straight lines with a single bend point
 - 100: fully curved line with the bend spread across the whole hose.
@@ -72,11 +72,9 @@ The intermediate values between -100 and 100 can be helpful when a character's m
     width="350px" 
     right />
 
-On either end of a rig is a controller. These controllers may be parented to other layers (hands or feet) and forgotten about. Or sometimes you'll want these controllers to act as the parents of other layers. In order for these layers to feel attached to the hose you'll probably want the controllers to rotate automatically. 
+Each hose has 2 controllers. Controllers may be parented to layers and layers may be parented to hose controllers. Parenting hands to the end of a hose may benefit from a controller rotating based on the bend radius of the hose. Disabling automatic rotation will save a small bit of render-time.
 
-These controllers may be rotated and keyframed like normal —the automatic rotation happens in addition to all that. 
-
-If you don't need automatic rotation just switch it off in the RubberHose 2 effect panel. Disabling will save a tiny amount of render-time. 
+Controllers may be rotated and keyframed like normal —the automatic rotation value is added to keyframe values.  
 
 
 <br />
@@ -90,7 +88,7 @@ If you don't need automatic rotation just switch it off in the RubberHose 2 effe
     right />
 
 
-In order to provide as much flexibility (yes, pun intended) as possible, hoses can stretch to any length beyond their Hose Length. As a friendly reminder that a stretch is happening, the controllers will change color. It's a small thing but can be very helpful for preserving the volume of a hose. 
+In order to provide as much flexibility as possible (yes, pun intended), hoses may stretch to any length beyond their Hose Length. As a friendly reminder that a stretch is happening, the controllers will change color. It's a small thing but could be very helpful for preserving the volume of a hose. 
 
 If you don't care about this then feel free to disable Stretch Feedback in [settings](manage.html#settings). 
 

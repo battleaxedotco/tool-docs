@@ -152,6 +152,7 @@ This might be completely new and that's ok. This is a short-hand for how compute
 
 If you misplace where the relative path is located on your drive, **SHIFT** click the relative path picker to reveal this folder on disk.
 
+<br />
 
 <Screenshot 
     url="/timelord/icon/render-all.svg" 

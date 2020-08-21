@@ -1,32 +1,55 @@
 # Tutorials
 
-## Ross
-<Video url="https://www.youtube.com/embed/Pr2iYt-1PME" />
-<Video url="https://www.youtube.com/embed/UDFRVbmPxAQ" />
-<Video url="https://www.youtube.com/embed/506_DILyTnE" />
+## Crash course
+[Ross Plaskow](https://rossplaskow.com/) show you how to get to work quickly, and makes you laugh while doing it. 
 
+<Video url="https://www.youtube.com/embed/Pr2iYt-1PME" />
+
+## In depth
+It doesn't matter how pro you are, [Emanuele Colombo](http://www.emanuelecolombo.it/) will teach you a ton while taking you through character design to rigging to scene integration. 
 
 <Video url="https://www.youtube.com/embed/--oTQCysVTs" />
 <Video url="https://www.youtube.com/embed/IMBpLhA0iok" />
-<Video url="https://www.youtube.com/embed/EvAr7CgKXYM" />
+
+
+## Faux 3D / Compositing
+This stuff really feels like magic. [Tony Babel](https://www.instagram.com/tony.babel/) is a wizard.
+
+<Video url="https://www.youtube.com/embed/GyZVJ8fbPik" />
+
+
+## Cycles
+Building loops is an art form so learn from the masters.
+
+<Video url="https://www.youtube.com/embed/UDFRVbmPxAQ" />
 <Video url="https://www.youtube.com/embed/StTJiiEN8nY" />
+<Video url="https://www.youtube.com/embed/EvAr7CgKXYM" />
+
+
+## Livestream
 <Video url="https://www.youtube.com/embed/Cet1dzkbieU" />
 <Video url="https://www.youtube.com/embed/2NnZ5krmF3I" />
 
-## Long
-<Video url="https://www.youtube.com/embed/6wbXc5emlic" />
 
+## RubberRig
+Unknown tidbit: it was how Ross hacked RH1 with some parenting tricks that inspired RubberRig in the first place. The guy has a lot of really great ideas.
 
+<Video url="https://www.youtube.com/embed/506_DILyTnE" />
 
-
-## Compositing
-<Video url="https://www.youtube.com/embed/GyZVJ8fbPik" />
 
 ## Animation principals
+
+RubberHose is an open system that will let you apply all the principals you pick up from all forms of character animation.
+
+Learn from everything. 
+
 <Video url="https://www.youtube.com/embed/PgBo-00_GWc" />
 <Video url="https://www.youtube.com/embed/kYVgz2wUKTc" />
 <Video url="https://player.vimeo.com/video/188973651" />
 <Video url="https://player.vimeo.com/video/167346947" />
 
+<!-- 
+
 ## Timelapse
-<Video url="https://player.vimeo.com/video/154287220" />
+<Video url="https://www.youtube.com/embed/6wbXc5emlic" />
+<Video url="https://player.vimeo.com/video/154287220" /> -->

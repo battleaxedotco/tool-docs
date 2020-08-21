@@ -54,6 +54,8 @@ Select a layer (hose or controller) that belongs to the style you would like to 
 
 Whether you created and saved your own Style Preset or downloaded on for another user, the installation is the same. Click the small **folder** button to open the Styles folder. Drag or copy the desired file into the folder. In order to update the library list in the RubberHose 2 script panel click the **Refresh** button. The list will update and you can apply your new styles all day long. 
 
+<br />
+
 ## Included styles
 
 <ImageGrid :tiles="[
