@@ -2,23 +2,25 @@
   <header class="navbar">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')" />
 
-    <RouterLink
+    <!-- <RouterLink
       :to="$localePath"
       class="home-link"
-    >
+    > -->
+    <a href="http://battleaxe.co">
       <img
         v-if="$site.themeConfig.logo"
         class="logo"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >
+      </a>
       <!-- <span
         v-if="$siteTitle"
         ref="siteName"
         class="site-name"
         :class="{ 'can-hide': $site.themeConfig.logo }"
       >{{ $siteTitle }}</span> -->
-    </RouterLink>
+    <!-- </RouterLink> -->
 
     <div
       class="links"
