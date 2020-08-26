@@ -25,3 +25,8 @@ Note: the tutorial project requires RubberHose 2 to be installed.
     name="RubberHose 2"
     :hosts="['After Effects']"
 />
+
+## License agreement
+
+<eula
+    name="RubberHose 2" />

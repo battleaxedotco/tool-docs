@@ -29,3 +29,8 @@ But if you prefer to keep those layers tidy, Overlord will also transfer naming 
     name="Overlord" 
     :hosts="['After Effects', 'Illustrator']"
 />
+
+## License agreement
+
+<eula
+    name="Overlord" />

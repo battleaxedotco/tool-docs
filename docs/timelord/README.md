@@ -12,3 +12,8 @@ Timelord is designed to simplify frame-based animation in Photoshop and Animate 
     name="Timelord" 
     :hosts="['After Effects', 'Photoshop', 'Animate']"
 />
+
+## License agreement
+
+<eula
+    name="Timelord" />
