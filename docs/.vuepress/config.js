@@ -108,6 +108,7 @@ module.exports = {
             'transfer',
             'frame-tools',
             'settings',
+            'training',
             'changelog',
           ]
         },  
