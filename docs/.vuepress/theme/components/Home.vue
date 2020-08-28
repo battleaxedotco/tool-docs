@@ -3,50 +3,58 @@
     class="home"
     aria-labelledby="main-title"
   >
-    <header class="hero">
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
-      <div class="text">
-        <h1
-          v-if="data.heroText !== null"
-          id="main-title"
-        >
-          {{ data.heroText || $title || 'Hello' }}
-        </h1>
 
-        <p
-          v-if="data.tagline !== null"
-          class="description"
-        >
-          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-        </p>
-
-        <p
-          v-if="data.actionText && data.actionLink"
-          class="action"
-        >
-          <NavLink
-            class="action-button"
-            :item="actionLink"
-          />
-        </p>
+  <div style="margin-bottom: 64px">
+    <h1>Support</h1>
+    <div class="support">
+      <div>
+        <h2>Licensing</h2>
+        <p>Purchase info is linked to your email address. Quickly look up downloads, keys and receipts.</p>
+        <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
       </div>
       
-    </header>
+      <div>
+        <h2>Frequently asked questions</h2>
+        <p>Purchase info is linked to your email address. Quickly look up downloads, keys and receipts.</p>
+        <a href="http://battleaxe.co/help" class="nav-link action-button">FAQ</a>
+      </div>
 
+      <div>
+        <h2>Need more help?</h2>
+        <p>Send an email to support@battleaxe.co and we’ll get you set up.</p>
+      </div>
+      
+    </div>
+
+  </div>
+    <h1>Manuals</h1>
     <div
-      v-if="data.features && data.features.length"
+      v-if="data.products && data.products.length"
       class="features"
     >
+    <h2>Products</h2>
       <div
-        v-for="(feature, index) in data.features"
+        v-for="(feature, index) in data.products"
         :key="index"
         class="feature"
       >
-        <h2>{{ feature.title }}</h2>
+        <h2><a :href="feature.link">{{ feature.title }}</a></h2>
+        <p>{{ feature.details }}</p>
+      </div>
+    </div>
+
+
+    <div
+      v-if="data.freebies && data.freebies.length"
+      class="features"
+    >
+    <h2>Freebies</h2>
+      <div
+        v-for="(feature, index) in data.freebies"
+        :key="index"
+        class="feature"
+      >
+        <h2><a :href="feature.link">{{ feature.title }}</a></h2>
         <p>{{ feature.details }}</p>
       </div>
     </div>
@@ -87,6 +95,12 @@ export default {
 </script>
 
 <style lang="stylus">
+h1, h2
+  width 100%
+.support
+  // display flex
+.support>*
+  // background salmon
 header
   display flex
 .home
@@ -123,9 +137,9 @@ header
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
+    // border-top 1px solid $borderColor
     padding 1.2rem 0
-    margin-top 2.5rem
+    // margin-top 2.5rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -135,8 +149,10 @@ header
     flex-grow 1
     flex-basis 30%
     max-width 30%
+    margin-bottom 48px
     h2
       font-size 1.4rem
+      margin-top 0
       font-weight 500
       border-bottom none
       padding-bottom 0

@@ -4,13 +4,29 @@ heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Battle Axe tool documentation
 actionText: Quick Start →
 actionLink: /guide/
-features:
-- title: Feature 1 Title
-  details: Feature 1 Description
-- title: Feature 2 Title
-  details: Feature 2 Description
-- title: Feature 3 Title
-  details: Feature 3 Description
+products:
+- title: Timelord
+  link: /timelord
+  details: Animating the hard way, but way easier
+- title: Overlord
+  link: /overlord
+  details: Vector workflow salvation
+- title: RubberHose 2
+  link: /rubberhose2
+  details: Animation rigging for everyone
+freebies:
+- title: Buttcapper
+  link: /freebies/
+  details: Change stroke caps and joins with a click instead of 17 twirl-downs.
+- title: Beatgrid
+  link: /freebies/beatgrid
+  details: BPM markers to sync keyframes to music or as a rhythm anchor before adding audio.
+- title: Cylindroid
+  link: /freebies/cylindroid
+  details: Faux 3D cylinder preset built from simple shapes for easy animation.
+# - title: Hylian
+#   link: /freebies/hylian
+#   details: Vector workflow salvation
 footer: © 2020 Battle Axe Inc. Atlanta, GA.
 ---
 

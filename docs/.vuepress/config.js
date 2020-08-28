@@ -60,9 +60,9 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'hylian',
+            // 'hylian',
             'beatgrid',
-            'cylendroid',
+            'cylindroid',
           ],
         }
       ],

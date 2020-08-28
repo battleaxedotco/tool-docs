@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>Cylindroid</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Cylindroid" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M48.9997687,21 L48.9997687,42.4468085 C48.9997687,46.0660362 41.3886095,49 31.9997687,49 C22.7268396,49 15.1879695,46.1380326 15.0032379,42.5805364 L14.9997687,42.4468085 L14.9997687,21" id="Path" stroke="#979797" stroke-width="4"></path>
+        <ellipse id="Oval" stroke="#979797" stroke-width="4" cx="31.9997687" cy="21" rx="17" ry="6"></ellipse>
+    </g>
+</svg>
