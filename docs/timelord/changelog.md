@@ -2,6 +2,13 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 0.8.7
+Released: Aug 14, 2020
+
+### Fixed
+- Ps default buttons excluded Render Layer
+
+
 ## 0.8.6
 Released: Aug 14, 2020
 
