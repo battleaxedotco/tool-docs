@@ -1,7 +1,7 @@
 <template>
     <div class="screenshot" :style="">
         <div class="img" 
-            :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
+            :class="{ center : center, left : left, right : right, toolbar : toolbar, zoom : zoom }" >
             <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }">
         </div>
     </div>
@@ -38,6 +38,10 @@ export default {
             type: Boolean,
             default: false
         },
+        zoom: {
+            type: Boolean,
+            default: false
+        },
     },
     computed: {
         maxWidth () {
@@ -51,7 +55,7 @@ export default {
 
 .screenshot {
     margin: 16px 0;
-    /* clear: both; */
+    clear: left;
 }
 .center {
     margin-left: auto;

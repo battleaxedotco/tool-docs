@@ -60,6 +60,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
+            'buttcapper',
             // 'hylian',
             'beatgrid',
             'cylindroid',
