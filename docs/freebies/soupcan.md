@@ -1,10 +1,10 @@
-# Cylindroid
+# Soupcan
 
 Faux 3D cylinder preset built from simple shapes for easy animation.
 
 <Screenshot 
-    url="/freebies/Cylindroid.gif" 
-    alt="Cylindroid" 
+    url="/freebies/Soupcan.gif" 
+    alt="Soupcan" 
     width="400px"
     center />
 
@@ -22,7 +22,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 ## Controls
 
 <Screenshot 
-    url="/freebies/Cylindroid-panel.png" 
+    url="/freebies/Soupcan-panel.png" 
     alt="Cylintroid controls" 
     width="450px"
     center />
@@ -36,7 +36,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 
 <a href="https://www.instagram.com/p/B5Xxy-eHXc_" target="_blank">
 <Screenshot 
-    url="/freebies/Cylindroid-Toasty.png" 
+    url="/freebies/Soupcan-Toasty.png" 
     alt="Toasty promo" 
     width="600px"
     center />
@@ -44,7 +44,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 
 <a href="https://adamplouff.com/10-years" target="_blank">
 <Screenshot 
-    url="/freebies/Cylindroid-Roomba.gif" 
+    url="/freebies/Soupcan-Roomba.gif" 
     alt="10 Years film" 
     width="600px"
     center />
@@ -54,24 +54,29 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 ## Installation
 
 <Screenshot 
-    url="/freebies/Cylindroid.svg" 
-    alt="Cylindroid icon" 
+    url="/freebies/Soupcan.svg" 
+    alt="Soupcan icon" 
     toolbar
     center />
 
 ### Includes KBar icon
 
-<a href="" class="nav-link action-button">Download Cylindroid</a>
+<a href="" class="nav-link action-button">Download Soupcan</a>
 
 
 <Install 
     preset 
-    name="Cylindroid"
+    name="Soupcan"
     :hosts="['After Effects']"
 />
 
 
 ## Changelog
+
+### 1.02
+Released: September 15, 2020
+#### Changed
+- Renamed from `Cylindroid` to `Soupcan`
 
 ### 1.01 
 Released: December 03, 2019

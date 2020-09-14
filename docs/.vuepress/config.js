@@ -63,7 +63,7 @@ module.exports = {
             'buttcapper',
             // 'hylian',
             'beatgrid',
-            'cylindroid',
+            'soupcan',
           ],
         }
       ],
