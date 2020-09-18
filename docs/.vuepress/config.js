@@ -127,6 +127,9 @@ module.exports = {
       options: {
         margin: 16
       }
+    },
+    '@vuepress/google-analytics': {
+      'ga': 'UA-65174006-1' // UA-00000000-0
     }
   }
 }
