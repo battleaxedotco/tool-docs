@@ -11,11 +11,11 @@ Moving layers between Photoshop/Animate and After Effects is one of the core fea
     center
  />
 
-Instead of rendering everything visible in a timeline, Timelord will solo then export each selected layer or group as it's own file to make compositing in Ae possible. Files will be named based on the layer or group name (Ps/An) or the comp name (Ae). On export, files will be overwritten so ***be sure your layers have unique names***.
+Instead of rendering everything visible in a timeline, Timelord will solo then export each selected layer or group as its own file to make compositing in Ae possible. Files will be named based on the layer or group name (Ps/An) or the comp name (Ae). On export, files will be overwritten so ***be sure your layers have unique names***.
 
 ### Auto Import
 
-After layers finish exporting, After Effects will be instructed to batch import the layers and add them to the the open Ae comp.
+After layers finish exporting, After Effects will be instructed to batch import the layers and add them to the open Ae comp.
 
 <Screenshot url="/timelord/export-flowchart.png" 
     alt="Export flowchart" 
@@ -32,7 +32,7 @@ After layers finish exporting, After Effects will be instructed to batch import 
 
 Photoshop files may contain timeline or still layers. Timelord will first check which kind of file it is. If it has a timeline, it will export selected layer groups as PNG sequences. If the project is static, selected layers will be exported as PNGs with transparency. 
 
-Once finished exporting, After Effects will batch import the layers and add them to the the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
+Once finished exporting, After Effects will batch import the layers and add them to the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
 
 Blending modes will also be transferred with exported layers when adding layers to a comp. If a layer already exists in a comp, it will not be added again. 
 
@@ -49,7 +49,7 @@ The length of the png sequence is determined by the frame range of the Ps timeli
 
 Selected layers or groups will be exported as individual .swf files. 
 
-After layers finish exporting, After Effects will batch import the layers and add them to the the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
+After layers finish exporting, After Effects will batch import the layers and add them to the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
 
 ## After Effects → Ps/An
 

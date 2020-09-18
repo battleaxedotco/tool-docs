@@ -39,7 +39,7 @@ Select the Beatgrid layer and press `U` on the keyboard to reveal the individual
 Nope. The point of this is to provide musical timing markers, and this means they will not always line up to your frame-rate. But that's ok. Using `SHIFT` to snap keys or layers will round to the nearest frame.
 
 ### Why not just have all the beats as markers on the layer?
-Rather than destroy you timeline with markers or wreck the ability to use `J`/`K` keyboard shortcuts to navigate the timeline, there are multiple levels of detail. This is a choice for an extra step, but I prefer the ability to zoom out and see less musical detail. Similar to an audio DAW like Ableton, Audition, Logic.
+Rather than destroy your timeline with markers or wreck the ability to use `J`/`K` keyboard shortcuts to navigate the timeline, there are multiple levels of detail. This is a choice for an extra step, but I prefer the ability to zoom out and see less musical detail. Similar to an audio DAW like Ableton, Audition, Logic.
 
 ### What's the point of all this?
 When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the piece. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be pretty helpful.

@@ -1,8 +1,8 @@
 # Animation training
 
-Traditional animation isn't something you can just watch a tutorial about. It's a deep set of principals that take time, but thankfully there are masters who share their knowledge to help you learn and grow. 
+Traditional animation isn't something you can just watch a tutorial about. It's a deep set of principles that take time, but thankfully there are masters who share their knowledge to help you learn and grow. 
 
-These are not Timelord tutorials –animation principals are way bigger than Timelord. These are some of the best ways to step up your own animation skills. 
+These are not Timelord tutorials –animation principles are way bigger than Timelord. These are some of the best ways to step up your own animation skills. 
 
 ## [Henrique Barone](https://www.mographmentor.com/workshops/classical-animation-workflow-and-techniques-henrique-barone/)
 

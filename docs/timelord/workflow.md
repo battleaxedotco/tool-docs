@@ -23,8 +23,8 @@ Each of the panels has a **New Timeline** button that will create a new file in 
     width="425px"
     center />
 
-::: tip Animate not responding
-Photoshop and Animate's Timelord panels do not need to to be visible in order to respond from other apps, but Animate does. As of CC2020, Animate does not load 3rd party tools until getting past the intro screen by at least opening a file. This means you must first create a dummy FLA before Timelord can talk between An and Ae.
+::: tip Animate not responding?
+Photoshop and Animate's Timelord panels do not need to be visible in order to hear messages from other apps, but Animate does. As of CC2020, Animate does not load 3rd party tools until getting past the intro screen by at least opening a file. This means you must first create a dummy FLA before Timelord can talk between An and Ae.
 :::
 
 <Screenshot 
@@ -59,9 +59,9 @@ Arguably one of the most important aspects of Timelord is the ability to export 
     
 ### Relative export
 
-This is enabled by default. When **Render to project file path** is enabled, all exported files will be saved relative to the Ae project file. The relative path is set by the **Render path from project file** folder picker directly below.
+This is enabled by default. When **Render to project file path** is enabled, all exported files will be saved relative to the Ae project file. The relative path is set by the **Render path from the project file** folder picker directly below.
 
-When this checkbox is disabled, you will be asked each time where to save. This will also happen if Ae is closed or the Ae project file has not been saved
+When this checkbox is disabled, you will be asked each time where to save. This will also happen if Ae is closed or the Ae project file has not been saved.
 
 ### What about still Ps layers?
 

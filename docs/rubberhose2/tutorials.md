@@ -1,7 +1,7 @@
 # Tutorials
 
 ## Crash course
-[Ross Plaskow](https://rossplaskow.com/) show you how to get to work quickly, and makes you laugh while doing it. 
+[Ross Plaskow](https://rossplaskow.com/) shows you how to get to work quickly, and makes you laugh while doing it. 
 
 <Video url="https://www.youtube.com/embed/Pr2iYt-1PME" />
 
@@ -37,9 +37,9 @@ Unknown tidbit: it was how Ross hacked RH1 with some parenting tricks that inspi
 <Video url="https://www.youtube.com/embed/506_DILyTnE" />
 
 
-## Animation principals
+## Animation principles
 
-RubberHose is an open system that will let you apply all the principals you pick up from all forms of character animation.
+RubberHose is an open system that will let you apply all the principles you pick up from all forms of character animation.
 
 Learn from everything. 
 

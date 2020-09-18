@@ -19,7 +19,7 @@
     width="350px" 
     right />
 
-Bend direction may be [switched](./controls.html#bend-direction) easily in all RubberHose rigging methods, but this process may also be automated. Click to create a new Autoflop layer that follows the *Start controller*. As a *End controller* passes through the threshold, the bend direction will flip. The AutoFlop layer may be rotated and it's threshold widened to customize the interaction. 
+Bend direction may be [switched](./controls.html#bend-direction) easily in all RubberHose rigging methods, but this process may also be automated. Click to create a new Autoflop layer that follows the *Start controller*. As the *End controller* passes through the threshold, the bend direction will flip. The AutoFlop layer may be rotated and it's threshold widened to customize the interaction. 
 
 
 <Screenshot 
@@ -103,7 +103,7 @@ Rigs can get complicated quickly and additional support layers that can easily b
     width="350px" 
     right />
 
-Math is hard. Computers a really good at it but if you throw too much at even the strongest system, things are going to slow down. You want this math to be dynamic while animating, but once things are locked take some of the load off.
+Math is hard. Computers are really good at it but if you throw too much at even the strongest system, things are going to slow down. You want this math to be dynamic while animating, but once things are locked take some of the load off.
 
 <Screenshot 
     url="/rubberhose2/icon/Bake.svg" 
@@ -114,9 +114,9 @@ Math is hard. Computers a really good at it but if you throw too much at even th
 ### Bake
 Less math = less computation time 😉
 
-Select hose groups and click, the system will get to work building a set of keyframes to take the place of all the math. It might take a little while to process through all of that (depending on the length of your work area), but it'll be worth it.
+Select the hose groups and click, the system will get to work building a set of keyframes to take the place of all the math. It might take a little while to process through all of that (depending on the length of your work area), but it'll be worth it.
 
-After the bake, you'll notice that your controllers are now locked so you don't move those anymore. You might also notice that the hose layer is not locked. This means you can still edit the hose style of Independent of the animation. 
+After the bake, you'll notice that your controllers are now locked so you don't move those anymore. You might also notice that the hose layer is not locked. This means you may still edit the hose style Independent of the animation. 
 
 <Screenshot 
     url="/rubberhose2/icon/Unbake.svg" 

@@ -6,7 +6,7 @@ These tiny switches adjust how shapes are sent to After Effects. They have no ef
 
 <Video url="https://www.youtube.com/embed/vfRHG_MywpE" />
 
-Enabling this option create new layers for each top-level shape or group selected. Shapes nested within a group will be combined into a single layer, so ungroup shapes as needed in Illustrator.
+Enabling this option will create new layers for each top-level shape or group selected. Shapes nested within a group will be combined into a single layer, so ungroup shapes as needed in Illustrator.
 
 Disabling this option will cause all shapes to be transferred to a single layer.
 
@@ -38,6 +38,6 @@ This is also available through the menu Layer > Transform > Center Anchor Point 
 
 <Video url="https://www.youtube.com/embed/K4qtSqCcCoc" />
 
-When working off an oversized artboard it might me desirable to simply send objects to Ae to be repositioned later.
+When working off an oversized artboard it might be desirable to simply send objects to Ae to be repositioned later.
 
 Enabling this option will automatically reposition the anchor point to the center of the shape(s) and adjust the position to comp center. This will also enable the [Center Anchor Point](#center-anchor-point) option.

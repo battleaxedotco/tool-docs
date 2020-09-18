@@ -2,7 +2,7 @@
 
 <img :src="$withBase('/overlord/header.gif')" alt="Overlord header">
 
-Whether you draw your own illustrations and spend hours prepping Illustrator files for import, or work alongside a team and constantly have to remind designers how to split art onto layers, there is a smarter way to work. 
+Whether you draw your own illustrations and spend hours preparing Illustrator files for import, or work alongside a team and constantly have to remind designers how to split art onto layers, there is a smarter way to work. 
 
 Illustrator and After Effects should feel like companion applications, not rivals. Let each app's strength compliment the other. Let Illustrator become a plugin for After Effects.
 

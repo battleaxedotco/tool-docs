@@ -37,7 +37,7 @@ Many thanks to [Steve](https://stevekirby.co.uk/) for creating these super high 
     width="480px" 
     left />
 
-[Kyle Martinez ](https://twitter.com/kyletmartinez) shares some really [amazing tools](https://gumroad.com/kyletmartinez). Together with [Hernan Torrisi](https://twitter.com/airnanan), they've put together a really good way to replicate limbs of characters drawn in Illustrator. While it is not possible to convert a path into a hose, this does the next best thing. The script measures the path length, finds the controller positions and recolors the hose to match the art layer. This is a headless script to be used with a script launcher like [KBar](https://aescripts.com/kbar/).
+[Kyle Martinez ](https://twitter.com/kyletmartinez) shares some really [amazing tools](https://gumroad.com/kyletmartinez). Together with [Hernan Torrisi](https://twitter.com/airnanan), they've put together a really good way to replicate the limbs of characters drawn in Illustrator. While it is not possible to convert a path into a hose, this does the next best thing. The script measures the path length, finds the controller positions and recolors the hose to match the art layer. This is a headless script to be used with a script launcher like [KBar](https://aescripts.com/kbar/).
 
 <br />
 

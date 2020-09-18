@@ -43,7 +43,7 @@
             <b>*Animation Presets > Presets</b></p>
 
             <h3>Ultra productive install</h3>
-            <p>A much quicker way to use presets is to save them way to use presets is with <a href="https://aescripts.com/kbar/">KBar</a> from <a href="https://aescripts.com/">aescripts + aeplugins</a>. Save your .ffx preset files to a main location (bonus nerd points for using a shared folder like Dropbox).</p>
+            <p>A much quicker way to use presets is with <a href="https://aescripts.com/kbar/">KBar</a> from <a href="https://aescripts.com/">aescripts + aeplugins</a>. Save your .ffx preset files to a main location (bonus nerd points for using a shared folder like Dropbox).</p>
             <ul>
                 <li>Right click the KBar panel > <b>KBar Settings</b></li>
                 <li>Click <b>Add Button</b></li>

@@ -19,7 +19,7 @@ New in v1.1, colors will now update when the parent group is selected. Including
 
 ## Parametric shapes
 
-If your Ae shape is a parametric rectangle or ellipse, updating will measure the outer bounds of the new Ai shape and apply these dimension –even if you move path points to break the uniform shape. Right-click the parametric in Ae to Convert to Bezier Path first.
+If your Ae shape is a parametric rectangle or ellipse, updating will measure the outer bounds of the new Ai shape and apply these dimensions –even if you move path points to break the uniform shape. Right-click the parametric in Ae to Convert to Bezier Path first.
 
 ## Available properties
 

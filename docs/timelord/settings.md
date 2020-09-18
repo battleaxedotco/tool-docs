@@ -6,7 +6,7 @@
     toolbar />
 
 ### Show settings
-Click the settings button on the Ps/An toolbars or right-click any pf the panels to open Settings
+Click the settings button on the Ps/An toolbars or right-click any of the panels to open Settings
 
 <Screenshot 
     url="/timelord/settings.png" 
@@ -37,9 +37,9 @@ Hide and show buttons and build the toolbar that best supports your work and mus
 
 ### Add timestamp to render filename
 
-Adobe apps do a lot behind the scenes to cache what you need, but sometimes they fail to update when you replace footage. If you find renders not updating enable timestamps for exporting app. Exported files will have a timestamp added to the end so the importing app sees it as a fresh file. 
+Adobe apps do a lot behind the scenes to cache what you need, but sometimes they fail to update when you replace footage. If you find that your renders fail to update, enable timestamps for the exporting app. Exported files will have a timestamp added to the end so the importing app sees it as a fresh file. 
 
-The timestamp is made up 2 digits for the year, month, date, hour, minute, second. 
+The timestamp is made up of 2 digits for the year, month, date, hour, minute, second. 
 
 `2020, July 30, 3:37:30pm` becomes `LayerName_200730-153730.swf`
 

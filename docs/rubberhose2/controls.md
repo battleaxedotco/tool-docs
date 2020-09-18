@@ -1,7 +1,7 @@
 # Controls
 Hose and rig controls are found on the end controller (where the majority of keyframing happens) under the effects panel –F3 on the keyboard.
 
-Hose controls are  where characters become your own. Don't just accept the preset values, find the perfect balance of smush and snap bring your folks to life.
+The hose controls are  where characters become your own. Don't just accept the preset values, find the perfect balance of smush and snap to bring your folks to life.
 
 ## Hose length
 

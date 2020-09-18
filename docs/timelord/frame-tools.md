@@ -1,6 +1,6 @@
 # Frame tools
 
-Most of the panel real-estate in Timelord is devoted to frame-by-frame tools in Photoshop and Animate. Show or hide the tools that best support your workflow with by right-clicking the panel > Customize. 
+Most of the panel real-estate in Timelord is devoted to frame-by-frame tools in Photoshop and Animate. Show or hide the tools that best support your workflow by right-clicking the panel > Customize. 
 
 ## Duration
 
@@ -54,7 +54,7 @@ Photoshop is unable to keep track of exactly how long each frame is. There is er
 
 ### Add frame
 
-Creates new blank frames after the currently selected frames. Any following frames will be pushed to make room for this new frames.
+Creates new blank frames after the currently selected frames. Any following frames will be pushed to make room for these new frames.
 
 <Screenshot 
     url="/timelord/icon/frame-delete.svg" 
@@ -83,7 +83,7 @@ Quickly create loops between matching frames. This button is [hidden by default]
 
 Selected frame(s) will be split at the playhead. Following frames will not have their start time modified.
 
-::: tip Redundent?
+::: tip Isn’t this redundant?
 This might seem like a duplicate of Photoshop's **Split at Playhead** timeline button, but Ps is unable to split when the playhead is sitting on the last exposure of a frame. This means splitting an on-2s frame into two on-1s isn't really possible.
 
 Animate can split a frame with the **Add Keyframe** timeline button and F6, but in Timelord, the **New Frame** and **Split Frame** buttons are discrete to provide more clarity about what will happen when in the middle of the timeline.
@@ -96,7 +96,7 @@ Animate can split a frame with the **Add Keyframe** timeline button and F6, but 
 
 ### Clear frame
 
-Erases all content within currently selected frame(s) and leaves the empty frame in the timeline. Useful when paired with Split Frame or to just erase a whole frame quickly, this button saves a few steps to select all art within a layer and hit delete.
+Erases all content within the currently selected frame(s) and leaves the empty frame in the timeline. Useful when paired with Split Frame or to just erase a whole frame quickly, this button saves a few steps to select all art within a layer and hit delete.
 
 ::: warning Ps playhead
 In the same way Photoshop won't let you paint on a layer you can't see, it also won't let you clear a frame if the playhead is not on top of it. 
@@ -133,10 +133,10 @@ Duplicates the selected layer with cleared frames. This can often be useful to c
 
 Unavailable in Animate and hidden in Photoshop.
 
-This is primarily a used for the automatic layer exporting system but is also included as a button. It is not as tightly integrated as the After Effect solo, but be might help you. 
+This is primarily used for the automatic layer exporting system but is also included as a button. It is not as tightly integrated as the After Effect solo, but might help you. 
 
 ::: tip Animate soloing
-When soloing layers in Animate it is possible to *add* to the solo'd layers by selecting additional layers and clicking again. You'll see some weird stuff going on with the layer names because, unlike Ae, there is no where store the state of a layer's visibility so this data is stored in the layer name.
+When soloing layers in Animate it is possible to *add* to the solo'd layers by selecting additional layers and clicking again. You'll see some weird stuff going on with the layer names because, unlike Ae, there is nowhere to store the state of a layer's visibility so this data is stored in the layer name.
 
 If the state of soloing becomes too unruly with all the layer renaming, Shift-click solo to reset all the layers to their original state and remove the extra layer naming.
 :::

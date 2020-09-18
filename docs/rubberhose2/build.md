@@ -10,7 +10,7 @@
 ### Brief history
 Way back in 2015 only a smaller number options existed for character rigging in After Effects. As if millions of voices suddenly cried out in terror for a bendy line that worked how you imagined it would, RubberHose was born. Birthed from dreams and much trigonometry.
 
-Time has past and a new Hose is here. One that learned a lot from the original and is stronger and wiser than before. 
+Time has passed and a new Hose is here. One that learned a lot from the original and is stronger and wiser than before. 
 
 <Screenshot 
     url="/rubberhose2/build-hose.gif" 
@@ -45,7 +45,7 @@ For a more detailed look at each control, read up on the [Controls](./controls) 
 ### Settings
 The more you use RubberHose the more of your own style you'll discover. 
 
-Maybe you always to turn up the Realism, maybe you like a lower Bend Radius, maybe you work at a smaller resolution and wish controllers could were smaller. To save yourself some time updating hoses every time you build, you can dial in your hose [settings](./manage.html#settings) under the Manage group.
+Maybe you always turn up the Realism, maybe you like a lower Bend Radius, maybe you work at a smaller resolution and wish controllers could be smaller. To save yourself some time updating hoses every time you build, you can dial in your hose [settings](./manage.html#settings) under the Manage group.
 
 
 <Screenshot 
@@ -173,7 +173,7 @@ Adding tattoos or complex texture to a hose is easy by linking a set of pins to 
 - Then select a controller from the group to link to
 - ALT+Click the new RubberPin button
 
-At this point the you can set the pinned layer to preserve transparency or the original hose may be duplicated (CMD/CTRL+D) and used as a track matte to mask the alpha of the pinned layer.
+At this point you can set the pinned layer to preserve transparency or the original hose may be duplicated (CMD/CTRL+D) and used as a track matte to mask the alpha of the pinned layer.
 
 
 ## Controller naming
@@ -185,6 +185,6 @@ At this point the you can set the pinned layer to preserve transparency or the o
     right />
 
 No matter how you rig, everything built using RubberHose needs a name. Each new rig group will be named based on **Hose Name…** field and the **controller pairs** selector. Controller pairs are reused as characters typically have the same kinds of parts (arms, legs, necks).
-Each time a hose or rigging group is created the name must be manually renamed, or it will be automatically incremented. This gives groups a unique name and avoiding expressions targeting the wrong layers.
+Each time a hose or rigging group is created the name must be manually renamed, or it will be automatically incremented. This gives groups a unique name and avoids expressions targeting the wrong layers.
 
 Controller pairs may be rearranged, added and deleted in the list view to best suit your workflow. 

@@ -2,7 +2,7 @@
 
 Shapes may be pushed or pulled based on your style of working. Select shapes and push them to the active Ae comp, or select a different comp and pull shapes to Ae to cut down on the app switching.  
 
-Fills, strokes, naming, grouping and hierarchy will be preserved. Some Ai features are unsupported simply because Ae works different than Ai.
+Fills, strokes, naming, grouping and hierarchy will be preserved. Some Ai features are unsupported simply because Ae works differently than Ai.
 
 <Video url="https://www.youtube.com/embed/sP95Xab0i6k" />
 
