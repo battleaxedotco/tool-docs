@@ -1,13 +1,13 @@
 <template>
     <div class="Install">
         <p>
-            Please read this End User License Agreement (“EULA”) before you purchase {{name}} and subsequently download and use {{name}}.
+            Please read this End User License Agreement (“EULA”) before you download and use {{name}}.
         </p>
         <p>
             By purchasing a License Key and/or downloading and using the {{name}}, You agree, without reservation to be bound by the terms of this EULA. If You do not agree with the terms of this EULA, please do not purchase a License Key and/or download and use {{name}}.
         </p>
 
-        <a :href="`/eula/${name}_EULA.pdf`" class="nav-link action-button">Download EULA</a>
+        <a :href="`/eula/${name}_EULA.pdf`" class="nav-link action-button">View EULA</a>
     </div>
 </template>
 

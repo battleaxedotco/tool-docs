@@ -44,9 +44,15 @@ Rather than destroy your timeline with markers or wreck the ability to use `J`/`
 ### What's the point of all this?
 When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the piece. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be pretty helpful.
 
+
+## Download
+<a href="https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip" class="nav-link action-button">Download Beatgrid</a>
+
+<eula
+    name="Beatgrid" />
+
 ## Installation
 
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip" class="nav-link action-button">Download Beatgrid</a>
 
 <pre>
 ├── 📂 Beatgrid

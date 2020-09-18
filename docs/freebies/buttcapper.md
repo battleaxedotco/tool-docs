@@ -109,10 +109,14 @@ Click to apply the most optimized version of the [Maintain Stroke Expression](ht
 
 <br />
 
+## Download
+<a href="https://github.com/battleaxedotco/tool-docs/releases/download/buttcapper/Buttcapper.zip" class="nav-link action-button">Download Buttcapper</a>
+
+<eula
+    name="Buttcapper" />
 
 ## Installation
 
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/buttcapper/Buttcapper.zip" class="nav-link action-button">Download Buttcapper</a>
 
 <Install 
     scriptUI 
