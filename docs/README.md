@@ -21,8 +21,8 @@ freebies:
 - title: Beatgrid
   link: /freebies/beatgrid
   details: BPM markers to sync keyframes to music or as a rhythm anchor before adding audio.
-- title: Cylindroid
-  link: /freebies/cylindroid
+- title: Soupcan
+  link: /freebies/soupcan
   details: Faux 3D cylinder preset built from simple shapes for easy animation.
 # - title: Hylian
 #   link: /freebies/hylian

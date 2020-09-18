@@ -1,6 +1,6 @@
 # Beatgrid
 
-Based on a great idea for a [BPM grid overlay](http://www.sandervandijk.tv/after-effects-features/timeline#1.2-bpm-grid) for the Ae timeline by [Sander Van Dijk](http://www.sandervandijk.tv/). Though not as robust as an integrated solution, it does provide enough to synchronize elements to 4/4 beats with markers and keyframes.
+Based on a brilliant idea for a [BPM grid overlay](http://www.sandervandijk.tv/after-effects-features/timeline#1.2-bpm-grid) inside of Ae's timeline by [Sander Van Dijk](http://www.sandervandijk.tv/). Not nearly as integrated as a native solution, Beatgrid does provide enough to synchronize elements to 4/4 beats with markers and keyframes.
 
 ## Usage
 
@@ -9,57 +9,71 @@ Based on a great idea for a [BPM grid overlay](http://www.sandervandijk.tv/after
     alt="Beatgrid" 
     width="350px" />
 
-BeatGrid's controls are very simple. Enter the beats per minute numerically or using the `-`/`+` buttons then click either the `♩` bor `♬ ♬` buttons. A new empty shape layer will be created with markers on it. Marker 1 (at the start of the timeline) represents the first bar of music including the length of the bar. The next marker will be labeled 5 because it is the 5th bar and the start of the next 4 bar phrase, and so on until the end of the comp.
+Controls are simple: `Tap` the tempo, `-`/`+` buttons to decrease/increase or type in the BPM if you know it. Click the `♩ ♩ ♩ ♩` button to create time markers.
+
+An empty shape layer will be created with markers and keyframes in time with the tempo. Marker `1` (at the start of the timeline) starts the first measure. The next marker will be labeled `5` to mark the 5th measure. Like what you see in music recording apps. This pattern continues until the end of the comp.
 
 <Screenshot 
-    url="/freebies/Beatgrid-01.png" 
+    url="/freebies/Beatgrid-measures.jpg" 
     alt="Beatgrid markers" 
     zoom
     center />
 
-This in not the place for music theory, but BeatGrid provides two levels of granularity.
+### Beat view
 
-### Whole notes
-
-Pressing U will reveal a set of keyframes aligned to the beats that are normally counted:
+Pressing `U` on the keyboard will reveal a set of keyframes aligned to the beats. Keys on the *Anchor Point* will count the measures and keys on the *Position* will count quarter notes:
 
 1, 2, 3, 4 - 2, 2, 3, 4 - 3, 2, 3, 4 - 4, 2, 3, 4
 
 <Screenshot 
-    url="/freebies/Beatgrid-02.png" 
-    alt="Beatgrid markers" 
-    zoom
-    center />
-
-### Quarter notes
-
-For more subdivision that is still linked to the time of the music, 16th notes provide extra flexibility, but may also be hidden with `SHIFT + P` on the keyboard.
-
-<Screenshot 
-    url="/freebies/Beatgrid-03.png" 
+    url="/freebies/Beatgrid-notes.jpg" 
     alt="Beatgrid markers" 
     zoom
     center />
 
 ## FAQ
 ### Can I snap layers to time?
-Select the BeatGrid layer and press `U` on the keyboard to reveal the individual beats. Hold the `SHIFT` key when dragging a layer's start, end and keyframes to snap to the revealed keyframes. This a behavior of Ae and can be useful for aligning elements to the music tempo as well as any other alignment needs.
+Select the Beatgrid layer and press `U` on the keyboard to reveal the individual beats. Hold the `SHIFT` key when dragging a layer's start, end, or keyframes to snap to the revealed Beatgrid keyframes. This is a behavior of Ae and can be useful for aligning elements to the music tempo as well as any other alignment needs.
 
 ### Are the markers and keys aligned to frame? 
-Nope. The point if this is to provide musical timing markers, and this means they will not always line up to your frame-rate. But that's ok. Using `SHIFT` to snap keys or layers will round to the nearest frame.
+Nope. The point of this is to provide musical timing markers, and this means they will not always line up to your frame-rate. But that's ok. Using `SHIFT` to snap keys or layers will round to the nearest frame.
 
 ### Why not just have all the beats as markers on the layer?
 Rather than destroy you timeline with markers or wreck the ability to use `J`/`K` keyboard shortcuts to navigate the timeline, there are multiple levels of detail. This is a choice for an extra step, but I prefer the ability to zoom out and see less musical detail. Similar to an audio DAW like Ableton, Audition, Logic.
 
-### But why?
-When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the video. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be very valuable.
+### What's the point of all this?
+When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the piece. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be pretty helpful.
 
 ## Installation
 
 <a href="https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip" class="nav-link action-button">Download Beatgrid</a>
+
+<pre>
+├── 📂 Beatgrid
+│   ├── 📂 Kbar icon
+│   │   │   └── <a href="/freebies/Beatgrid.svg">Beatgrid.svg</a>
+│   ├──  Beatgrid help.html
+│   ├──  <b>Beatgrid.ffx</b>
+</pre>
 
 <Install 
     scriptUI 
     name="Beatgrid"
     :hosts="['After Effects']"
 />
+
+## Changelog
+
+### 1.1 
+Released: September 22, 2020
+#### Added
+- Tap tempo button
+
+#### Changes 
+- UI redesign
+- Removed emoji for windows support
+- Removed the measure button for a single type of marker creation
+
+### 1.00 
+Released: January 14, 2020
+- Initial release
