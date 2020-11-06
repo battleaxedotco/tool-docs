@@ -1,5 +1,7 @@
 # Frame tools
 
+<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+
 Most of the panel real-estate in Timelord is devoted to frame-by-frame tools in Photoshop and Animate. Show or hide the tools that best support your workflow by right-clicking the panel > Customize. 
 
 ## Duration

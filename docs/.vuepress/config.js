@@ -36,10 +36,10 @@ module.exports = {
     searchMaxSuggestions: 10,
     logo: '/MagicSquare.svg',
     nav: [
-      // {
-      //   text: 'Timelord',
-      //   link: '/timelord/'
-      // },
+      {
+        text: 'Timelord',
+        link: '/timelord/'
+      },
       {
         text: 'Overlord',
         link: '/overlord/'

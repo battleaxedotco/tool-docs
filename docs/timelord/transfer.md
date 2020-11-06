@@ -1,5 +1,7 @@
 # Transfer Art
 
+<Video url="https://www.youtube.com/embed/M5gfNqKMQlk" />
+
 Moving layers between Photoshop/Animate and After Effects is one of the core features of Timelord and makes export and import as seamless as possible.
 
 ## Layer export/import
@@ -11,7 +13,7 @@ Moving layers between Photoshop/Animate and After Effects is one of the core fea
     center
  />
 
-Instead of rendering everything visible in a timeline, Timelord will solo then export each selected layer or group as its own file to make compositing in Ae possible. Files will be named based on the layer or group name (Ps/An) or the comp name (Ae). On export, files will be overwritten so ***be sure your layers have unique names***.
+Instead of rendering everything visible in a timeline, Timelord will solo then export each selected layer or group as its own file to make compositing in Ae possible. 
 
 ### Auto Import
 
@@ -20,8 +22,37 @@ After layers finish exporting, After Effects will be instructed to batch import 
 <Screenshot url="/timelord/export-flowchart.png" 
     alt="Export flowchart" 
     width="auto"
+    zoom
     />
 
+## File names
+Rendered files will be named based on the layer or group name (Ps/An) or the comp name (Ae). On export, files will be overwritten so ***be sure your layers have unique names***. 
+
+### Automatic layer renaming
+To prevent layers from being overwritten in a single export, all layers in your Ps/An timeline will be given unique names. Multiple layers with the same name, they will have incrementing numbers added to their names.
+
+```
+- Snake
+- Skull
+- Snake
+- Snake
+```
+
+Will become: 
+
+```
+- Snake 3
+- Skull
+- Snake 2
+- Snake 
+```
+
+### Timestamps
+Adobe apps do a lot behind the scenes to cache what you need, but sometimes they fail to update when you replace footage. If you find that your renders fail to update, enable timestamps for the exporting app in [settings](./settings). Exported files will have a timestamp added to the end so the importing app sees it as a fresh file. 
+
+The timestamp is made up of 2 digits for the year, month, date, hour, minute, second. 
+
+`2020, July 30, 3:37:30pm` becomes `LayerName_200730-153730.swf`
 
 <Screenshot 
     url="/timelord/icon/render.svg" 

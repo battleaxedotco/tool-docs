@@ -2,6 +2,46 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 0.8.9
+Released: Nov 25, 2020
+
+### Changed
+- Render Ae comp to Ps/An places the new mp4 at the correct time
+- An render to Ae supports single frame layers
+- Don't shift timeline on Ps duplicate frame
+  
+### Fixed
+- Ps: img sequence check for masks was breaking import
+- Ps: static layer better logic for grouped layers
+- Ps: new Ae comp button works with static PSDs (default values are a 24fps, 5 second long comp)
+- An: New Ae Comp measures the duration of the first layer to define the comp length
+- An: reselect layers when exporting
+- An: render timeline re-selecting frames
+- Rename and increment layer names on export to avoid overwriting
+- Only scale Ps renders if adding to Ae –skip if already in comp
+
+## 0.8.8
+Released: Sept 25, 2020
+
+### Fixed
+- Compression from Ae looks a lot cleaner
+- Simplified the host calls 
+- Removed An render all as a default
+- Open render folder instead of switching to Ae if using a defined path render
+- Ps: Skip the /SEQ subfolder when rendering to a defined path
+- Ps: Message if no layers selected to render
+- Settings switch from Default to All
+
+### Changes
+- Simplified strings
+- Localized strings
+  - Spanish
+  - Portuguese
+  - French
+  - Italian
+  - Russian
+  - Japanese
+
 ## 0.8.7
 Released: Aug 14, 2020
 
