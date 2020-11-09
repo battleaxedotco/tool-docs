@@ -2,8 +2,20 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.1
+Released: Nov 09, 2020
+
+### Fixed
+- An: error - `runScript: Argument number 1 is invalid`
+- Ae: enabling/disabling UI buttons failed to update until refreshing the panel
+
+
+## 1.0.0 - Public release
+Released: Nov 06, 2020
+
+
 ## 0.8.9
-Released: Nov 25, 2020
+Released: Oct 25, 2020
 
 ### Changed
 - Render Ae comp to Ps/An places the new mp4 at the correct time
