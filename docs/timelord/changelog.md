@@ -2,6 +2,16 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.2
+Released: Nov 12, 2020
+
+### Added
+- PSD import into Ae may now be Layer Size
+
+### Changed
+- Ps: When importing an MP4, PSDs without a timeline will be converted in order to playback video
+  
+
 ## 1.0.1
 Released: Nov 09, 2020
 
