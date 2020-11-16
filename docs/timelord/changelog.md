@@ -2,6 +2,13 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.3
+Released: Nov 16, 2020
+
+### Fixed
+- Failing to export a reference MP4 from Ae. **System error: macOS cannot verify the developer of "ffmpeg"**. Switching to a more universal build of FFMPEG. If flagged by your system, follow these steps to [allow FFMPEG](allow-ffmpeg).
+
+
 ## 1.0.2
 Released: Nov 12, 2020
 

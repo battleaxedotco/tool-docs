@@ -93,8 +93,15 @@ After layers finish exporting, After Effects will batch import the layers and ad
 Render the open Ae comp as a video for reference as you draw. From Ae, buttons are color-coded to which app it will be sent. The open Ae comp will be rendered, compressed as an h.264 and imported into Ps/An.
 
 Ae rendering is done with a selected output module first,  then recompressed to h.264. Lossless is the default but may be reassigned from the dropdown. If you create a new output module and do not see it in the list, right-click the panel to reload and update the dropdown. 
-
 <br />
+
+### Error: macOS cannot verify the developer of "ffmpeg"
+FFMPEG is used to compress the rendered MOV into an MP4 that Ps and An may playback, but due to increased security measures, Mac OS will ask for your approval before running it the first time.
+
+Steps to [allow FFMPEG](allow-ffmpeg)
+
+We are not installing or running anything harmful on your machine. Promise.
+
 
 ### Color shift
 h.264 is a requirement for Animate and keeps temporary file sizes low for Photoshop. This is a lossy compression and there will be a color shift. Do not color pick this layer and expect accurate color representation.
