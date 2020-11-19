@@ -21,7 +21,7 @@
 
       <div>
         <h2>Need more help?</h2>
-        <p>Send an email to support@battleaxe.co and we’ll get you set up.</p>
+        <p>Send an email to help@battleaxe.co and we’ll get you set up.</p>
       </div>
       
     </div>

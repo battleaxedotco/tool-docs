@@ -41,4 +41,4 @@ Navigate to `Timelord\config\prefs.json` and open it in a text editor. Look for 
 
 Save and close the prefs.json file.
 
-Right-click the Timelord panel to `Refresh panel`. Timelord should now be unlocked. Email support@battleaxe.co for any additional questions.
+Right-click the Timelord panel to `Refresh panel`. Timelord should now be unlocked. Email help@battleaxe.co for any additional questions.
