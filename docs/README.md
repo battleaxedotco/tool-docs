@@ -5,9 +5,9 @@ tagline: Battle Axe tool documentation
 actionText: Quick Start →
 actionLink: /guide/
 products:
-# - title: Timelord
-#   link: /timelord
-#   details: Animating the hard way, but way easier
+- title: Timelord
+  link: /timelord
+  details: Animating the hard way, but way easier
 - title: Overlord
   link: /overlord
   details: Vector workflow salvation
