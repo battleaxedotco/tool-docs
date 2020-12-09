@@ -83,17 +83,19 @@
             <p><b>OSX:</b> <code>Applications\After Effects #version#\Scripts\ScriptUI Panels</code></p>
             <p><b>Windows:</b> <code>Program Files\Adobe\Adobe After Effects #version#\Support Files\Scripts\ScriptUI Panels</code></p>
 
-            <h3>Allow scripts to write files</h3>
-            <p>
-                If you haven't enabled this weird setting before you will get an error the first time you run {{ name }}. 
-            </p>
-            <p>Open the After Effects preferences and find <b>Scripting & Expressions</b>. At the top you'll see one that needs a checkmark:</p>
-            <p><b>Allow Scripts to Write Files and Access Network</b></p>
-            <Screenshot 
-                url="/install/Allow-scripts-to-write-files.png" 
-                alt="Allow scripts to write files" 
-                width="700px"
-                 />
+            <div v-if="writeFiles">
+                <h3>Allow scripts to write files</h3>
+                <p>
+                    If you haven't enabled this weird setting before you will get an error the first time you run {{ name }}. 
+                </p>
+                <p>Open the After Effects preferences and find <b>Scripting & Expressions</b>. At the top you'll see one that needs a checkmark:</p>
+                <p><b>Allow Scripts to Write Files and Access Network</b></p>
+                <Screenshot 
+                    url="/install/Allow-scripts-to-write-files.png" 
+                    alt="Allow scripts to write files" 
+                    width="700px"
+                    />
+            </div>
             
         </div>
     </div>
@@ -119,6 +121,10 @@ export default {
             default: false
         },
         preset: {
+            type: Boolean,
+            default: false
+        },
+        writeFiles: {
             type: Boolean,
             default: false
         },
