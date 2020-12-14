@@ -2,6 +2,25 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.4
+Released: Dec 14, 2020
+
+### Added
+- Ps/An: rename layers to be unique before exporting to avoid accidental render overwriting
+- Ae: loading indicator when compressing
+
+### Changed
+- Improvements to FFMPEG's color compression
+- Ae: Alert when trying to render and compress a non-video format
+- Icon updates for cleaner display in OSX Big Sur
+
+### Fixed
+- Ae: conflict between [Lazy 2](https://aescripts.com/lazy/)
+- Ps: layer names with slashes are replaced with dashes but won't error
+- Ae: error on line 545 when exporting reference MP4 - canceled items
+- An: importing MP4 removes alert about the layer length
+
+
 ## 1.0.3
 Released: Nov 16, 2020
 

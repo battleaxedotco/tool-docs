@@ -22,6 +22,7 @@ Note: the tutorial project requires RubberHose 2 to be installed.
 ## Installation
 <Install 
     scriptUI 
+    writeFiles
     name="RubberHose 2"
     :hosts="['After Effects']"
 />

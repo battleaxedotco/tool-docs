@@ -16,7 +16,7 @@ products:
   details: Animation rigging for everyone
 freebies:
 - title: Buttcapper
-  link: /freebies/
+  link: /freebies/buttcapper
   details: Change stroke caps and joins with a click instead of 17 twirl-downs.
 - title: Beatgrid
   link: /freebies/beatgrid
