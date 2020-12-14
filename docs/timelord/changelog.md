@@ -6,6 +6,7 @@
 Released: Dec 14, 2020
 
 ### Added
+- An: frame names sent to Ae as markers
 - Ps/An: rename layers to be unique before exporting to avoid accidental render overwriting
 - Ae: loading indicator when compressing
 
