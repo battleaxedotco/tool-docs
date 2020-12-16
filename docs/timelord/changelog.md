@@ -2,6 +2,17 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.5
+Released: Dec 16, 2020
+
+### Added
+- Debug logging to better diagnose compression errors
+
+### Fixed
+- Ps: Error `layerName.includes is undefined`
+- Ps: Error on line 813 when user cancels sequence export
+
+
 ## 1.0.4
 Released: Dec 14, 2020
 
