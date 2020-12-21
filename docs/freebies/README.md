@@ -15,11 +15,13 @@ If you enjoy using these freebies, in place of payment, please consider donating
 | Download                                                                                              	| Learning                                                	| Version 	| Release date  	|
 |-------------------------------------------------------------------------------------------------------	|---------------------------------------------------------	|---------	|---------------	|
 | [Buttcapper](https://github.com/battleaxedotco/tool-docs/releases/download/buttcapper/Buttcapper.zip) 	| [Manual](/freebies/buttcapper) 	| 1.5     	| Sept 15, 2020 	|
+| [Hylian](https://github.com/battleaxedotco/tool-docs/releases/download/hylian/Hylian.zip) 	| [Manual](/freebies/hylian) 	| 1.0     	| Dec 22, 2020 	|
 | [Beatgrid](https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip)       	| [Manual](/freebies/beatgrid)   	| 1.0     	| Jan 14, 2020  	|
 | [Soupcan](https://github.com/battleaxedotco/tool-docs/releases/download/soupcan/Soupcan.zip)          	| [Manual](/freebies/soupcan)    	| 1.1     	| Sept 22, 2019 	|
 
 <!-- | Download                                                                                              	| Learning                                                	| Version 	| Release date  	|
 |-------------------------------------------------------------------------------------------------------	|---------------------------------------------------------	|---------	|---------------	|
 | [Buttcapper](https://github.com/battleaxedotco/tool-docs/releases/download/buttcapper/Buttcapper.zip) 	| [Manual](https://help.battleaxe.co/freebies/buttcapper) 	| 1.5     	| Sept 15, 2020 	|
+| [Hylian](https://github.com/battleaxedotco/tool-docs/releases/download/hylian/Hylian.zip) 	| [Manual](https://help.battleaxe.co/freebies/hylian) 	| 1.0     	| Dec 22, 2020 	|
 | [Beatgrid](https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip)       	| [Manual](https://help.battleaxe.co/freebies/beatgrid)   	| 1.0     	| Jan 14, 2020  	|
 | [Soupcan](https://github.com/battleaxedotco/tool-docs/releases/download/soupcan/Soupcan.zip)          	| [Manual](https://help.battleaxe.co/freebies/soupcan)    	| 1.1     	| Sept 22, 2019 	| -->

@@ -61,7 +61,7 @@ module.exports = {
           children: [
             '',
             'buttcapper',
-            // 'hylian',
+            'hylian',
             'beatgrid',
             'soupcan',
           ],
@@ -110,6 +110,21 @@ module.exports = {
             'frame-tools',
             'settings',
             'training',
+            'changelog',
+          ]
+        },  
+      ],
+      '/anubis/': [
+        {
+          title: 'Anubis',
+          collapsable: false,
+          children: [
+            '',
+            // 'workflow',
+            // 'transfer',
+            // 'frame-tools',
+            // 'settings',
+            // 'training',
             'changelog',
           ]
         },  
