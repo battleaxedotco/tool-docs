@@ -84,6 +84,10 @@ If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity h
 
 ## Changelog
 
-### 1.0
+### 1.0.1
+
+#### Fixed
+- Essential Graphics panel properties 
+### 1.0.0
 Released: December 22, 2020
 - Initial release
