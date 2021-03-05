@@ -54,22 +54,6 @@ The timestamp is made up of 2 digits for the year, month, date, hour, minute, se
 
 `2020, July 30, 3:37:30pm` becomes `LayerName_200730-153730.swf`
 
-<Screenshot 
-    url="/timelord/icon/render.svg" 
-    alt="Render selected layers" 
-    toolbar />
-
-## Photoshop → Ae
-
-Photoshop files may contain timeline or still layers. Timelord will first check which kind of file it is. If it has a timeline, it will export selected layer groups as PNG sequences. If the project is static, selected layers will be exported as PNGs with transparency. 
-
-Once finished exporting, After Effects will batch import the layers and add them to the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
-
-Blending modes will also be transferred with exported layers when adding layers to a comp. If a layer already exists in a comp, it will not be added again. 
-
-::: tip Render range
-The length of the png sequence is determined by the frame range of the Ps timeline. Because files are overwritten with each export, this also means it is possible to export only a range of frames and leave those outside the frame range unaffected.
-:::
 
 <Screenshot 
     url="/timelord/icon/render.svg" 
@@ -81,6 +65,42 @@ The length of the png sequence is determined by the frame range of the Ps timeli
 Selected layers or groups will be exported as individual .swf files. 
 
 After layers finish exporting, After Effects will batch import the layers and add them to the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
+
+<Screenshot 
+    url="/timelord/icon/render.svg" 
+    alt="Render selected layers" 
+    toolbar />
+
+## Photoshop → Ae
+
+Photoshop files may contain timeline or still layers. Timelord will first check which kind of file it is. If it has a timeline, it will export selected layer groups as PNG sequences. If the project is static, selected layers will be exported as PNGs with transparency. 
+
+Once finished exporting, After Effects will batch import the layers and add them to the open Ae comp. If layers already exist in the project or comp, the footage will be reloaded. 
+
+::: tip Render range
+The length of the png sequence is determined by the frame range of the Ps timeline. Because files are overwritten with each export, this also means it is possible to export only a range of frames and leave those outside the frame range unaffected.
+:::
+
+*Blending modes* will also be transferred with exported layers when adding layers to a comp. 
+
+### Trim opacity
+*New in version 1.1*, transparent pixels will be trimmed off the sides to PNGs before importing into Ae, and positioned to match their appearance in Ps. 
+
+Transferring layers that are already in an Ae comp will update their position and set additional position keyframes at the playhead if already keyframed.
+
+### Live text
+*New in version 1.1*, text layers will be transferred to Ae as live text. This is only supported on PSDs without a timeline.
+
+If the PSD contains multiple artboards, text layers will only be aligned on the first artboard. Because of some Adobe limitations, it is only possible to find the absolute position of a text within the document –meaning the first artboard.
+
+::: warning Text the wrong size?
+Did you CTRL/CMD+T to resize the text layer? Unfortunately, Adobe has not made these size changes available to the scripting API. Even though the font size updates in Ps, the code can't see it. 
+
+Either create a new text layer with the update size, or SHIFT+Click to export as PNG for use as a reference in Ae.
+:::
+
+### Artboards
+Ps artboards typically contain a filled background that will show up in PNG layer renders. To avoid this, *version 1.1+* will automatically switch this background to transparent. This is available manually by selecting the Artboard in the layers panel then adjusting the **Artboard background color** within the **Properties** panel
 
 ## After Effects → Ps/An
 

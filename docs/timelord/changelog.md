@@ -2,6 +2,30 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.1.0
+Released: Mar 05, 2021
+
+### Added
+- Ps: Trim transparent pixels from static PSDs
+- Ps: Live text on static PSDs
+  - SHIFT click exports text layers as PNG
+- PS: Static PSD mask support
+- An/PS: New Frame + SHIFT adds a new frame with a duration of 2 frame
+
+### Changed
+- Rendering from An/Ps now includes the file name to reduce overwriting renders from other source files with the same layer names
+- Updated timestamp format
+- Ps: Static PSD with an artboard will have the background set to transparent so each PNG will have transparency
+
+### Fixed 
+- Ae: exported mp4s of comps names with periods 
+- Ps: Error `layerName.includes is undefined` on static PSDs
+- Ae: asking where to save files if no comp open
+- Windows open folder path
+- Ps: static layer names are set to unique to avoid overwriting
+- An: Error `Too much recursion`
+- Ps: Re-render path error
+  
 ## 1.0.5
 Released: Dec 16, 2020
 

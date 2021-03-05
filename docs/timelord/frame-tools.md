@@ -58,6 +58,10 @@ Photoshop is unable to keep track of exactly how long each frame is. There is er
 
 Creates new blank frames after the currently selected frames. Any following frames will be pushed to make room for these new frames.
 
+::: tip Shift+Click: New frame on 2s
+Holding shift will create a new blank frame with a duration of 2 frames. 
+:::
+
 <Screenshot 
     url="/timelord/icon/frame-delete.svg" 
     alt="Delete frame" 

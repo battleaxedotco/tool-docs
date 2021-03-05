@@ -41,7 +41,7 @@ Adobe apps do a lot behind the scenes to cache what you need, but sometimes they
 
 The timestamp is made up of 2 digits for the year, month, date, hour, minute, second. 
 
-`2020, July 30, 3:37:30pm` becomes `LayerName_200730-153730.swf`
+`2021, July 30, 3:37:30pm` becomes `LayerName - 2021Jul30_153730.swf`
 
 ### Tooltips
 This one is personal preference. No judgment either way.
