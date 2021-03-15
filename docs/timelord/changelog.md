@@ -2,6 +2,13 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.1.1
+Released: Mar 15, 2021
+
+### Fixed
+- Periods in Ps/An file names
+- Blank layers from Ps if nested in groups
+
 ## 1.1.0
 Released: Mar 05, 2021
 
