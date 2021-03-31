@@ -9,7 +9,6 @@ Learn by doing and walk through short projects with these pros.
 <Video url="https://www.youtube.com/embed/NeBL_bogOCc" />
 <Video url="https://www.youtube.com/embed/v7XWyc_zsWA" />
 
----
 
 ## System overview
 
@@ -26,3 +25,11 @@ Things are getting heavy with a full workflow livestream with [Michael Jones](ht
 
 <Video url="https://www.youtube.com/embed/CNkMsPxFR48" />
 
+
+
+
+## Em português
+
+Ola amigos do brasil 👋
+
+<Video url="https://www.youtube.com/embed/c6q0ppvYLhc" />
