@@ -128,7 +128,7 @@ module.exports = {
             // 'transfer',
             // 'frame-tools',
             // 'settings',
-            'export-compress',
+            'workflow',
             'changelog',
           ]
         },  

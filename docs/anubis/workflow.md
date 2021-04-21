@@ -1,8 +1,8 @@
-# Export and compress
-
-Click the puppy dog icon to export and compress to MP4. That's about it. 
+# Workflow
 
 <Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" />
+
+Click the puppy dog icon to export and compress to MP4. That's about it. 
 
 ## Options
     
