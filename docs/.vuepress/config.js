@@ -37,6 +37,10 @@ module.exports = {
     logo: '/MagicSquare.svg',
     nav: [
       {
+        text: 'Anubis',
+        link: '/anubis/'
+      },
+      {
         text: 'Timelord',
         link: '/timelord/'
       },
@@ -124,7 +128,7 @@ module.exports = {
             // 'transfer',
             // 'frame-tools',
             // 'settings',
-            // 'training',
+            'export-compress',
             'changelog',
           ]
         },  
