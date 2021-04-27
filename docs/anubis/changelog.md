@@ -2,6 +2,20 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.0.3
+Released: Apr 26, 2021
+
+### Fixed
+- OS X external drive support
+- Path selection stability 
+
+## 1.0.2
+Released: Apr 21, 2021
+
+### Fixed
+- Error: when no project is open in Ae
+- Error: console is undefined
+
 ## 1.0.1 - Public release
 Released: Apr 20, 2021
 
