@@ -129,6 +129,7 @@ module.exports = {
             // 'frame-tools',
             // 'settings',
             'workflow',
+            'color-accuracy',
             'changelog',
           ]
         },  
