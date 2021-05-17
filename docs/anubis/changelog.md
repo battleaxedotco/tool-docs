@@ -2,6 +2,24 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+
+## 1.0.4
+Released: May 17, 2021
+
+### Fixed
+- Drive path and file name errors
+- Catch illegal characters in file names
+- `fallbackName is undefined` error
+- An: `$. is undefined` error
+- Not accepting license key if a space is pasted
+- Support for `++` in file strings
+
+### Changes
+- Clicking inside file name box replaces placeholder with real text for easy editing
+- Footer message if file path deleted
+- Ae: basic support for multiple comp selection
+
+
 ## 1.0.3
 Released: Apr 26, 2021
 
