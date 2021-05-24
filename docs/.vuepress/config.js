@@ -114,6 +114,7 @@ module.exports = {
             'frame-tools',
             'settings',
             'training',
+            'open-source',
             'changelog',
           ]
         },  
@@ -130,6 +131,7 @@ module.exports = {
             // 'settings',
             'workflow',
             'color-accuracy',
+            'open-source',
             'changelog',
           ]
         },  
