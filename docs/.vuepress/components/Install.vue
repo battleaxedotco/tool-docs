@@ -21,6 +21,7 @@
                         <ul><li><b>Mac</b>: <code>/Users/**username**/Library/Application Support/Adobe/CEP/extensions/</code></li></ul>
                         <ul><li><b>Win</b>: <code>C:/Users/**username**/AppData/Roaming/Adobe/CEP/extensions/</code></li></ul>
                         <li>Copy this {{name}} folder to the /extensions/ folder</li>
+                        <ul><li><b>Note</b>: If you don't see these folders, go ahead and create them</li></ul>
                         <li>Restart Ae and look in the top <b>Window</b> menu for <b>Extensions</b> > <b>{{name}}</b></li>
                     </ul>
                 </p>
