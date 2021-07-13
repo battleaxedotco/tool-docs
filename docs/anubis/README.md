@@ -1,7 +1,5 @@
 # Getting started
 
-<video width="100%" src="https://help.battleaxe.co/anubis/Header_03.mp4" autoplay loop />
-
 Anubis exports and compresses MP4s from Adobe apps with zero concern for bitrates –or ever opening Media Encoder.
 
 <div style="max-width: 500px; margin: auto">
