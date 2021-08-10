@@ -103,6 +103,10 @@ If your rig creation produces some kind of weird, inside-out rotation, it's prob
 
 Select layers in the right order or embrace the weird looking.
 
+<br />
+<Video url="https://www.youtube.com/embed/0w2-YqU7SXQ" />
+<br />
+
 <Screenshot 
     url="/rubberhose2/icon/RubberPin.svg" 
     alt="Create RubberHose" 
@@ -158,6 +162,9 @@ By default, Puppet Pins bend pretty smooth but it would be nice to customize the
 Play around with adding Starch near the end controllers or varying the Amount of a Starch point in the center. It opens up a new level of customization. 
 
 
+<br />
+<Video url="https://www.youtube.com/embed/5OaGCPi5LJw" />
+<br />
 
 ### Linking pins to a hose
 
