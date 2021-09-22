@@ -7,7 +7,7 @@ Learn by doing and walk through short projects with these pros.
 
 <Video url="https://www.youtube.com/embed/xW2oqFyaC-M" />
 <Video url="https://www.youtube.com/embed/NeBL_bogOCc" />
-<Video url="https://www.youtube.com/embed/v7XWyc_zsWA" />
+<Video url="https://www.youtube.com/embed/GfLDJnPOWoE" />
 
 
 ## System overview
