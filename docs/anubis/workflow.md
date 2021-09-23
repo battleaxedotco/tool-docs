@@ -33,6 +33,8 @@ In After Effects, the **Export path** doubles as a switch for an additional opti
 ### Output module (After Effects only)
 `Ps`/`An`/`Pr` will output an high quality MOV or AVI by default but `Ae` uses the render queue to define the file type exported. Select a high quality codec like **Lossless** or **ProRes**.
 
+See [Color Accuracy](./color-accuracy) for more about output modules.
+
 ### Compress to MP4
 Compression may be set to `Low`, `Med`, or `High`. These settings define the quality and file size. Select one or all of the settings to output multiple quality files.
 
