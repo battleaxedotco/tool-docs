@@ -34,7 +34,7 @@ module.exports = {
     lastUpdated: false,
     smoothScroll: true,
     searchMaxSuggestions: 10,
-    logo: '/MagicSquare.svg',
+    logo: '/LogoType.svg',
     nav: [
       {
         text: 'Anubis',
