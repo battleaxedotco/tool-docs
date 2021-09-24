@@ -2,6 +2,15 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 2.12
+Released: Sept 24, 2021
+### Added
+- [KBar](https://aescripts.com/kbar/) icon
+
+### Fixed 
+- Responsive (and less confusing) view of the registration screen
+- UI aligned top left more consistently
+
 ## 2.11 
 Released: June 10, 2020
 ### Added
