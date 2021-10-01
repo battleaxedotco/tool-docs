@@ -98,6 +98,7 @@ module.exports = {
             'modifiers',
             'gradients',
             'update-shapes',
+            'color-accuracy',
             'bonus',
             'tutorials',
             'changelog',
