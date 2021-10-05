@@ -24,7 +24,7 @@ Creating shape layers with Overlord has the same potential for introducing this 
 
 ## Ai color profile 
 
-This is not intended to lesson an in depth lesson on color profiles. Check out what [Adobe has to say](https://helpx.adobe.com/after-effects/using/color-management.html) about it. 
+This is not intended to be an in depth lesson on color profiles. Check out what [Adobe has to say](https://helpx.adobe.com/after-effects/using/color-management.html) about it. 
 
 **TLDR:** Color profiles are instructions about how colors are supposed to look. Shape layers colors are managed by After Effects, but imported footage (that includes Ai files) may have their own profiles that might not be the same as Ae.
 
