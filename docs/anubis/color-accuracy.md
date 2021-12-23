@@ -1,3 +1,6 @@
+---
+title: Color accuracy
+---
 # Ae Color Accuracy
 
 ::: danger Lossless might be giving you worng colors

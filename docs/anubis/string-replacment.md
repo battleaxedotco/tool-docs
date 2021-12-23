@@ -1,3 +1,6 @@
+---
+title: String replacement
+---
 # String replacement
 <Screenshot 
     url="/anubis/Anubis-panel.png" 

@@ -1,3 +1,6 @@
+---
+title: Offline authentication
+---
 # Offline authentication
 
 Anubis uses an internet connection when first authorizing its license key and unlocking for use. If you experience connectivity trouble or run an offline machine use this procedure.

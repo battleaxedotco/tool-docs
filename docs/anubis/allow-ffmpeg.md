@@ -1,4 +1,7 @@
-# Allow FFMPEG
+---
+title: Allow FFmpeg
+---
+# Allow FFmpeg
 
 <Screenshot 
     url="/timelord/ffmpeg-trash.jpg" 

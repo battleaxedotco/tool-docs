@@ -1,3 +1,6 @@
+---
+title: Changelog
+---
 # Changelog
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>

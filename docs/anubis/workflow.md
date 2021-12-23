@@ -1,3 +1,6 @@
+---
+title: Workflow
+---
 # Workflow
 
 <Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" />
