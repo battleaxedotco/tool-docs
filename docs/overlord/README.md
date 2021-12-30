@@ -1,3 +1,7 @@
+---
+title: Getting started
+---
+
 # Getting started
 
 <img :src="$withBase('/overlord/header.gif')" alt="Overlord header">

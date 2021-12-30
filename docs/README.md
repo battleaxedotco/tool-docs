@@ -1,4 +1,6 @@
 ---
+title: Allow FFmpeg
+---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
 tagline: Battle Axe tool documentation
