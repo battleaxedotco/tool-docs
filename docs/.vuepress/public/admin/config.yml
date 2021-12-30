@@ -13,11 +13,43 @@ collections:
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "anubis" # Used in routes, e.g., /admin/collections/blog
-    label: "Anubis" # Used in the UI
-    folder: "docs/anubis" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: "rubberhose2"
+    label: "RubberHose 2"
+    folder: "docs/rubberhose2"
+    create: true 
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "overlord"
+    label: "Overlord"
+    folder: "docs/overlord"
+    create: true 
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "timelord"
+    label: "Timelord"
+    folder: "docs/timelord"
+    create: true 
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "anubis"
+    label: "Anubis"
+    folder: "docs/anubis"
+    create: true 
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+  - name: "freebies"
+    label: "Freebies"
+    folder: "docs/freebies"
+    create: true 
+    slug: "{{slug}}"
+    fields: 
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}

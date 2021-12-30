@@ -1,5 +1,5 @@
 ---
-title: Allow FFmpeg
+title: Home page
 ---
 home: true
 heroImage: https://v1.vuepress.vuejs.org/hero.png
