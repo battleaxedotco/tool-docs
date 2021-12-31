@@ -1,3 +1,7 @@
+---
+title: Update shapes
+---
+
 # Update shapes
 
 Twirling down a shape layer and selecting the path, rectangle, ellipse or group that contains one of these will allow Ae shapes to be updated when transferring from Ai. 

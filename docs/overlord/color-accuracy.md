@@ -1,3 +1,7 @@
+---
+title: Color accuracy
+---
+
 # Color Accuracy
 
 Have you ever transferred layers from Ai and felt like the colors were off, even though Ae tells you the hex colors match?

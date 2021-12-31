@@ -1,3 +1,7 @@
+---
+title: Manage
+---
+
 # Manage
 
 <Screenshot 

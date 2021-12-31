@@ -1,3 +1,7 @@
+---
+title: Buttcapper
+---
+
 # Buttcapper
 
 The stroke cap selector Adobe kinda forgot.

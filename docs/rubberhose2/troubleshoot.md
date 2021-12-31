@@ -1,3 +1,7 @@
+---
+title: Troubleshoot
+---
+
 # Troubleshoot
 
 ## Unable to unlock

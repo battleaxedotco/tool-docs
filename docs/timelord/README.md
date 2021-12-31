@@ -1,3 +1,7 @@
+---
+title: Getting started
+---
+
 # Getting started
 
 Timelord is designed to simplify frame-based animation in Photoshop and Animate and majorly improve the export and render pipeline between apps.

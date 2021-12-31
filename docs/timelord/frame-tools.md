@@ -1,3 +1,7 @@
+---
+title: Frame tools
+---
+
 # Frame tools
 
 <Video url="https://www.youtube.com/embed/rNkUD5dboJs" />

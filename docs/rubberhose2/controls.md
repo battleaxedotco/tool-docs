@@ -1,3 +1,6 @@
+---
+title: Controls
+---
 # Controls
 Hose and rig controls are found on the end controller (where the majority of keyframing happens) under the effects panel –F3 on the keyboard.
 

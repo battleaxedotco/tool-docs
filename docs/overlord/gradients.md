@@ -1,3 +1,7 @@
+---
+title: Gradients
+---
+
 # Gradients
 
 New in Overlord v1.1 is support for Illustrator Gradients. 

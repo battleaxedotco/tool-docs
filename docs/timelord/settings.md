@@ -1,3 +1,7 @@
+---
+title: Settings
+---
+
 # Settings
 
 <Screenshot 

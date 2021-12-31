@@ -1,3 +1,7 @@
+---
+title: Getting started
+---
+
 # Getting started
 
 Everything inside of the RubberHose system is designed specifically to never need a manual. This is the manual that you will hopefully never need. 

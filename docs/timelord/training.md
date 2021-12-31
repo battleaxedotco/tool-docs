@@ -1,3 +1,7 @@
+---
+title: Training
+---
+
 # Animation training
 
 Traditional animation isn't something you can just watch a tutorial about. It's a deep set of principles that take time, but thankfully there are masters who share their knowledge to help you learn and grow. 

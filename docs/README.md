@@ -1,8 +1,8 @@
 ---
-title: Home page
+title: Homepage
 ---
 home: true
-heroImage: https://v1.vuepress.vuejs.org/hero.png
+heroImage: 
 tagline: Battle Axe tool documentation
 actionText: Quick Start →
 actionLink: /guide/
@@ -26,9 +26,6 @@ freebies:
 - title: Soupcan
   link: /freebies/soupcan
   details: Faux 3D cylinder preset built from simple shapes for easy animation.
-# - title: Hylian
-#   link: /freebies/hylian
-#   details: Vector workflow salvation
 footer: © 2020 Battle Axe Inc. Atlanta, GA.
 ---
 

@@ -1,3 +1,7 @@
+---
+title: Bonus actions
+---
+
 # Bonus actions
 
 ## Switch apps

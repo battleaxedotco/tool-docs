@@ -1,3 +1,7 @@
+---
+title: Open source
+---
+
 # Open source
 
 Timelord utilizes a binary of the open source project [FFmpeg](http://ffmpeg.org) and the [libx264](https://www.videolan.org/developers/x264.html) library. This binary is released under the [GNU GPL](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html) license. Its unmodified source code is available [here](https://github.com/FFmpeg/FFmpeg/commits/4718d74c5888457bca49aa02187841905e259d57).

@@ -1,3 +1,7 @@
+---
+title: Push and pull
+---
+
 # Push and Pull
 
 Shapes may be pushed or pulled based on your style of working. Select shapes and push them to the active Ae comp, or select a different comp and pull shapes to Ae to cut down on the app switching.  

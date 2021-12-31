@@ -1,6 +1,9 @@
-# Allow FFMPEG
+---
+title: Allow FFmpeg
+---
+# Allow FFmpeg
 
-**FFMPEG** is used to compress the rendered MOV into an MP4 that Ps and An is able to play back, but due to increased security measures, **Mac OS** will ask for your approval before running it the first time. FFMPEG is used by most compression apps, but because Timelord is an extension and not a notorized and signed app from the *App Store*, you are seeing this error.
+**FFmpeg** is used to compress the rendered MOV into an MP4 that Ps and An is able to play back, but due to increased security measures, **Mac OS** will ask for your approval before running it the first time. FFmpeg is used by most compression apps, but because Timelord is an extension and not a notorized and signed app from the *App Store*, you are seeing this error.
 
 <Screenshot 
     url="/timelord/ffmpeg-trash.jpg" 
@@ -21,7 +24,7 @@
 
 
 
-## Open FFMPEG
+## Open FFmpeg
 
 <Screenshot 
     url="/timelord/ffmpeg-path.jpg" 
@@ -36,7 +39,7 @@
     right
  />
 
-After locating **FFMPEG** inside of Timelord extension, right-click or control-click to open it. This is different from doubling clicking and will show a new popup with the option to `Open` it. Click `Open` and **Terminal** should then launch and show a bunch of info about FFMPEG in the command line. 
+After locating **FFmpeg** inside of Timelord extension, right-click or control-click to open it. This is different from doubling clicking and will show a new popup with the option to `Open` it. Click `Open` and **Terminal** should then launch and show a bunch of info about FFmpeg in the command line. 
 
 Close **Terminal** and ***Timelord*** should be ready to export MP4s.
 

@@ -1,3 +1,7 @@
+---
+title: Add-ons
+---
+
 # Add-ons
 
 ## Styles
