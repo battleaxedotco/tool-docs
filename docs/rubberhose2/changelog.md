@@ -2,6 +2,12 @@
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 2.13
+Released: Dec 31, 2021
+### Fixed
+- Duplicating a RubberPin rig now updates the pin expressions
+- Renaming a RubberPin rig now updates the pin expressions
+
 ## 2.12
 Released: Sept 24, 2021
 ### Added
