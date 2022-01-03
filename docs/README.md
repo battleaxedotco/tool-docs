@@ -25,7 +25,7 @@ freebies:
 - title: Soupcan
   link: /freebies/soupcan
   details: Faux 3D cylinder preset built from simple shapes for easy animation.
-footer: © 2020 Battle Axe Inc. Atlanta, GA.
+footer: © 2022 Battle Axe Inc. Atlanta, GA.
 ---
 
 <!-- <Redirect to="https://kazoo-herring-p7sw.squarespace.com/help" /> -->
