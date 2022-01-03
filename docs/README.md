@@ -1,6 +1,5 @@
 ---
 title: Homepage
----
 home: true
 heroImage: 
 tagline: Battle Axe tool documentation
