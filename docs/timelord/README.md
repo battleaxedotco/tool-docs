@@ -17,6 +17,10 @@ Timelord is designed to simplify frame-based animation in Photoshop and Animate 
     :hosts="['After Effects', 'Photoshop', 'Animate']"
 />
 
+## Extension missing in Photoshop
+<Rosetta 
+    name="Anubis" />
+    
 ## License agreement
 
 <eula

@@ -26,7 +26,6 @@ export default {
             let width = parseInt(size[0])
             let height = parseInt(size[1])
             
-            console.log(size);
             return (height / width) * 100
         }
     },
@@ -42,6 +41,7 @@ export default {
   width: 100%; 
   height: auto;
   margin-bottom: 16px;
+  margin-top: 16px;
 }
 
 .video-block iframe {
