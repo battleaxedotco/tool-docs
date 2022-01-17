@@ -7,12 +7,10 @@
       class="dropdown-title"
       type="button"
       :aria-label="dropdownAriaLabel"
-      @click="setOpen(!open)"
     >
       <span class="title">{{ item.text }}</span>
       <span
         class="arrow"
-        :class="open ? 'down' : 'right'"
       />
     </button>
 
@@ -123,7 +121,7 @@ export default {
     background transparent
     border none
     font-weight 500
-    color $textColor
+    color var(--text-color)
     &:hover
       border-color transparent
     .arrow
@@ -219,10 +217,9 @@ export default {
       position absolute
       top 100%
       right 0
-      background-color #fff
+      background-color var(--bg-color)
       padding 0.6rem 0
-      border 1px solid #ddd
-      border-bottom-color #ccc
+      border 1px solid var(--border)
       text-align left
       border-radius 0.25rem
       white-space nowrap

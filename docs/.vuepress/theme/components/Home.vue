@@ -5,15 +5,33 @@
   >
 
   <div style="margin-bottom: 64px">
-    <h1>Support</h1>
     <div class="support">
-      <div>
-        <h2>Licensing</h2>
-        <p>Purchase info is linked to your email address. Quickly look up downloads, keys and receipts.</p>
-        <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
+      <div class="row">
+        <div class="block half">
+          <h2>License</h2>
+          <p>Access license keys, receipts and product updates with your purchase email.</p>
+          <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
+        </div>
+        <div class="block half">
+          <h2>Community</h2>
+          <p><a href="https://00-00.co" target="_blank">NULLS</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
+          <a href="https://00-00.co" class="nav-link action-button">Join the conversation</a>
+        </div>
       </div>
-      
-      <div>
+
+      <div class="row center" v-if="data.products && data.products.length">
+        <div class="product-block" v-for="(tool, index) in data.products"
+          :key="index">
+          <h2><a :href="tool.link">{{ tool.title }}</a></h2>
+          <!-- <p>{{ tool.details }}</p> -->
+          <ul v-if="tool.links">
+            <li v-for="(link, linkIdx) in tool.links" :key="linkIdx">
+              <a :href="tool.link + link.url">{{link.name}}</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div>
         <h2>Frequently asked questions</h2>
         <p>Purchase info is linked to your email address. Quickly look up downloads, keys and receipts.</p>
         <a href="http://battleaxe.co/help" class="nav-link action-button">FAQ</a>
@@ -22,12 +40,36 @@
       <div>
         <h2>Need more help?</h2>
         <p>Send an email to help@battleaxe.co and we’ll get you set up.</p>
-      </div>
+      </div> -->
       
+      <div class="row" v-if="data.faqs && data.faqs.length" style="justify-content: space-around">
+        <h2>Frequently asked questions</h2>
+        <!-- <div class="row" > -->
+          <div v-for="(faq, faqIdx) in data.faqs" :key="faqIdx" style="max-width: 240px">
+            <!-- <a :href="faq.link">{{faq.title}}</a> -->
+            <h4>{{faq.title}}</h4>
+              <ul v-if="faq.links && faq.links.length">
+                <li v-for="(link, linkIdx) in faq.links" :key="linkIdx">
+                  {{  }}
+                  <a :href="link.url.charAt(0) == '/' ? link.url : `/faq.html#${link.url}`">{{link.name}}</a>
+                </li>
+              </ul>
+          <!-- </div> -->
+        </div>
+      </div>
+
+
+      <div class="row">
+        <div class="block half">
+          <h2>Contact</h2>
+          <p>Can’t find what you’re looking for? Contact us and we’ll get back to you as soon as possible.</p>
+          <a href="/contact" class="nav-link action-button">Contact</a>
+        </div>
+      </div>
     </div>
 
   </div>
-    <h1>Manuals</h1>
+    <!-- <h1>Manuals</h1>
     <div
       v-if="data.products && data.products.length"
       class="features"
@@ -41,10 +83,10 @@
         <h2><a :href="feature.link">{{ feature.title }}</a></h2>
         <p>{{ feature.details }}</p>
       </div>
-    </div>
+    </div> -->
 
 
-    <div
+    <!-- <div
       v-if="data.freebies && data.freebies.length"
       class="features"
     >
@@ -57,7 +99,7 @@
         <h2><a :href="feature.link">{{ feature.title }}</a></h2>
         <p>{{ feature.details }}</p>
       </div>
-    </div>
+    </div> -->
 
     <Content class="theme-default-content custom" />
 
@@ -95,14 +137,45 @@ export default {
 </script>
 
 <style lang="stylus">
-h1, h2
-  width 100%
+.home 
+  h1, h2
+    width 100%
+    margin-left 0
+  li
+    list-style-type "ᳵ "
 .support
   // display flex
 .support>*
   // background salmon
 header
   display flex
+.row 
+  display flex
+  flex-wrap wrap
+  gap 20px
+  margin-top 126px
+.center
+  margin-left auto
+  margin-right auto
+.half 
+  width calc(50% - 10px)
+.product-block
+  background rgba(128, 128, 128, 0.1)
+  padding 16px
+  min-width 270px
+  h2
+    margin 0
+    border none
+    font-size 24px
+    a
+      text-decoration none
+  ul
+    list-style none
+    line-height 2em
+  a
+    text-decoration underline
+    text-underline-offset 1px
+    color var(--text-color)
 .home
   padding $navbarHeight 2rem 0
   max-width $homePageWidth
@@ -137,7 +210,7 @@ header
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    // border-top 1px solid $borderColor
+    // border-top 1px solid  var(--border)
     padding 1.2rem 0
     // margin-top 2.5rem
     display flex
@@ -161,7 +234,7 @@ header
       color lighten($textColor, 25%)
   .footer
     padding 2.5rem
-    border-top 1px solid $borderColor
+    border-top 1px solid  var(--border)
     text-align center
     // color lighten($textColor, 25%)
 
@@ -172,6 +245,9 @@ header
     .feature
       max-width 100%
       padding 0 2.5rem
+  .half, .product-block
+    width 100%
+
 
 @media (max-width: $MQMobileNarrow)
   .home

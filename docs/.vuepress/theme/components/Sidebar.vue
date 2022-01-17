@@ -35,7 +35,7 @@ export default {
     display inline-block
   .nav-links
     display none
-    border-bottom 1px solid $borderColor
+    border-bottom 1px solid var(--border)
     padding 0.5rem 0 0.75rem 0
     a
       font-weight 600

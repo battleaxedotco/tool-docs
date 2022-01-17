@@ -4,37 +4,66 @@
  * ref：https://v1.vuepress.vuejs.org/config/#index-styl
  */
 
-.home .hero img
-  max-width 450px!important
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&family=Fira+Sans&family=Work+Sans&display=swap');
-
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+ 
 :root {
-    --accent: #1287D9
+  --accent: #1287D9
+  --text-color: #1C1C1C 
+  --bg-color: #fff;
+  --border: #eaecef;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --accent: #E2E2E2
+        --text-color: #E2E2E2;
+        --bg-color: #202020;
+        --border: #404040;
+    }
+    .navbar {
+      border-bottom: 1px solid var(--border);
+    }
+    .logo {
+        filter: invert();
+    }
+    .search-box input {
+      background: var(--bg-color) url(/assets/img/search.83621669.svg) 0.6rem 0.5rem no-repeat !important
+    }
+}
+
+.home .hero img {
+  max-width: 450px !important;
 }
 body {
-    //font-family: 'Fira Mono', monospace;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-    color: #1C1C1C;
+  background-color: var(--bg-color);
+  //font-family: 'Fira Mono', monospace;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+}
+.navbar {
+  background-color: var(--bg-color);
 }
 .action-button {
   display: inline-block;
   font-size: 1rem !important;
   padding: 0.5rem 1.1rem !important;
-  transition: all 0.1s linear;
+  transition: all 0.08s linear;
   box-sizing: border-box;
   color: var(--accent) !important;
   text-transform: uppercase;
-  font-family: 'Fira Mono', monospace;
+  font-family: 'Poppins', sans;
   border: 2px solid var(--accent) !important;
   border-radius: 0 !important;
   background: transparent !important;
   margin: 20px 0 0;
+  letter-spacing: 0.09em
+  text-decoration: none
 }
 .action-button:hover {
   background: var(--accent) !important;
-  color: #fff !important;
+  color: var(--bg-color) !important;
   text-decoration: none !important;
 }
 pre {
@@ -52,22 +81,30 @@ img {
     //transform: scale(0.7);
 }
 .custom-block.tip {
-  border-color: var(--accent);
   display: flow-root;
 }
 .custom-block a {
-    font-weight: 600;
+    //font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6, .site-name {
-    font-weight: 400 !important;
-    font-family: 'Fira Mono', monospace;
+    font-weight: 500;
+    font-family: 'Poppins', sans;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    border-bottom: none;
 }
 h1 {
     font-size: 2.6rem;
+    margin-left: -12px;
 }
 h2 {
+    margin-left: -10px;
     font-size: 1.9rem;
+    margin-top: 0 !important;
+}
+h3 {
+    margin-left: -2px;
 }
 h2, h3, .page-nav {
     // font-size: 1.9rem;
