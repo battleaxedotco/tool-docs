@@ -2,7 +2,7 @@
     <div class="screenshot" :style="">
         <div class="img" 
             :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
-            <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }" :class="{zoom : zoom}">
+            <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }" :class="{ zoom : zoom, outline : outline }">
         </div>
     </div>
 </template>
@@ -39,6 +39,10 @@ export default {
             default: false
         },
         zoom: {
+            type: Boolean,
+            default: false
+        },
+        outline: {
             type: Boolean,
             default: false
         },
@@ -82,6 +86,11 @@ export default {
     font-size: 0.9rem;
     line-height: 1.6em;
     letter-spacing: 0.05em;
+}
+
+.outline {
+    border: solid 1px rgba(128, 128, 128, 0.3);
+    border-radius: 4px;
 }
 
 @media (max-width: 500px) {
