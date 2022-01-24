@@ -33,14 +33,6 @@
           #default="{ isLoading, hasErrors }"
           @submit="submitHandler"
         >
-          <!-- <FormulateInput
-            type="text"
-            name="name"
-            placeholder="Name"
-            label="So we may talk like civilized humans"
-            validation="bail|required"
-            class="form-name"
-          /> -->
           <FormulateInput
             :options="topics"
             v-model="topic"
@@ -110,26 +102,26 @@
               </p>
             </div>
           </div>
-          <FormulateInput
-            type="email"
-            name="email"
-            placeholder="Email"
-            label="So we can reply to you"
-            validation="bail|required|email"
-            class="form-email"
-          />
           
           <div class="form-content"
             v-if="topic != 'howDoI'">
             <FormulateInput
-              v-if="['sayingHi', 'other'].indexOf(formData.topic) > -1"
+              type="email"
+              name="email"
+              placeholder="Email"
+              label="So we can reply to you"
+              validation="bail|required|email"
+              class="form-email"
+            />
+            <FormulateInput
+              :class="{'form-hide' : ['sayingHi', 'other'].indexOf(formData.topic) < 0}"
               type="text"
               name="subject"
               label="Subject"
               placeholder="Subject"
             />
             <FormulateInput
-              v-if="['bugReport', 'howDoI', 'featureRequest', 'refund'].indexOf(formData.topic) > -1"
+              :class="{'form-hide' : ['bugReport', 'howDoI', 'featureRequest', 'refund'].indexOf(formData.topic) < 0}"
               :options="products"
               name="product"
               type="select"
@@ -345,17 +337,14 @@ Purchase date
     grid-area: 2/1/2/8;
   } */
   .form-topic {
-    grid-area: 4/1/4/8;
-  }
-  .form-email {
-    grid-area: 3/1/3/8;
+    grid-area: 1/1/1/8;
   }
   .form-aside {
-    grid-area: 4/8/6/12;
+    grid-area: 1/8/3/12;
     margin-top: 1.3rem;
   }
   .form-content {
-    grid-area: 5/1/7/8;
+    grid-area: 2/1/7/8;
   }
 }
 
@@ -402,6 +391,11 @@ Purchase date
 .hide {
   opacity: 0;
   transition: opacity .5s;
+}
+.form-hide {
+  opacity: 0;
+  height: 0;
+  margin: 0;
 }
 
 </style>
