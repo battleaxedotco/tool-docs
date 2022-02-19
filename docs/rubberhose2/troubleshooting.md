@@ -1,8 +1,8 @@
 ---
-title: Troubleshoot
+title: Troubleshooting
 ---
 
-# Troubleshoot
+# Troubleshooting
 
 ## Unable to unlock
 
