@@ -18,10 +18,6 @@ Anubis exports and compresses MP4s from Adobe apps with zero concern for bitrate
     :hosts="['After Effects', 'Photoshop', 'Animate', 'Premiere']"
 />
 
-## Extension missing in Photoshop
-<Rosetta 
-    name="Anubis" />
-
 ## License agreement
 
 <eula

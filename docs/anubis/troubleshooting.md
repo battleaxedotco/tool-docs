@@ -22,3 +22,8 @@ If you see `ffmpeg.exe` but not a `ffmpeg` OSX app, then it failed to install co
     />
 
 Unfortunately the FFmpeg app sometimes get skipped when installing the extension. Try uninstalling in ZXP Installer and doing a [manual install](./#installation) by copying the whole extension folder.
+
+
+## Extension missing in Photoshop
+<Rosetta 
+    name="Anubis" />
