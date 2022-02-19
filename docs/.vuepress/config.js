@@ -146,12 +146,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            // 'workflow',
-            // 'transfer',
-            // 'frame-tools',
-            // 'settings',
             'workflow',
-            'custom-quality',
+            // 'custom-quality',
             'color-accuracy',
             'open-source',
             'troubleshooting',
