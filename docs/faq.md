@@ -52,7 +52,7 @@ Enter your business info and download an invoice PDF.
 
 ## Why won't Gumroad take my payment?
 
-Stripe supports [certain countries](https://stripe.com/global) but if yours isn’t on the list try paying directly through [PayPal](https://www.paypal.com/paypalme/battleaxedotco/45usd) and email help@battleaxe.co for a download code. This gets you in the system to be notified about future updates but skips the Gumroad payment screen.
+Stripe supports [certain countries](https://stripe.com/global) but if yours isn’t on the list try paying directly through [PayPal](https://www.paypal.com/paypalme/battleaxedotco/45usd) and [contact us](./contact) for a download code. This gets you in the system to be notified about future updates but skips the Gumroad payment screen.
 
 ## How do I get a VAT refund?
 
