@@ -100,7 +100,7 @@ module.exports = {
             'controls',
             'tutorials',
             'addons',
-            'troubleshoot',
+            'troubleshooting',
             'changelog',
           ],
         }
@@ -135,6 +135,7 @@ module.exports = {
             'settings',
             'training',
             'open-source',
+            'troubleshooting',
             'changelog',
           ]
         },  
