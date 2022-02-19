@@ -37,24 +37,41 @@ module.exports = {
     logo: '/LogoType.svg',
     nav: [
       {
-        text: 'Anubis',
-        link: '/anubis/'
+        text: 'Tools',
+        items: [
+          {
+            text: 'Overlord',
+            link: '/overlord/'
+          },
+          {
+            text: 'Anubis',
+            link: '/anubis/'
+          },
+          {
+            text: 'Timelord',
+            link: '/timelord/'
+          },
+          {
+            text: 'RubberHose 2',
+            link: '/rubberhose2/',
+          },
+          {
+            text: 'Freebies',
+            link: '/freebies/',
+          },
+        ],
       },
       {
-        text: 'Timelord',
-        link: '/timelord/'
+        text: 'Licenses',
+        link: 'https://license.battleaxe.co'
       },
       {
-        text: 'Overlord',
-        link: '/overlord/'
+        text: 'Community',
+        link: 'https://00-00.co'
       },
       {
-        text: 'RubberHose 2',
-        link: '/rubberhose2/',
-      },
-      {
-        text: 'Freebies',
-        link: '/freebies/',
+        text: 'Contact',
+        link: '/contact/'
       },
     ],
     sidebar: {
@@ -77,7 +94,7 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'build',
+            'workflow',
             'style',
             'manage',
             'controls',
@@ -94,13 +111,14 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'push-pull',
+            'workflow',
             'modifiers',
             'gradients',
             'update-shapes',
             'color-accuracy',
             'bonus',
             'tutorials',
+            'troubleshooting',
             'changelog',
           ]
         }
@@ -132,8 +150,10 @@ module.exports = {
             // 'frame-tools',
             // 'settings',
             'workflow',
+            'custom-quality',
             'color-accuracy',
             'open-source',
+            'troubleshooting',
             'changelog',
           ]
         },  

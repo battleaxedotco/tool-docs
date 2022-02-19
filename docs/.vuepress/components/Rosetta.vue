@@ -9,13 +9,14 @@
             <Screenshot 
             url="/install/Rosetta_01.jpg" 
             alt="Open Photoshop prefs" 
-            width="494px" />
+            width="494px" outline />
             <br />
             Open the Photoshop preferences > Plugins
             <Screenshot 
             url="/install/Rosetta_02.jpg" 
             alt="Enable extensions" 
-            width="800px" />
+            width="800px" 
+            outline />
             Enable both:
             <ul>
                 <li>Allow Extensions to Connect to the Internet</li>
@@ -32,11 +33,11 @@
         <Screenshot 
             url="/install/Rosetta_03.jpg" 
             alt="Extensions disabled" 
-            width="598px" />
+            width="598px" outline />
         <Screenshot 
             url="/install/Rosetta_04.jpg" 
             alt="Show Photoshop info" 
-            width="800px" />
+            width="800px" outline />
 
         <ul>
             <li>Close Photoshop</li>
@@ -47,14 +48,14 @@
         <Screenshot 
             url="/install/Rosetta_05.jpg" 
             alt="Enable Rosetta mode" 
-            width="438px" />
+            width="438px" outline />
             <br />
         <p>Enable the checkbox <strong>Open using Rosetta</strong>. Restart Photoshop.</p>
 
         <Screenshot 
             url="/install/Rosetta_02.jpg" 
             alt="Enable extensions" 
-            width="800px" />
+            width="800px" outline />
             <p>
             The Legacy Extensions checkboxes should now be editable. Enable these prefs, restart Ps again, and <strong>Window</strong> > <strong>Extensions</strong> > <strong>{{name}}</strong> will now be available.
             </p>

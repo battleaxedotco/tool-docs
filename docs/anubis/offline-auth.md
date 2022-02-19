@@ -24,7 +24,7 @@ Clicking the eyeball without holding ALT will open [license.battleaxe.co](https:
 ## Edit `prefs.json`
 
 <Screenshot 
-    url="/timelord/offline-auth-nav.png" 
+    url="/Anubis/offline-auth-nav.png" 
     alt="Render" 
     left
  />
@@ -42,4 +42,4 @@ Navigate to `/Anubis/config/prefs.json` and open it in a text editor. Look for t
 
 Save and close the prefs.json file.
 
-Right-click the Timelord panel to `Refresh panel`. Timelord should now be unlocked. Email help@battleaxe.co for any additional questions.
+Right-click the Anubis panel to `Refresh panel`. Anubis should now be unlocked. Email help@battleaxe.co for any additional questions.

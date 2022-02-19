@@ -1,7 +1,7 @@
 ---
-title: Build
+title: Workflow
 ---
-# Build
+# Workflow
 
 <Screenshot 
     url="/rubberhose2/build-buttons.png" 

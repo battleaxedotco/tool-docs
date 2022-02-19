@@ -43,6 +43,12 @@ Compression may be set to `Low`, `Med`, or `High`. These settings define the qua
 
 Disabling this checkbox will export the larger sized video file without compressing an MP4.  
 
+::: tip Custom quality settings (advanced)
+We think the default values have been tuned pretty well, but it is possible to set custom values for each of the presets if you are cool with a little bit of nerd work.
+
+See [Custom quality](./custom-quality) for the process.
+:::
+
 ### Delete original render file
 Enabling this checkbox will delete the larger sized video file after compressing the MP4.
 

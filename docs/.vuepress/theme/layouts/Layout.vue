@@ -28,6 +28,7 @@
     </Sidebar>
 
     <Home v-if="$page.frontmatter.home" />
+    <Contact v-else-if="$page.frontmatter.contact" />
 
     <Page
       v-else
@@ -45,6 +46,7 @@
 
 <script>
 import Home from '@theme/components/Home.vue'
+import Contact from '@theme/components/Contact.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
@@ -55,6 +57,7 @@ export default {
 
   components: {
     Home,
+    Contact,
     Page,
     Sidebar,
     Navbar

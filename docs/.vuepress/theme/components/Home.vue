@@ -15,7 +15,7 @@
         <div class="block half">
           <h2>Community</h2>
           <p><a href="https://00-00.co" target="_blank">NULLS</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
-          <a href="https://00-00.co" class="nav-link action-button">Join the conversation</a>
+          <a href="https://00-00.co" class="nav-link action-button" target="_blank">Join the conversation</a>
         </div>
       </div>
 
@@ -45,7 +45,7 @@
       <div class="row" v-if="data.faqs && data.faqs.length" style="justify-content: space-around">
         <h2>Frequently asked questions</h2>
         <!-- <div class="row" > -->
-          <div v-for="(faq, faqIdx) in data.faqs" :key="faqIdx" style="max-width: 240px">
+          <div class="faq" v-for="(faq, faqIdx) in data.faqs" :key="faqIdx" style="max-width: 240px">
             <!-- <a :href="faq.link">{{faq.title}}</a> -->
             <h4>{{faq.title}}</h4>
               <ul v-if="faq.links && faq.links.length">
@@ -102,24 +102,22 @@
     </div> -->
 
     <Content class="theme-default-content custom" />
-
-    <div
-      v-if="data.footer"
-      class="footer"
-      v-html="data.footer"
-    >
-      <!-- {{ data.footer }} -->
-    </div>
+    
+    <Footer />
   </main>
 </template>
 
 <script>
 import NavLink from '@theme/components/NavLink.vue'
+import Footer from '@theme/components/Footer.vue'
 
 export default {
   name: 'Home',
 
-  components: { NavLink },
+  components: { 
+    NavLink,
+    Footer,
+  },
 
   computed: {
     data () {
@@ -172,10 +170,16 @@ header
   ul
     list-style none
     line-height 2em
+    text-underline-offset 1px
   a
     text-decoration underline
     text-underline-offset 1px
     color var(--text-color)
+.faq
+  ul
+    line-height 2em
+    text-decoration underline
+    text-underline-offset 1px
 .home
   padding $navbarHeight 2rem 0
   max-width $homePageWidth

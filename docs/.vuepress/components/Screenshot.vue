@@ -2,7 +2,7 @@
     <div class="screenshot" :style="">
         <div class="img" 
             :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
-            <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }" :class="{ zoom : zoom, outline : outline }">
+            <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }" :class="{ zoom : zoom, outline : outline, round : round }">
         </div>
     </div>
 </template>
@@ -46,6 +46,10 @@ export default {
             type: Boolean,
             default: false
         },
+        round: {
+            type: Boolean,
+            default: false
+        },
     },
     computed: {
         maxWidth () {
@@ -66,8 +70,9 @@ export default {
     margin-right: auto;
 }
 .toolbar>img {
-    height: 50px;
-    margin-right: 16px;
+    height: 40px;
+    margin-right: 4px;
+    padding-top: 20px;
 }
 .left, .toolbar {
     float: left;
@@ -91,6 +96,9 @@ export default {
 .outline {
     border: solid 1px rgba(128, 128, 128, 0.3);
     border-radius: 4px;
+}
+.round {
+    border-radius: 12px;
 }
 
 @media (max-width: 500px) {

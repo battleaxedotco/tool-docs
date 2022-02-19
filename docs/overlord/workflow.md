@@ -1,5 +1,5 @@
 ---
-title: Push and pull
+title: Workflow
 ---
 
 # Push and Pull

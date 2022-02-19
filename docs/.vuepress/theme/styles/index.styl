@@ -76,15 +76,15 @@ body
 
   img
     max-width 100%
-
+.sidebar a
+  text-decoration none
 a
   // font-weight 500
   color var(--text-color)
-  text-decoration none
+  text-underline-offset 1px
 
 p > a 
   text-decoration underline
-  text-underline-offset 1px
 
 p a code
   font-weight 400
@@ -139,13 +139,14 @@ h2
   padding-bottom .3rem
   border-bottom 1px solid var(--border)
 
-h3
+.page h3
   font-size 1.35rem
+  padding-top: 5.5rem !important
 
 a.header-anchor
   font-size 0.85em
   float left
-  margin-left -0.87em
+  margin-left -1.2em
   padding-right 0.23em
   margin-top 0.125em
   opacity 0
