@@ -97,12 +97,12 @@ faqs:
     url: i-m-having-payment-issues
   - name: Can I buy as a gift?
     url: can-i-buy-as-a-gift-for-someone
-- title: Tool questions
-  links: 
-  - name: Can Overlord send images?
-    url: /
-  - name: Why does Ae resize when sending with Overlord?
-    url: /
+# - title: Tool questions
+#   links: 
+#   - name: Can Overlord send images?
+#     url: images-are-not-transferring
+#   - name: Why does Ae resize when sending with Overlord?
+#     url: ae-window-shrinks-when-transferring-windows
 - title: EULA
   links: 
   - name: Anubis

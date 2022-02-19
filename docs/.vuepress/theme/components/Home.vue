@@ -42,10 +42,10 @@
         <p>Send an email to help@battleaxe.co and we’ll get you set up.</p>
       </div> -->
       
-      <div class="row" v-if="data.faqs && data.faqs.length" style="justify-content: space-around">
-        <h2>Frequently asked questions</h2>
+      <a href="/faq"><h2 style="margin-top: 126px">Frequently asked questions</h2></a>
+      <div class="row" v-if="data.faqs && data.faqs.length" style="justify-content: space-around; margin-top: 0">
         <!-- <div class="row" > -->
-          <div class="faq" v-for="(faq, faqIdx) in data.faqs" :key="faqIdx" style="max-width: 240px">
+          <div class="faq" v-for="(faq, faqIdx) in data.faqs" :key="faqIdx">
             <!-- <a :href="faq.link">{{faq.title}}</a> -->
             <h4>{{faq.title}}</h4>
               <ul v-if="faq.links && faq.links.length">
@@ -176,6 +176,9 @@ header
     text-underline-offset 1px
     color var(--text-color)
 .faq
+  padding 16px
+  min-width 240px
+  max-width: 270px
   ul
     line-height 2em
     text-decoration underline
@@ -249,8 +252,12 @@ header
     .feature
       max-width 100%
       padding 0 2.5rem
-  .half, .product-block
+  .half, .product-block, .faq
     width 100%
+  .faq
+    min-width 100%
+  .row 
+    margin-top 32px
 
 
 @media (max-width: $MQMobileNarrow)
