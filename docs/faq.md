@@ -18,6 +18,10 @@ Everyone has different ways of working and if one of these tools doesn’t fit y
 
 Submit a [refund request](./contact#refund) and we’ll get you a refund right away.
 
+## Do I have to pay a subscription fee?
+
+Nope. Products are one-time payments. Updates for the current numbered version and point updates (1.1, 1.2, etc) are free. Users will be eligible for a discount code on future major versions (2.0, 3.0, etc).
+
 
 ## Installation failed because the extension is not compatible
 
@@ -62,10 +66,6 @@ Unfortunately, all payment issues are handled directly by Gumroad and we do not 
 Yes! We were once broke students and totally get it. At least you aren't trying to pirate this stuff. Thanks for that. 
 
 Submit a request for a [student discount](./contact#student) code.
-
-## Do I have to pay a subscription fee?
-
-Nope. Products are one-time payments. Updates for the current numbered version and point updates (1.1, 1.2, etc) are free. Users will be eligible for a discount code on future versions (2.0, 3.0, etc).
 
 ## Can I buy as a gift for someone?
 
