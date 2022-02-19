@@ -78,6 +78,9 @@ export default {
     float: left;
     margin-right: 16px;
 }
+.left {
+    padding-right: 8px;
+}
 .right {
     float: right;
     margin-left: 16px;
