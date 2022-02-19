@@ -26,7 +26,7 @@ products:
     url: /
   - name: Workflow
     url: /workflow
-  - name: Troubleshooting ++
+  - name: Troubleshooting
     url: /troubleshooting
   - name: Changelog
     url: /changelog
@@ -38,7 +38,7 @@ products:
     url: /
   - name: Workflow
     url: /workflow
-  - name: Troubleshooting ++
+  - name: Troubleshooting
     url: /troubleshooting
   - name: Changelog
     url: /changelog

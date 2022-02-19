@@ -1,6 +1,6 @@
 <template>
     <div class="footer">
-     © {{ year }} Battle Axe Inc. Atlanta, GA
+     © {{ year }} <a href="https://battleaxe.co">Battle Axe Inc.</a> Atlanta, GA
     </div>
 </template>
 

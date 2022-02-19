@@ -13,9 +13,9 @@
           <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
         </div>
         <div class="block half">
-          <h2>Community</h2>
+          <!-- <h2>Community</h2>
           <p><a href="https://00-00.co" target="_blank">NULLS</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
-          <a href="https://00-00.co" class="nav-link action-button" target="_blank">Join the conversation</a>
+          <a href="https://00-00.co" class="nav-link action-button" target="_blank">Join the conversation</a> -->
         </div>
       </div>
 
