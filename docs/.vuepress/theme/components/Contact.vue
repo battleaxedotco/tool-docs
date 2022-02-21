@@ -68,10 +68,10 @@
               </p>
               <ul>
                 <!-- need links -->
-                <li><a href="https://00-00.co" target="_blank">Overlord</a></li>    
-                <li><a href="https://00-00.co" target="_blank">RubberHose 2</a></li>    
-                <li><a href="https://00-00.co" target="_blank">Timelord</a></li>    
-                <li><a href="https://00-00.co" target="_blank">Anubis</a></li>    
+                <li><a href="https://00-00.co/tag/overlord" target="_blank">Overlord</a></li>    
+                <li><a href="https://00-00.co/tag/rubberhose" target="_blank">RubberHose 2</a></li>    
+                <li><a href="https://00-00.co/tag/timelord" target="_blank">Timelord</a></li>    
+                <li><a href="https://00-00.co/tag/anubis" target="_blank">Anubis</a></li>    
               </ul>
             </div>
             <div v-else-if="topic == 'howDoI'">
@@ -85,10 +85,10 @@
               </p>
               <ul>
                 <!-- need links -->
-                <li><a href="https://00-00.co" target="_blank">Overlord</a></li>    
-                <li><a href="https://00-00.co" target="_blank">RubberHose 2</a></li>    
-                <li><a href="https://00-00.co" target="_blank">Timelord</a></li>    
-                <li><a href="https://00-00.co" target="_blank">Anubis</a></li>    
+                <li><a href="https://00-00.co/tag/overlord" target="_blank">Overlord</a></li>    
+                <li><a href="https://00-00.co/tag/rubberhose" target="_blank">RubberHose 2</a></li>    
+                <li><a href="https://00-00.co/tag/timelord" target="_blank">Timelord</a></li>    
+                <li><a href="https://00-00.co/tag/anubis" target="_blank">Anubis</a></li>    
               </ul>
             </div>
             <div v-else-if="topic == 'refund'">
