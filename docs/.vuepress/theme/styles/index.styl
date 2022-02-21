@@ -139,6 +139,10 @@ h2
   padding-bottom .3rem
   border-bottom 1px solid var(--border)
 
+.theme-default-content:not(.custom) > h1
+  // padding-top: 5.5rem
+  margin-top: 0 !important
+
 .theme-default-content:not(.custom) > h2
   // padding-top: 5.5rem
   margin-top: 0
@@ -146,6 +150,10 @@ h2
 .theme-default-content:not(.custom) > h3
   font-size 1.35rem
   padding-top: 5.5rem
+
+h2:first-of-type {
+    // margin-top: -48px !important;
+}
 
 a.header-anchor
   font-size 0.85em

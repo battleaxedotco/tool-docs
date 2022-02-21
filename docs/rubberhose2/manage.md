@@ -9,6 +9,7 @@ title: Manage
     alt="RH2 style buttons"
     width="800px" />
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Autoflop.svg" 
     alt="Add autoflop" 
@@ -16,6 +17,7 @@ title: Manage
     toolbar />
 
 ## Autoflop
+</div>
 
 <Screenshot 
     url="/rubberhose2/manage-autoflop.gif" 
@@ -25,7 +27,7 @@ title: Manage
 
 Bend direction may be [switched](./controls.html#bend-direction) easily in all RubberHose rigging methods, but this process may also be automated. Click to create a new Autoflop layer that follows the *Start controller*. As the *End controller* passes through the threshold, the bend direction will flip. The AutoFlop layer may be rotated and it's threshold widened to customize the interaction. 
 
-
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Duplicate.svg" 
     alt="Duplicate hose group" 
@@ -33,6 +35,8 @@ Bend direction may be [switched](./controls.html#bend-direction) easily in all R
     toolbar />
 
 ## Duplicate
+</div>
+
 Select RubberHose layers (from one or several groups) and click to duplicate groups.
 
 Hoses and Rigs have a lot of fancy math and naming going on under the hood to make everything work. For this reason it's not possible to just CMD/CTRL+D to duplicate a group. 
@@ -47,6 +51,7 @@ Easily duplicate rigs for the opposite side of the body without renaming. Hose n
 While CMD/CTRL+D will not duplicate a full rig, it will create a duplicate hose that's still linked to the controllers. Use this for use as a matte for more complex compositing. 
 :::
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Centerpoint.svg" 
     alt="Add center point" 
@@ -54,10 +59,13 @@ While CMD/CTRL+D will not duplicate a full rig, it will create a duplicate hose 
     toolbar />
 
 ## Centerpoint
+</div>
+
 Create a new control layer at the bend point of a selected hose. This can be used for parenting elbows and knees or setting up a connection point for other rigs. And that new rig could have its own center point. Oh man, it could go on forever. Get wild. 
 
 This center point is added automatically with RubberRig and RubberPin (and serves as the foundational mechanic for both new rigging methods). 
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Rename.svg" 
     alt="Rename hose group" 
@@ -65,11 +73,14 @@ This center point is added automatically with RubberRig and RubberPin (and serve
     toolbar />
 
 ## Rename
+</div>
+
 For the same reason  you can't just duplicate a hose group the way you would with normal After Effects layers, you can’t just rename them either. There's lots of internal naming and manually renaming all group layers and their hidden groups is not reasonable. 
 
 Select at least one layer of the rig and click. A dialog will pop-up to enter an new hose or rig name and/or the controller pairs. All related layers across the comp will be renamed. 
 
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Visibility.svg" 
     alt="Toggle controller visibility" 
@@ -77,13 +88,15 @@ Select at least one layer of the rig and click. A dialog will pop-up to enter an
     toolbar />
 
 ## Controller visibility
+</div>
+
 We need controllers to make the stuff work, but too many can clutter up a scene –not to mention all those motion paths. 
 
 - Click to toggle visibility of selected controllers.
 - Click to toggle visibility of all controllers while nothing is selected
 - Alt+Click to reduce controller opacity to zero (rather than clicking the eyeball) with the same selection context. This allows motion paths to remain visible, but hide the controller itself.
 
-
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/Select.svg" 
     alt="Select hose group" 
@@ -91,6 +104,8 @@ We need controllers to make the stuff work, but too many can clutter up a scene 
     toolbar />
 
 ## Select groups/controls
+</div>
+
 Rigs can get complicated quickly and additional support layers that can easily become scattered throughout a comp. Select all rig layers to rearrange them as a group.
 
 - Select a single layer and click to select all layers part of the same group.

@@ -8,6 +8,7 @@ title: Style
     alt="RH2 style buttons"
     width="800px" />
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/StyleApply.svg" 
     alt="Apply style" 
@@ -15,6 +16,8 @@ title: Style
     toolbar />
 
 ## Applying styles
+</div>
+
 Select a layer (hose or controller) from the desired hose group, select a style from the style library, and press the Apply button. The current style will be removed and the new one applied. 
 
 <Screenshot 
@@ -23,6 +26,7 @@ Select a layer (hose or controller) from the desired hose group, select a style 
     width="500px" 
     center />
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/StyleCopyPaste.svg" 
     alt="Copy/paste style"
@@ -30,8 +34,11 @@ Select a layer (hose or controller) from the desired hose group, select a style 
     toolbar />
 
 ## Copy/paste style
+</div>
+
 Customized styles may be saved and added to the library (see below), but the quickest way to get a style on another hose is to copy. Select a layer (hose or controller) and press **Style Copy**. Select a layer from the desired hose group and press **Style Paste** to overwrite the current style. Holding the Shift key will paste the new style to the existing without overwriting.
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/AltCopy.svg" 
     alt="Create style" 
@@ -39,6 +46,7 @@ Customized styles may be saved and added to the library (see below), but the qui
     toolbar />
 
 ## Saving styles
+</div>
 
 <Screenshot 
     url="/rubberhose2/style-warning.png" 

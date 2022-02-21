@@ -22,7 +22,7 @@ Time has passed and a new Hose is here. One that learned a lot from the original
     center />
 
 
-
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/RubberHose.svg" 
     alt="Create RubberHose" 
@@ -30,6 +30,8 @@ Time has passed and a new Hose is here. One that learned a lot from the original
     toolbar />
 
 ## RubberHose
+</div>
+
 Learning to work with hoses is easier done than read. Check out the [tutorial project](.#tutorial-project) or some of the [tutorial videos](tutorials).
 
 A single click will create a customizable bendy line. A Hose consists of a Hose layer and two controllers (Start and End). The End Controller (Wrist, Ankle, or End) is typically furthest from the body and is animated most. 
@@ -50,7 +52,7 @@ The more you use RubberHose the more of your own style you'll discover.
 
 Maybe you always turn up the Realism, maybe you like a lower Bend Radius, maybe you work at a smaller resolution and wish controllers could be smaller. To save yourself some time updating hoses every time you build, you can dial in your hose [settings](./manage.html#settings) under the Manage group.
 
-
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/RubberRig.svg" 
     alt="Create RubberHose" 
@@ -58,6 +60,8 @@ Maybe you always turn up the Realism, maybe you like a lower Bend Radius, maybe 
     toolbar />
 
 ## RubberRig
+</div>
+
 <Screenshot 
     url="/rubberhose2/build-rig.gif" 
     alt="RH2 build RubberRig"
@@ -110,6 +114,7 @@ Select layers in the right order or embrace the weird looking.
 <Video url="https://www.youtube.com/embed/0w2-YqU7SXQ" />
 <br />
 
+<div class="button-header">
 <Screenshot 
     url="/rubberhose2/icon/RubberPin.svg" 
     alt="Create RubberHose" 
@@ -117,6 +122,7 @@ Select layers in the right order or embrace the weird looking.
     toolbar />
 
 ## RubberPin
+</div>
 
 <Screenshot 
     url="/rubberhose2/build-pin.gif" 

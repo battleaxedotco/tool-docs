@@ -27,5 +27,6 @@ export default {
 .page
   padding-bottom 2rem
   display block
+  overflow-x: hidden
 
 </style>
