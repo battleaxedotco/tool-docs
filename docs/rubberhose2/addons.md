@@ -5,6 +5,7 @@ title: Add-ons
 # Add-ons
 
 ## Styles
+
 ### Tapered stroke 2020
 <Screenshot 
     url="/rubberhose2/addons-taper2020.gif" 
@@ -26,12 +27,18 @@ Included with [v2.11](changelog.html#_2-11). Lookup and [download](http://licens
     url="/rubberhose2/addons-kirby.gif" 
     alt="RH2 styles - Steve Kirby"
     width="350px" 
-    right />
+    left />
 
 Many thanks to [Steve](https://stevekirby.co.uk/) for creating these super high quality styles and sharing with all the kind people on internet.
 
 <a href="./download/SteveKirby_RH2_Styles.zip" class="nav-link action-button">Download</a>
 
+
+<br />
+
+### [Installing styles →](./style.html#installing-a-style) 
+
+<br />
 <br />
 
 ## Hose Maker
@@ -58,3 +65,11 @@ Hose Maker cannot replicate outlined shapes or tapered strokes from Illustrator.
 - Reposition control points as needed
 
 <a href="./download/HoseMaker_1.0.zip" class="nav-link action-button">Download</a>
+
+::: tip Install Script
+<Install 
+    script 
+    name="Hose Maker"
+    :hosts="['After Effects']"
+/>
+:::
