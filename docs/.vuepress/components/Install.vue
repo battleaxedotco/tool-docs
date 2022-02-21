@@ -33,7 +33,7 @@
             Copy .ffx files into the Ae presets folder, then restart Ae.
             <ul>
                 <li><b>OS X</b>:<code>~/Documents/Adobe/After Effects CC 2020/Presets/</code></li>
-                <li><b>Windows</b>:<code>My Documents\Adobe\After Effects CC 2020\Presets\</code></li>
+                <li><b>Windows</b>:<code>My Documents/Adobe/After Effects CC 2020/Presets/</code></li>
             </ul> 
             
             
@@ -81,8 +81,57 @@
             </ul>
 
             <h4>Install paths</h4>
-            <p><b>OSX:</b> <code>Applications\After Effects #version#\Scripts\ScriptUI Panels</code></p>
-            <p><b>Windows:</b> <code>Program Files\Adobe\Adobe After Effects #version#\Support Files\Scripts\ScriptUI Panels</code></p>
+            <ul>
+                <li><b>OSX:</b> <code>/Applications/After Effects #version#/Scripts/ScriptUI Panels/</code></li>
+                <li><b>Windows:</b> <code>/Program Files/Adobe/Adobe After Effects #version#/Support Files/Scripts/ScriptUI Panels/</code></li>
+            </ul>
+
+            <div v-if="writeFiles">
+                <h3>Allow scripts to write files</h3>
+                <p>
+                    If you haven't enabled this weird setting before you will get an error the first time you run {{ name }}. 
+                </p>
+                <p>Open the After Effects preferences and find <b>Scripting & Expressions</b>. At the top you'll see one that needs a checkmark:</p>
+                <p><b>Allow Scripts to Write Files and Access Network</b></p>
+                <Screenshot 
+                    url="/install/Allow-scripts-to-write-files.png" 
+                    alt="Allow scripts to write files" 
+                    width="700px"
+                    />
+            </div>
+            
+        </div>
+        <div v-else-if="script">
+            <h3>CC2019+</h3>
+            <!-- <Screenshot 
+                url="/install/CC2019-Install.png" 
+                alt="Ae script install" 
+                width="380px"
+                right /> -->
+            <p>In newer versions of After Effects, it is possible to install {{ name }} and other scripts without digging through your hard drive. </p>
+            <p><i>File > Scripts > Install Script File…</i></p>
+            <p>Restart Ae and {{ name }} will be available in the <b>Window</b> menu at the top of the screen. Scroll down to find the installed scripts.
+            </p>
+
+
+            <h3>CC2018 and older</h3>
+            <!-- <Screenshot 
+                url="/install/Rubberhose-Install.png" 
+                alt="RubberHose install" 
+                center /> -->
+            
+            <ul>
+                <li>Unzip the <b>{{ name }}.zip</b> download</li>
+                <li>Copy <b>{{ name }}.jsx</b> to the ScriptUI Panels folder</li>
+                <li>Restart After Effects</li>
+                <li>{{ name }} will be available in the <b>Window</b> menu at the top of the screen. Scroll down to find the installed scripts.</li>
+            </ul>
+
+            <h4>Install paths</h4>
+            <ul>
+                <li><b>OSX:</b> <code>/Applications/After Effects #version#/Scripts/</code></li>
+                <li><b>Windows:</b> <code>/Program Files/Adobe/Adobe After Effects #version#/Support Files/Scripts/</code></li>
+            </ul>
 
             <div v-if="writeFiles">
                 <h3>Allow scripts to write files</h3>
@@ -118,6 +167,10 @@ export default {
             default: false
         },
         scriptUI: {
+            type: Boolean,
+            default: false
+        },
+        script: {
             type: Boolean,
             default: false
         },
