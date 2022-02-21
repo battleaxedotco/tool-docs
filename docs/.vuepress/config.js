@@ -65,10 +65,10 @@ module.exports = {
         text: 'Licenses',
         link: 'https://license.battleaxe.co'
       },
-      {
-        text: 'Community',
-        link: 'https://00-00.co'
-      },
+      // {
+      //   text: 'Community',
+      //   link: 'https://00-00.co'
+      // },
       {
         text: 'Contact',
         link: '/contact/'
