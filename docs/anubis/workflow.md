@@ -101,12 +101,3 @@ Drag and drop files into the Anubis panel to recompressing video files or gifs u
 New files will be created at the origin file path. The enabled compression settings within the panel will be used but 
 
 <br />
-
-## Troubleshooting 
-
-### Error: macOS cannot verify the developer of "ffmpeg"
-FFMPEG is used to compress the rendered MOV into an MP4, but due to increased security measures, Mac OS will ask for your approval before running it the first time.
-
-Steps to [allow FFMPEG](allow-ffmpeg)
-
-We are not installing or running anything harmful on your machine. Promise.

@@ -4,6 +4,13 @@ title:  Troubleshooting
 
 # Trouble&shy;shooting
 
+## Error: macOS cannot verify the developer of "ffmpeg"
+FFMPEG is used to compress the rendered MOV into an MP4, but due to increased security measures, macOS will ask for your approval before running it the first time.
+
+Steps to [allow FFMPEG](allow-ffmpeg)
+
+We are not installing or running anything harmful on your machine. Promise.
+
 ## Colors look wrong from Ae
 
 Try using the **Uncompressed YUV** codec instead of **Animation**.
