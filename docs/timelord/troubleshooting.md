@@ -2,7 +2,7 @@
 title: Troubleshooting
 ---
 
-# Troubleshooting
+# Trouble&shy;shooting
 
 ## FFmpeg missing on macOS
 

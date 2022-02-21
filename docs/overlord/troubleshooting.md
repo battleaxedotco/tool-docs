@@ -2,7 +2,7 @@
 title:  Troubleshooting
 ---
 
-#  Troubleshooting
+# Trouble&shy;shooting
 
 ## Shapes are not transferring
 

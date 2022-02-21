@@ -2,7 +2,7 @@
 title: Troubleshooting
 ---
 
-# Troubleshooting
+# Trouble&shy;shooting
 
 ## Unable to unlock
 

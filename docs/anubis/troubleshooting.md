@@ -2,7 +2,7 @@
 title:  Troubleshooting
 ---
 
-#  Troubleshooting
+# Trouble&shy;shooting
 
 ## Colors look wrong from Ae
 
