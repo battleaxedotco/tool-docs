@@ -1,5 +1,5 @@
 <template>
-  <main class="page">
+  <main class="page" :class="{changelog: $page.frontmatter.contact }">
     <slot name="top" />
 
     <Content class="theme-default-content" />

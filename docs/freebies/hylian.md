@@ -46,11 +46,10 @@ Each of these are correct, but in varying degrees of relativity and support for 
 
 <br />
 
-## Download
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/hylian/Hylian.zip" class="nav-link action-button">Download Hylian</a>
+## License
 
 <eula
-    name="Hylian" />
+    name="Hylian" freebie />
 ## Installation
 <Install 
     scriptUI 
@@ -86,12 +85,20 @@ If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity h
 
 
 
+<br />
+<br />
+
 ## Changelog
 
-### 1.0.1
+<div class="changelog">
+
+
+## 1.0.1
 Released: January 22, 2021
-#### Fixed
+### Fixed
 - Essential Graphics panel properties 
-### 1.0.0
+## 1.0.0
 Released: December 22, 2020
 - Initial release
+
+</div>

@@ -2,6 +2,8 @@
 title: Changelog
 ---
 # Changelog
+<div class="changelog">
+
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
@@ -217,3 +219,5 @@ Released: December 15, 2020
 Released: December 5, 2020
 
 ### Initial beta release
+
+</div>

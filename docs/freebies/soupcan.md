@@ -57,8 +57,6 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 
 ## Installation
 
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/soupcan/Soupcan.zip" class="nav-link action-button">Download Soupcan</a>
-
 <pre>
 ├── 📂 Soupcan
 │   ├── 📂 aep
@@ -77,30 +75,36 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 />
 
 
-## Changelog
+<br />
+<br />
 
-### 1.1
+## Changelog
+<div class="changelog">
+
+## 1.1
 Released: September 22, 2020
-#### Added
+### Added
 - Separate Flip control
 - Invert control for full rotation
 
-#### Changed
+### Changed
 - Updates to shape layering for more stable drawing at thin sizes
 
-### 1.02
+## 1.02
 Released: September 15, 2020
-#### Changed
+### Changed
 - Renamed from `Cylindroid` to `Soupcan`
 
-### 1.01 
+## 1.01 
 Released: December 03, 2019
-#### Added
+### Added
 - Color pickers (top, bottom, side)
 
-#### Fixed 
+### Fixed 
 - Bottom edge when vertical size goes negative (thanks to Jack from [2deadfrog.com](http://2deadfrog.com))
 
-### 1.00 
+## 1.00 
 Released: December 02, 2019
 - Initial release
+
+</div>

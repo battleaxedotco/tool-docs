@@ -36,7 +36,7 @@ Click to set the stroke caps based on the layer or shape selection. Options are:
     alt="Butt capp" 
     toolbar />
 
-<div style="padding-top: 22px">Butt</div>
+<div style="padding-top: 40px">Butt</div>
 
 
 <Screenshot 
@@ -44,14 +44,14 @@ Click to set the stroke caps based on the layer or shape selection. Options are:
     alt="Round cap" 
     toolbar />
 
-<div style="padding-top: 22px">Round</div>
+<div style="padding-top: 40px">Round</div>
 
 <Screenshot 
     url="/freebies/icon/buttcapper-projecting.svg" 
     alt="Projecting cap" 
     toolbar />
 
-<div style="padding-top: 22px">Projecting</div>
+<div style="padding-top: 40px">Projecting</div>
 
 
 <br />
@@ -73,21 +73,21 @@ Click to set the stroke caps based on the layer or shape selection. Options are:
     alt="Butt capp" 
     toolbar />
     
-<div style="padding-top: 22px">Miter</div>
+<div style="padding-top: 40px">Miter</div>
 
 <Screenshot 
     url="/freebies/icon/buttcapper-round.svg" 
     alt="Round cap" 
     toolbar />
 
-<div style="padding-top: 22px">Round</div>
+<div style="padding-top: 40px">Round</div>
 
 <Screenshot 
     url="/freebies/icon/buttcapper-projecting.svg" 
     alt="Projecting cap" 
     toolbar />
 
-<div style="padding-top: 22px">Bevel</div>
+<div style="padding-top: 40px">Bevel</div>
 
 <br />
 <br />
@@ -105,7 +105,8 @@ Click to set the stroke caps based on the layer or shape selection. Options are:
 <Screenshot 
     url="/freebies/icon/buttcapper-strokewidth.svg" 
     alt="Maintain stroke width" 
-    toolbar />
+    toolbar
+    style="margin-top: 0" />
 Click to apply the most optimized version of the [Maintain Stroke Expression](https://battleaxe.tumblr.com/post/101945073972/maintain-stroke-weight-expression) with the same logic as the rest of Buttcapper.
 
 **Alt** or **Shift** click to remove the expression.
@@ -113,11 +114,10 @@ Click to apply the most optimized version of the [Maintain Stroke Expression](ht
 
 <br />
 
-## Download
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/buttcapper/Buttcapper.zip" class="nav-link action-button">Download Buttcapper</a>
+## License
 
 <eula
-    name="Buttcapper" />
+    name="Buttcapper" freebie />
 
 ## Installation
 
@@ -163,23 +163,30 @@ If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity h
 </video>
 </div>
 
-## Changelog
+<br />
+<br />
 
-### 1.5 
+# Changelog
+
+<div class="changelog">
+
+## 1.5 
 Released: September 15, 2020
 
-#### Added
+### Added
 - Apply **[Maintain Stroke Width](https://battleaxe.tumblr.com/post/101945073972/maintain-stroke-weight-expression)** expression button
 - Scripting formatting for easier use with Kbar
   
-#### Changes
+### Changes
 - UI simplification
 - Icon redesign
 - HiDPI icons
 
-#### Removed
+### Removed
 - Button color variation
 
-### 1.1
+## 1.1
 Released: August 18, 2015
 - Initial release
+
+</div>

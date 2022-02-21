@@ -4,6 +4,8 @@ title: Changelog
 
 # Changelog
 
+<div class="changelog">
+
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
 ## 2.13
@@ -128,3 +130,5 @@ Released: January 17, 2017
 ## 2.01
 Released: January 11, 2017
 - Initial release
+
+</div>

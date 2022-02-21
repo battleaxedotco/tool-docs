@@ -80,7 +80,7 @@ module.exports = {
           title: 'Freebies',
           collapsable: false,
           children: [
-            '',
+            // '',
             'buttcapper',
             'hylian',
             'beatgrid',

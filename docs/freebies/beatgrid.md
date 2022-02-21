@@ -49,11 +49,10 @@ Rather than destroy your timeline with markers or wreck the ability to use `J`/`
 When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the piece. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be pretty helpful.
 
 
-## Download
-<a href="https://github.com/battleaxedotco/tool-docs/releases/download/beatgrid/Beatgrid.zip" class="nav-link action-button">Download Beatgrid</a>
+## License
 
 <eula
-    name="Beatgrid" />
+    name="Beatgrid" freebie />
 
 ## Installation
 
@@ -72,18 +71,24 @@ When I start a project I will often have a target length in mind but I need to k
     :hosts="['After Effects']"
 />
 
-## Changelog
+<br />
+<br />
 
-### 1.1 
+## Changelog
+<div class="changelog">
+
+## 1.1 
 Released: September 22, 2020
-#### Added
+### Added
 - Tap tempo button
 
-#### Changes 
+### Changes 
 - UI redesign
 - Removed emoji for windows support
 - Removed the measure button for a single type of marker creation
 
-### 1.00 
+## 1.0
 Released: January 14, 2020
 - Initial release
+
+</div>

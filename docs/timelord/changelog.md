@@ -4,17 +4,18 @@ title: Changelog
 
 # Changelog
 
+<div class="changelog">
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
 ## 1.1.2
 Released: May 23, 2021
 
 ### Fixed
-Ps: `Left of undefined` error when saving to external drives on OS X
-Ps: better stability with live text layers
+- Ps: `Left of undefined` error when saving to external drives on OS X
+- Ps: better stability with live text layers
 
 ### Changed
-Ae: Added note about open source used
+- Ae: Added note about open source used
 
 ## 1.1.1
 Released: Mar 15, 2021
@@ -353,3 +354,5 @@ Released: March 19, 2020
 Released: March 4, 2020
 
 ### Initial beta release
+
+</div>
