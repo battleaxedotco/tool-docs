@@ -58,7 +58,7 @@ export default {
     },
     background: {
       type: String,
-      default: '#1c1c1c'
+      default: '#212121'
     },
   },
   data: () => ({
@@ -81,10 +81,11 @@ export default {
   left: 0;
   margin-top: 0 !important;
   font-family: 'Fira Mono';
+  display: flex;
 }
 
 #mc_embed_signup {
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
     padding: 32px 16px;
     line-height: 1.6em;
     overflow: hidden;
