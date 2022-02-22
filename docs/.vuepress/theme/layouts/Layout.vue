@@ -6,7 +6,7 @@
     @touchend="onTouchEnd"
   >
     <Navbar
-      v-if="shouldShowNavbar"
+      v-if="shouldShowNavbar && !$page.frontmatter.blank"
       @toggle-sidebar="toggleSidebar"
     />
 
