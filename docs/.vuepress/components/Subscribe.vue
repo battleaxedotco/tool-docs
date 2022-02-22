@@ -89,6 +89,7 @@ export default {
     padding: 32px 16px;
     line-height: 1.6em;
     overflow: hidden;
+    align-self: center;
 }
 #mc_embed_signup h2 {
     line-height: 1.1em;
