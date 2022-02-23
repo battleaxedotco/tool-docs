@@ -32,13 +32,16 @@
                               for="mce-group[17082]-17082-2">Beatgrid</label></li>
                   </ul>
               </div> -->
-              <div id="mce-responses" class="clear">
-                  <div class="response" id="mce-error-response" style="display:none"></div>
-                  <div class="response" id="mce-success-response" style="display:none"></div>
+              <div class="mc-field-group input-group" style="display:none">
+                <strong>Interests </strong>
+                <ul><li><input type="checkbox" value="1" checked name="group[17078][1]" id="mce-group[17078]-17078-0"><label for="mce-group[17078]-17078-0">Freebies</label></li>
+              </ul>
               </div>
-              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-              <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                      name="b_4cc8eea30236019bbfce85300_0898372b84" tabindex="-1" value=""></div> -->
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4cc8eea30236019bbfce85300_0898372b84" tabindex="-1" value=""></div>
               <div>
                 <input 
                   type="submit" 
@@ -50,6 +53,8 @@
             </div>
         </form>
         <div style="margin-top: 24px">{{footer}}</div>
+
+        
     </div>
   </main>
 </template>
@@ -70,7 +75,7 @@ export default {
     },
     footer: {
       type: String,
-      default: 'Download link is emailed immediately. Unsubscribe any time. We never ever share your info.'
+      default: 'Download link is emailed momentarily. Unsubscribe any time. We never ever share your info.'
     },
     background: {
       type: String,
