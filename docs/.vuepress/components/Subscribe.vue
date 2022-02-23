@@ -96,7 +96,8 @@ export default {
     cssVars () {
         return{
           /* variables you want to pass to css */
-          '--accent': this.accent,
+          '--accent': (this.embed) ? this.accent : '',
+          // '--accent': this.accent,
         }
     }
   },
