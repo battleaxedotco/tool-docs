@@ -171,7 +171,7 @@ export default {
   font-weight: 400;
   font-size: 1rem;
   margin-bottom: 8px;
-  transition: .1s color linear .1s background linear;
+  transition: .1s color linear, .1s background linear;
 }
 .submit-button-primary:hover {
   color: var(--background);
