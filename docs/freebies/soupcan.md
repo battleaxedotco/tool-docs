@@ -57,6 +57,11 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 
 ## Installation
 
+::: tip Subscribe to the newsletter to download freebies
+<Subscribe />
+<br />
+:::
+
 <pre>
 ├── 📂 Soupcan
 │   ├── 📂 aep

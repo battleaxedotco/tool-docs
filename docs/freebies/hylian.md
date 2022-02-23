@@ -46,7 +46,12 @@ Each of these are correct, but in varying degrees of relativity and support for 
 
 <br />
 
-## License
+## Download
+
+::: tip Subscribe to the newsletter to download freebies
+<Subscribe />
+<br />
+:::
 
 <eula
     name="Hylian" freebie />
