@@ -52,7 +52,7 @@
               </div>
             </div>
         </form>
-        <p style="margin-top: 24px">{{footer}}</p>
+        <p class="newsletter-footer">{{footer}}</p>
 
         
     </div>
@@ -155,6 +155,7 @@ export default {
   width: 240px;
   background: #fff !important;
   color: #222;
+  
 }
 
 .submit-button-primary {
@@ -169,11 +170,19 @@ export default {
   color: var(--accent);
   font-weight: 400;
   font-size: 1rem;
+  margin-bottom: 8px;
   transition: .1s color linear .1s background linear;
 }
 .submit-button-primary:hover {
   color: var(--background);
   background: var(--accent) !important;
+}
+.newsletter-footer {
+  margin-top: 24px;
+}
+.origin .newsletter-footer {
+  margin-top: 0;
+  font-size: 0.8rem;
 }
 
 </style>
