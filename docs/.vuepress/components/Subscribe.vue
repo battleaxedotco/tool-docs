@@ -5,7 +5,7 @@
     :class="{embed: embed}"
     :style="{'background': background}"
   >
-    <div id="mc_embed_signup">
+    <div id="mc_embed_signup" :style="cssVars">
         <h2>{{headline}}</h2>
         <form action="https://battleaxe.us2.list-manage.com/subscribe/post?u=4cc8eea30236019bbfce85300&amp;id=0898372b84"
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
@@ -52,7 +52,7 @@
               </div>
             </div>
         </form>
-        <div style="margin-top: 24px">{{footer}}</div>
+        <p style="margin-top: 24px">{{footer}}</p>
 
         
     </div>
@@ -81,6 +81,10 @@ export default {
       type: String,
       default: 'transparent'
     },
+    accent: {
+      type: String,
+      default: '#fff'
+    },
   },
   data: () => ({
     
@@ -89,6 +93,12 @@ export default {
     
   },
   computed: {
+    cssVars () {
+        return{
+          /* variables you want to pass to css */
+          '--accent': this.accent,
+        }
+    }
   },
 }
 </script>
@@ -96,6 +106,9 @@ export default {
 <style scoped>
 .newsletter {
   font-family: 'Fira Mono';
+}
+.newsletter > * {
+  color: var(--accent) !important;
 }
 .embed {
   width: 100vw;
@@ -122,9 +135,9 @@ export default {
 }
 .email-input-primary {
   font-family: 'Fira Mono';
-  padding: 12.5px 8px;
+  padding: 11.5px 8px;
   height: 20px;
-  border: 2px solid #fff;
+  border: 2px solid var(--accent) !important;
   outline-style: none;
   width: 240px;
   background: #fff !important;
@@ -133,21 +146,21 @@ export default {
 
 .submit-button-primary {
   font-family: Poppins;
-  border: 2px solid #fff !important;
+  border: 2px solid var(--accent) !important;
   appearance: button;
   text-transform: uppercase;
   padding: 16px;
   padding: 0.6rem 1.002rem;
   letter-spacing: .1em;
   background: transparent;
-  color: #fff;
+  color: var(--accent);
   font-weight: 400;
   font-size: 1rem;
   transition: .1s all linear;
 }
 .submit-button-primary:hover {
   color: #000;
-  background: #fff !important;
+  background: var(--accent) !important;
 }
 
 </style>
