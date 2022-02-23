@@ -79,7 +79,7 @@ export default {
     },
     footer: {
       type: String,
-      default: 'Download link is emailed momentarily. Unsubscribe any time. We never ever share your info.'
+      default: 'Download link is emailed pretty quick. Unsubscribe any time. We never ever share your info.'
     },
     background: {
       type: String,
