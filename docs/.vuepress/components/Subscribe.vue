@@ -5,8 +5,8 @@
     :class="{embed: embed}"
     :style="{'background': background}"
   >
-    <div id="mc_embed_signup" :style="cssVars">
-        <h2>{{headline}}</h2>
+    <div id="mc_embed_signup" :style="cssVars" :class="{origin: origin}">
+        <h2 v-if="headline">{{headline}}</h2>
         <form action="https://battleaxe.us2.list-manage.com/subscribe/post?u=4cc8eea30236019bbfce85300&amp;id=0898372b84"
             method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
             novalidate>
@@ -69,6 +69,10 @@ export default {
       type: Boolean,
       default: false
     },
+    origin: {
+      type: Boolean,
+      default: false
+    },
     headline: {
       type: String,
       default: ''
@@ -128,6 +132,10 @@ export default {
   line-height: 1.6em;
   overflow: hidden;
   align-self: center;
+}
+.origin {
+  padding: 0 !important;
+  align-self: flex-start !important;
 }
 #mc_embed_signup h2 {
   line-height: 1.1em;
