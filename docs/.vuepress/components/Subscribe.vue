@@ -134,7 +134,7 @@ export default {
   align-self: center;
 }
 .origin {
-  padding: 0 !important;
+  padding: 0 0 0 4px !important;
   align-self: flex-start !important;
 }
 #mc_embed_signup h2 {
