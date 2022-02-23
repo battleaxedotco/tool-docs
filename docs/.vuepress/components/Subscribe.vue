@@ -137,6 +137,9 @@ export default {
   padding: 0 0 0 4px !important;
   align-self: flex-start !important;
 }
+.origin .email-input-primary {
+  width: max(100vw - 170px, 150px);
+}
 #mc_embed_signup h2 {
   line-height: 1.1em;
   margin-bottom: 24px;
