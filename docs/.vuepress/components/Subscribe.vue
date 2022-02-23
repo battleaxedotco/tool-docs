@@ -101,6 +101,7 @@ export default {
         return{
           /* variables you want to pass to css */
           '--accent': (this.embed) ? this.accent : '',
+          '--background': this.background,
           // '--accent': this.accent,
         }
     }
@@ -168,10 +169,10 @@ export default {
   color: var(--accent);
   font-weight: 400;
   font-size: 1rem;
-  transition: .1s all linear;
+  transition: .1s color linear .1s background linear;
 }
 .submit-button-primary:hover {
-  color: #000;
+  color: var(--background);
   background: var(--accent) !important;
 }
 
