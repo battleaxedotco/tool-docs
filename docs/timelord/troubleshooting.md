@@ -16,7 +16,40 @@ If you see `ffmpeg.exe` but not a `ffmpeg` OSX app, then it failed to install co
 
 Unfortunately the FFmpeg app sometimes get skipped when installing the extension. Try uninstalling in ZXP Installer and doing a [manual install](./#installation) by copying the whole extension folder.
 
+## Transparency failing to export on static images
+
+Does your file have an artboard? The Ps artboard has its own background setting for transparency and if it's set to white it will output a white background instead of transparent.
+
+<Screenshot 
+    url="/timelord/ArtboardTransparency-01.jpg" 
+    alt="Artboard transparency" 
+    width="396px" 
+    />
+
+<br />
+
+<Screenshot 
+    url="/timelord/ArtboardTransparency-02.jpg" 
+    alt="Artboard transparency" 
+    width="414px" 
+    right
+    />
+
+#### Set artboard transparency
+
+There doesn't seem to be a way to set this automatically, but it's pretty easy to fix.
+
+1. Select the artboard
+2. Open the properties panel (`Window > Properties`)
+3. Set **Artboard background color** to `Transparent`
+
+Exported images will now be exported on a transparent background.
+
+    
+<br />
+
 ## Extension missing in Photoshop
+
 <Rosetta 
     name="Anubis" />
 
