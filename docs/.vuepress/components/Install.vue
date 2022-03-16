@@ -148,6 +148,27 @@
             </div>
             
         </div>
+        <div v-else-if="scriptlet">
+            <ol>
+                <li>Right click the KBar panel to open <strong>Settings</strong></li>
+                <li>Click <strong>Add Button</strong></li>
+                <li>Select <strong>Run Scriptlet</strong></li>
+                <li>Under <strong>Scriptlet</strong> paste the sriptlet code</li>
+                <li>Next to <strong>Description</strong> click <strong>ICON</strong></li>
+                <li>Drop down <strong>Text Label</strong> and select <strong>PNG/SVG</strong></li>
+                <li>Click the <strong>BROWSE</strong> button to locate {{name}}.svg icon</li>
+                <li>Click <strong>OK</strong> to close the icon picker</li>
+                <li>Click <strong>OK</strong> to close the script picker</li>
+                <li>The new button will be added to KBar</li>
+            </ol>
+            
+            <div style="position: relative; padding-bottom: 104%; height: 0; overflow: hidden; width: 100%; height: auto; margin-bottom: 16px;">
+            <video width="800" height="832" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" autoplay loop muted controls>
+            <source src="/install/Scriptlet.mp4" type="video/mp4">
+            </video>
+            </div>
+
+        </div>
     </div>
 </template>
 
@@ -171,6 +192,10 @@ export default {
             default: false
         },
         script: {
+            type: Boolean,
+            default: false
+        },
+        scriptlet: {
             type: Boolean,
             default: false
         },

@@ -28,6 +28,7 @@
   "author": "Adam Plouff",
   "dependencies": {
     "@braid/vue-formulate": "^2.5.2",
-    "medium-zoom": "^1.0.6"
+    "medium-zoom": "^1.0.6",
+    "vuepress-plugin-code-copy": "^1.0.6"
   }
 }

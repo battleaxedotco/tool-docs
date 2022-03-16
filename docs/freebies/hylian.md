@@ -64,18 +64,18 @@ Each of these are correct, but in varying degrees of relativity and support for 
 
 
 ## [KBar](https://aescripts.com/kbar/) setup
-Screen real-estate is precious inside of Ae, so why not skip the panel and run Hylian from Kbar.
+Screen real-estate is precious inside of Ae, so why not skip the panel and run Hylian from KBar.
 
-If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity has been taking a major hit without even knowing it. Buy it, use it, thank me later.
+If you don't know about [KBar](https://aescripts.com/kbar/), your productivity has been taking a major hit without even knowing it. Buy it, use it, thank me later.
 
 <Screenshot 
-    url="/freebies/Hylian-Kbar.jpg" 
-    alt="Hylian Kbar" 
+    url="/freebies/Hylian-KBar.jpg" 
+    alt="Hylian KBar" 
     width="450px"
     center />
 
 ### Step-by-step
-- Right click the Kbar panel to open Settings
+- Right click the KBar panel to open Settings
 - Click **Add Button**
 - Select **Run JSX/JSXBIN File**
 - Navigate to the Hylian.jsx file (probably in the `After Effects\Scripts\ScriptUI Panels` folder)
@@ -86,7 +86,7 @@ If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity h
 - Click the **BROWSE** button to locate the files included with the download
 - Click **OK** to close the icon picker
 - Click **OK** to close the script picker
-- The new button will be added to Kbar 
+- The new button will be added to KBar 
 
 
 

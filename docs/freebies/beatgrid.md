@@ -64,7 +64,7 @@ When I start a project I will often have a target length in mind but I need to k
 
 <pre>
 ├── 📂 Beatgrid
-│   ├── 📂 Kbar icon
+│   ├── 📂 KBar icon
 │   │   │   └── <a href="/freebies/Beatgrid.svg">Beatgrid.svg</a>
 │   ├──  Beatgrid help.html
 │   ├──  <b>Beatgrid.ffx</b>

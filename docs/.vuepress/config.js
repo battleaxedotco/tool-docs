@@ -81,10 +81,12 @@ module.exports = {
           collapsable: false,
           children: [
             // '',
+            'kbar-icons',
             'buttcapper',
             'hylian',
             'beatgrid',
             'soupcan',
+            'sammich',
           ],
         }
       ],
@@ -171,6 +173,9 @@ module.exports = {
     },
     '@vuepress/google-analytics': {
       'ga': 'UA-65174006-1' // UA-00000000-0
+    },
+    "vuepress-plugin-code-copy": {
+
     }
   }
 }

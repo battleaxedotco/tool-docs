@@ -66,7 +66,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 ├── 📂 Soupcan
 │   ├── 📂 aep
 │   │   │   └── Soupcan-Coin flip.aep
-│   ├── 📂 Kbar icon
+│   ├── 📂 KBar icon
 │   │   │   └── <a href="/freebies/Soupcan.svg">Soupcan.svg</a>
 │   ├──  Soupcan help.html
 │   ├──  <b>Soupcan.ffx</b>

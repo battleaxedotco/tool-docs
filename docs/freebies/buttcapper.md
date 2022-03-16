@@ -134,18 +134,18 @@ Click to apply the most optimized version of the [Maintain Stroke Expression](ht
 />
 
 ## [KBar](https://aescripts.com/kbar/) setup
-Since screen real-estate is so precious inside of Ae, and you may only use 1-2 of the buttons, it is easy to customize your interface with Kbar.
+Since screen real-estate is so precious inside of Ae, and you may only use 1-2 of the buttons, it is easy to customize your interface with KBar.
 
-If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity has been taking a major hit without even knowing it. Buy it, use it, thank me later.
+If you don't know about [KBar](https://aescripts.com/kbar/), your productivity has been taking a major hit without even knowing it. Buy it, use it, thank me later.
 
 <Screenshot 
-    url="/freebies/Buttcapper-Kbar.png" 
-    alt="Buttcapper Kbar" 
+    url="/freebies/Buttcapper-KBar.png" 
+    alt="Buttcapper KBar" 
     width="450px"
     center />
 
 ### Step-by-step
-- Right click the Kbar panel to open Settings
+- Right click the KBar panel to open Settings
 - Click **Add Button**
 - Select **Run JSX/JSXBIN File**
 - Navigate to the Buttcapper.jsx file (probably in the `After Effects\Scripts\ScriptUI Panels` folder)
@@ -160,11 +160,11 @@ If you don't know about [Kbar](https://aescripts.com/kbar/), your productivity h
 - Click the **BROWSE** button to locate the files included with the download
 - Click **OK** to close the icon picker
 - Click **OK** to close the script picker
-- The new button will be added to Kbar 
+- The new button will be added to KBar 
 
 <div style="position: relative; padding-bottom: 66%; height: 0; overflow: hidden; width: 100%; height: auto; margin-bottom: 16px;">
 <video width="800" height="532" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" autoplay loop muted controls>
-  <source src="/freebies/Buttcapper-KbarSetup.mp4" type="video/mp4">
+  <source src="/freebies/Buttcapper-KBarSetup.mp4" type="video/mp4">
 </video>
 </div>
 
@@ -180,7 +180,7 @@ Released: September 15, 2020
 
 ### Added
 - Apply **[Maintain Stroke Width](https://battleaxe.tumblr.com/post/101945073972/maintain-stroke-weight-expression)** expression button
-- Scripting formatting for easier use with Kbar
+- Scripting formatting for easier use with KBar
   
 ### Changes
 - UI simplification
