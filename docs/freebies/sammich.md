@@ -20,7 +20,7 @@ var firstEffectIdx = selectedEffects[0].propertyIndex;
 var lastEffectIdx = selectedEffects[selectedEffects.length - 1].propertyIndex;
 
 var first = effectsGroup.addProperty('ADBE Geometry2');
-first.name = 'Sammich Top'
+first.name = 'Sammich Top';
 first('ADBE Geometry2-0001').expression = 'effect("Sammich Bottom")("ADBE Geometry2-0002")';
 first('ADBE Geometry2-0002').expression = 'effect("Sammich Bottom")("ADBE Geometry2-0001")';
 first('ADBE Geometry2-0003').expression = '100';
@@ -29,12 +29,13 @@ first('ADBE Geometry2-0006').expression = 'effect("Sammich Bottom")("ADBE Geomet
 first('ADBE Geometry2-0007').expression = '-effect("Sammich Bottom")("ADBE Geometry2-0007")';
 first.moveTo(firstEffectIdx);
 var second = effectsGroup.addProperty('ADBE Geometry2');
-second.name = 'Sammich Bottom'
+second.name = 'Sammich Bottom';
 second('ADBE Geometry2-0003').expression = '100';
 second.moveTo(lastEffectIdx + 2);
 
 app.endUndoGroup();
-} else { alert('Select effects to make a Sammich') }
+} else { alert('Select effects to make a Sammich'); }
+
 ```
 
 ## Scriptlet setup
