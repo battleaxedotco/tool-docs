@@ -101,7 +101,7 @@ export default {
     border-radius: 4px;
 }
 .round {
-    border-radius: 12px;
+    border-radius: 8px;
 }
 
 @media (max-width: 500px) {
