@@ -79,7 +79,7 @@ Next to the **File Name** field there is a little `[v]` button. Inside of here a
 
 ## Why so many date variations?
 
-The way dates are displayed depends a lot one your preference. The many options are to provide as much flexibility as possible.
+The way dates are displayed depends a lot on your preference. The many options are to provide as much flexibility as possible.
 
 ```
 $M    = 2
@@ -88,6 +88,6 @@ $MMM  = Feb
 $MMMM = February
 ```
 
-## We do take requests
+## Do you take requests
 
 If you would like a additional token added to the system, [contact](/contact) us and we'll see what we can do.
