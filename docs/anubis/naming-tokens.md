@@ -1,12 +1,12 @@
 ---
-title: Render tokens
+title: Naming tokens
 ---
 
-# Render tokens
+# Naming tokens
 
-New in _v1.1_, Render Tokens are a set of short letter combinations following a `$`. Based on the system of file naming from [Cinema 4D](https://greyscalegorilla.com/cinema-4d-tokens-never-name-a-render-again/), it is possible to create a sequence that will generate dynamic names and folders for all your renders.
+New in _v1.1_, Naming Tokens are a set of short letter combinations following a `$`. Based on the system of file naming from [Cinema 4D](https://greyscalegorilla.com/cinema-4d-tokens-never-name-a-render-again/), it is possible to create a sequence that will generate dynamic names and folders for all your renders.
 
-<Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" />
+<Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" placeholder />
 
 
 ## Dynamic file names 
@@ -38,11 +38,11 @@ Don't forget about [relative render folders](workflow.html#relative-path-from-ae
 ## Token insert
 
 <Screenshot 
-    url="/anubis/RenderTokensInsert.jpg" 
+    url="/anubis/NamingTokensInsert.jpg" 
     alt="Anubis" 
     left
     outline round
-    width="283px" />
+    width="328px" />
 
 Next to the **File Name** field there is a little `[v]` button. Inside of here are some of the more common tokens available. Click to add it to the end of the file name. These are not all of the supported tokens, just a few of the most commonly used.
 
