@@ -31,7 +31,46 @@ Click to set a folder path for Anubis to export to each time.
 With no folder selected, Anubis will ask where to save files on each export.
 
 ### Relative path from Ae project (After Effects only)
-In After Effects, the **Export path** doubles as a switch for an additional option to export to a folder relative to the .aep.
+<Screenshot 
+    url="/anubis/RelativeSwitch.gif" 
+    alt="Relative render path" 
+    right
+    width="230px" />
+
+Within After Effects, the **Export path** may be switched between rendering to a defined folder path, or relative to the current After Effects project file. This is a valuable workflow for projects that utilize a consistent folder structure. 
+
+#### Relative to the project folder
+
+- A relative path of `./` would export to `/ProjectFolder/Ae/` –the same location as the `CurrentProject.aep` file
+- A relative path of `../Exports/From-Ae/` would export to `/ProjectFolder/Exports/From-Ae/`
+
+Imagine you have a project folder that looks like this:
+
+```
+├── 📂 ProjectFolder
+│   ├── 📂 Ae
+│   │   └── CurrentProject.aep
+│   ├── 📂 Assets
+│   ├── 📂 Docs
+│   ├── 📂 Exports
+│   │   ├── From-Ae
+│   │   │   └── CurrentProject.mp4
+```
+
+
+
+#### What is this `./` stuff?
+
+This might be completely new and that's ok. This is a short-hand for how computers view folders and their relation to one another. This is how Anubis knows how many folders to go up and over to save files.
+
+```bash
+/   = System root directory
+./  = Current (AEP project folder) directory 
+../ = Parent of current (AEP project folder) directory
+../../ = Two directories up
+```
+
+<br />
 
 ### Output module (After Effects only)
 `Ps`/`An`/`Pr` will output an high quality MOV or AVI by default but `Ae` uses the render queue to define the file type exported. Select a high quality codec like **Lossless** or **ProRes**.
