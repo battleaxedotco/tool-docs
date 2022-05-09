@@ -5,7 +5,22 @@ title: Workflow
 
 <Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" placeholder/>
 
-Click the puppy dog icon to export and compress to MP4. That's about it. 
+### Quick start
+Click the puppy dog button to export and compress to MP4. That's about it. 
+
+### Anubis process
+(What happens when you click the puppy dog button)
+
+1. The open comp, timeline or sequence in After Effects, Photoshop, Animate, or Premiere Pro will first be exported to disk as a full-resolution MOV/AVI
+   - It is also possible in Ae to select multiple comps in the **Projects** panel to batch export
+2. This large video file will be processed using the [Options](#options) below ↓
+3. The compression progress will be displayed at the bottom of the Anubis panel
+4. Once that is complete your brand new `.mp4` file ready to view
+
+### Additional uses:
+
+- [Export and send to another app](#send-to-app) (new in v1.1)
+- [Drag and drop a .gif or .mp4](#drag-and-drop) to recompress using rhe current Anubis options
 
 ## Options
 
@@ -15,8 +30,6 @@ Click the puppy dog icon to export and compress to MP4. That's about it.
     right
     width="289px" />
     
-Customize how files are exported and handled.
-
     
 ### File name
 
@@ -128,7 +141,7 @@ Enabling this checkbox will open the output folder in **Finder** or **File Explo
 New in v1.1, it is also possible to render/compress then automatically import the new file into one of the other supported Adobe apps (After Effects, Photoshop, Animate, Premiere). 
 
 <div style="display:flex">
-<Screenshot 
+<Screenshot
     url="/anubis/icon/Anubis-Ae.svg" 
     alt="Send to Ae" 
     toolbar />
