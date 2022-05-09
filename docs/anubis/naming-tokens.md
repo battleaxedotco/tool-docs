@@ -9,6 +9,20 @@ New in _v1.1_, Naming Tokens are a set of short letter combinations following a 
 <Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" placeholder />
 
 
+
+## Token insert
+
+<Screenshot 
+    url="/anubis/NamingTokensInsert.jpg" 
+    alt="Anubis" 
+    left
+    outline round
+    width="328px" />
+
+Next to the **File Name** field there is a little `[v]` button. Inside of here are some of the more common tokens available. Click to add it to the end of the file name. These are not all of the supported tokens, just a few of the most commonly used.
+
+<br />
+
 ## Dynamic file names 
 
 It is now possible to include the time, date and other useful info in the file name. These elements are replaced automatically in the file name, so while it looks a little weird, on *April 4, 2022 at 11:42am:*
@@ -31,22 +45,14 @@ Becomes ↓
 
 `/21_12_18/UltraGoodAnimation.mp4`
 
+### Parent folder
+
+In the [Token Insert](#token-insert) menu, you'll see an option that adds `../` to the name field. This cryptic group of symbols is not a naming token, but a way that computers navigate folders relatively. Anubis will render to the folder in the [Export path](workflow.html#export-path) but from there it is possible to go into a parent folder by adding `../`. Go up 2 folders with `../../`. You get the idea. 
+
 ::: tip Relative path (Ae)
 Don't forget about [relative render folders](workflow.html#relative-path-from-ae-project-after-effects-only) from After Effects. This means each project can have its own render folder, with dated sub folders. 
 ::: 
 
-## Token insert
-
-<Screenshot 
-    url="/anubis/NamingTokensInsert.jpg" 
-    alt="Anubis" 
-    left
-    outline round
-    width="328px" />
-
-Next to the **File Name** field there is a little `[v]` button. Inside of here are some of the more common tokens available. Click to add it to the end of the file name. These are not all of the supported tokens, just a few of the most commonly used.
-
-<br />
 
 ## All available tokens
 | Sequence | Description |

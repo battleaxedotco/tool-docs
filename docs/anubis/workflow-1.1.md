@@ -88,6 +88,10 @@ This might be completely new and that's ok. This is a short-hand for how compute
 ../../ = Two directories up
 ```
 
+#### Relative paths in tokens
+
+It is also possible to add [relative path notation](naming-tokens.html#parent-folder) in the file name name field. This is is useful if you prefer to flexibly render to a defined location, then navigate up a number of folders. 
+
 <br />
 
 ### Output module (After Effects only)
