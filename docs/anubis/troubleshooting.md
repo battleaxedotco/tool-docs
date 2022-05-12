@@ -13,7 +13,7 @@ We are not installing or running anything harmful on your machine. Promise.
 
 ## Colors look wrong from Ae
 
-Try using the **Uncompressed YUV** codec instead of **Animation**.
+Try using the **ProRes** or **Uncompressed YUV** codec instead of **Animation**.
 
 [Learn more](color-accuracy) about setting that up.
 

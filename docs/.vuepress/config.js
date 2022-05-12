@@ -149,7 +149,9 @@ module.exports = {
           children: [
             '',
             'workflow',
-            // 'custom-quality',
+            'naming-tokens',
+            'custom-quality',
+            'export-preset-premiere',
             'color-accuracy',
             'open-source',
             'troubleshooting',

@@ -8,8 +8,34 @@ title: Changelog
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
 
+## 1.1.0
+Released: 2022-05-16
+
+### Added
+- Naming tokens
+- Dynamic folder creation at `/`s in file names
+- Background render
+- Send to App
+- Compression progress footer
+- Multi-comp export (Ae)
+- Compression resize to width
+- User editable quality settings
+- Premiere export preset selector
+
+### Changed
+- Relative path (Ae) defaults to `./` targeting the project file's folder
+- (Ae) Output modules load when pressing `⟳` instead of with panel load
+- Alt click folder picker to open the folder on disk
+- Compression time footer stays on screen until mouse over
+
+### Fixed
+- `Open a timeline` bug
+- Compression start happing out of order
+- More stable non-english character support
+- Countless other bugs and quality of life improvements 
+
 ## 1.0.4
-Released: May 17, 2021
+Released: 2021-05-17
 
 ### Fixed
 - Drive path and file name errors
@@ -19,60 +45,60 @@ Released: May 17, 2021
 - Not accepting license key if a space is pasted
 - Support for `++` in file strings
 
-### Changes
+### Changed
 - Clicking inside file name box replaces placeholder with real text for easy editing
 - Footer message if file path deleted
 - Ae: basic support for multiple comp selection
 
 
 ## 1.0.3
-Released: Apr 26, 2021
+Released: 2021-04-26
 
 ### Fixed
 - OS X external drive support
 - Path selection stability 
 
 ## 1.0.2
-Released: Apr 21, 2021
+Released: 2021-04-21
 
 ### Fixed
 - Error: when no project is open in Ae
 - Error: console is undefined
 
 ## 1.0.1 - Public release
-Released: Apr 20, 2021
+Released: 2021-04-20
 
 
 ## 0.5.5
-Released: Apr 19, 2021
+Released: 2021-04-19
 
 ### Fixed
 - Manifest tweaks
 
-### Changes
+### Changed
 - Language localization
 
 ## 0.5.3
-Released: Apr 17, 2021
+Released: 2021-04-17
 
 ### Fixed
 - Handling drive paths
 - Filter . from file names
 
 ## 0.4.8
-Released: Apr 15, 2021
+Released: 2021-04-15
 
 ### Fixed
 - Ae: output modules not loading if panel is open when Ae opens
   
 ## 0.4.8
-Released: Apr 15, 2021
+Released: 2021-04-15
 
 ### Fixed
 - Underscores in file names 
   
 ## 0.4.6
-Released: Apr 13, 2021
+Released: 2021-04-13
 
 ### Changed
 - Loader animation .json files updated
@@ -80,73 +106,73 @@ Released: Apr 13, 2021
 - Text to **MP4 Quality** for clarity
 
 ## 0.4.5
-Released: Apr 11, 2021
+Released: 2021-04-11
 
 ### Added
 - Multiple quality options for generating multiple files
 
 ## 0.4.4
-Released: Apr 09, 2021
+Released: 2021-04-09
 
 ### Fixed
 - Multiple folders opening on multi-file drop
 
 ## 0.4.3
-Released: Apr 06, 2021
+Released: 2021-04-06
 
 ### Fixed
 - File drop handling
 
 ## 0.4.2
-Released: Apr 01, 2021
+Released: 2021-04-01
 
 ### Fixed
 - File name incrementing
 
 ## 0.4.1
-Released: Mar 31, 2021
+Released: 2021-03-31
 
 ### Added
 - Multi-file drop
 
 ## 0.4.0
-Released: Mar 27, 2021
+Released: 2021-03-27
 
 ### Changed
 - Clearable icon for file name and export path
 
 ## 0.3.9
-Released: Mar 26, 2021
+Released: 2021-03-26
 
 ### Changed
 - Compression quality more accurate to file size and compression quality
 
 ## 0.3.8
-Released: Mar 25, 2021
+Released: 2021-03-25
 
 ### Added
 - Ae: Relative/absolute path switching
 ## 0.3.6
-Released: Mar 23, 2021
+Released: 2021-03-23
 
 ### Added
 - File name field
 - Dynamic timeline name into file name field
 - Absolute path field in all apps
 ## 0.3.4
-Released: Mar 10, 2021
+Released: 2021-03-10
 
 ### Added
 - Animate selected frame range export
 ## 0.3.3
-Released: Mar 05, 2021
+Released: 2021-03-05
 
 ### Fixed
 - Windows opening the Documents folder instead of the render folder 
 - Ae: check if the .aep is saved to use CEP folder picker
 
 ## 0.3.2
-Released: Mar 04, 2021
+Released: 2021-03-04
 
 ### Changed
 - At smaller than 60px height the options are removed leaving a single button 
@@ -155,19 +181,19 @@ Released: Mar 04, 2021
 - Ae: Setting the output module
 
 ## 0.3.1
-Released: Mar 03, 2021
+Released: 2021-03-03
 
 ### Fixed 
 - Black screen of doom
   
 ## 0.3.0
-Released: Mar 02, 2021
+Released: 2021-03-02
 
 ### Changed
 - Big refactor
 
 ## 0.2.0
-Released: Feb 15, 2021
+Released: 2021-02-15
 
 ### Added
 - Loader animations
@@ -175,26 +201,26 @@ Released: Feb 15, 2021
 - Double finder open 
   
 ## 0.1.7
-Released: Feb 11, 2021
+Released: 2021-02-11
 
 ### Changed
 - More native OS path selector
 
 ## 0.1.6
-Released: Feb 10, 2021
+Released: 2021-02-10
 
 ### Fixed
 - Windows premiere exporting
 
 ## 0.1.4
-Released: Jan 17, 2021
+Released: 2021-01-17
 
 ### Fixed
 - Don't delete the source file when dropping a file
 - Add timestamp if option enabled when dropping a file
 
 ## 0.1.3
-Released: Jan 5, 2021
+Released: 2021-01-05
 
 ### Added
 - Support for Animate, Photoshop, Premiere
@@ -207,7 +233,7 @@ Released: Jan 5, 2021
 
 
 ## 0.1.2
-Released: December 15, 2020
+Released: 2020-12-15
 
 ### Added 
 - Placeholder Lottie loader
@@ -216,7 +242,7 @@ Released: December 15, 2020
 
 
 ## 0.1.1
-Released: December 5, 2020
+Released: 2020-12-05
 
 ### Initial beta release
 

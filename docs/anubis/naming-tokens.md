@@ -6,9 +6,7 @@ title: Naming tokens
 
 New in _v1.1_, Naming Tokens are a set of short letter combinations following a `$`. Based on the system of file naming from [Cinema 4D](https://greyscalegorilla.com/cinema-4d-tokens-never-name-a-render-again/), it is possible to create a sequence that will generate dynamic names and folders for all your renders.
 
-<Video url="https://www.youtube.com/embed/LG5LXUXTNVQ" placeholder />
-
-
+<Video url="https://www.youtube.com/embed/ZNrCuHpe7Kk" />
 
 ## Token insert
 
