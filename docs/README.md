@@ -26,6 +26,8 @@ products:
     url: /
   - name: Workflow
     url: /workflow
+  - name: Naming tokens
+    url: /naming-tokens
   - name: Troubleshooting
     url: /troubleshooting
   - name: Changelog
