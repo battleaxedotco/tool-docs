@@ -9,7 +9,7 @@ title: Changelog
 
 
 ## 1.1.0
-Released: 2022-05-16
+Released: 2022-05-12
 
 ### Added
 - Naming tokens
