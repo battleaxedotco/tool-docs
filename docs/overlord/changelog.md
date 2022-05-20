@@ -13,22 +13,22 @@ Released: 2022-05-20
 ### Fixed
 - (macOS 12) Sending shapes from Ae to Ai
 - Switch button
-- Opening multiple version of Ae
+- Opening multiple versions of Ae
 
 ## 1.22
-Released: July 23, 2019
+Released: 2019-07-23
 ### Changed
 - More intelligent handling of nested groups with center anchor point enabled
 - Support for clipping masks with center anchor point enabled
 
 ## 1.21
-Released: July 16, 2019
+Released: 2019-07-16
 ### Fixed
 - Removed debug code that introduced errors on line 1920 and 1178 on text layers with center anchor point enabled
 - Bug that tried to download updates like the updatable version
 
 ## 1.2
-Released: July 14, 2019
+Released: 2019-07-14
 ### Added
 - Both panels open is no longer required. Just open the one you like using. Thanks to Remco Jansen for the help on this.
 - Native Ae guides support for CC2019+
@@ -56,7 +56,7 @@ Released: July 14, 2019
 - Updatable version has been removed for added stability
 
 ## 1.12
-Released: March 20, 2018
+Released: 2018-03-20
 ### Fixed
 - Accidentally left some debugging code in v1.11 release
 - Error on line 1745
@@ -64,7 +64,7 @@ Released: March 20, 2018
 - Error on line 1822
 
 ## 1.11
-Released: March 20, 2018
+Released: 2018-03-20
 
 ### Changed
 - Zeroing out the anchor point on paths and parametrics when Center Anchor Point is enabled
@@ -80,7 +80,7 @@ Released: March 20, 2018
 
 
 ## 1.10
-Released: February 27, 2018
+Released: 2018-02-27
 ### Added
 - Support for Ai gradient fills and strokes (yayayayaya)
 - Update fill and stroke colors from Ai
@@ -103,7 +103,7 @@ Released: February 27, 2018
 
 
 ## 1.03
-Released: November 16, 2017
+Released: 2017-11-16
 ### Added
 - Support for Ai Spot Color tints
 - Preference to use New Artboard button to create a new Ae comp from an artboard’s dimensions
@@ -117,7 +117,7 @@ Released: November 16, 2017
 - Unnamed shapes were naming their shape groups “null"
 
 ## 1.02
-Released: October 24, 2017
+Released: 2017-10-24
 ### Added
 - Preference in settings to disable app switching when pushing shapes to Ae. Some Windows users report Ae resizing when switching which is terribly annoying. 
 
@@ -131,18 +131,18 @@ Released: October 24, 2017
 
 
 ## 1.01
-Released: October 18, 2017
+Released: 2017-10-18
 ### Fixed
 A glitch with the licensing unlock
 
 
 ## 1.0
-Released: October 18, 2017
+Released: 2017-10-18
 Public release
 
 
 ## 0.27
-Released: October 11, 2017
+Released: 2017-10-11
  
 - Layer blending modes
 - Error messaging system in panel removes the need for unnecessary popups
@@ -165,7 +165,7 @@ Released: October 11, 2017
 
 
 ## 0.26
-Released: October 10, 2017
+Released: 2017-10-10
 ### Fixed
 - Download animation didn't turn off after downloading to indicate completion
 
@@ -173,12 +173,12 @@ Released: October 10, 2017
 - Removed the default layer name in prefs in favor of pulling from the Ai layer name if shapes or groups are not named
 
 ## 0.25
-Released: October 09, 2017
+Released: 2017-10-09
 ### Fixed
 - I broke the Settings window while debugging like a moron
 
 ## 0.24
-Released: October 09, 2017
+Released: 2017-10-09
 ### Fixed
 - Accidentally disabled explode shapes
 - Retains Ai layer name when transferring an unexploded selection
@@ -190,7 +190,7 @@ Released: October 09, 2017
 
 
 ## 0.23
-Released: September 30, 2017
+Released: 2017-09-30
 ### Added
 - **Detect Parametric Shapes** is now on the main panel because it didn't make sense to be hidden in settings.
 - Open the user folder with alt click on Update
@@ -204,7 +204,7 @@ Released: September 30, 2017
 
 
 ## 0.22
-Released:  September 25, 2017
+Released: 2017-09-25
 ### Fixed
 - Creating a new doc from an AE comp created a 1920x1080 instead of pulling the comp data
 - Accidentally removed the interface brightness adjustments
@@ -212,7 +212,7 @@ Released:  September 25, 2017
 
 
 ## 0.21
-Released: September 22, 2017
+Released: 2017-09-22
 ### Added
 - Support for CC2018 prerelease
 
@@ -222,7 +222,7 @@ Released: September 22, 2017
 
 
 ## 0.20
-Released: September 18, 2017
+Released: 2017-09-18
 (skipped some numbers to match the extension version)
 ### Added
 - AI button to create a new artboard from the active AE comp
@@ -245,7 +245,7 @@ Released: September 18, 2017
 
 
 ## 0.06
-Released: September 15, 2017
+Released: 2017-09-15
 ### Added
 - Support for CC2014. Download **Overlord-Beta_0.19.zip** to install fresh if using a version of AE prior to 2015.3.
 - App switching for all Push commands to ensure user sees what's happening
@@ -265,7 +265,7 @@ Released: September 15, 2017
 
 
 ## 0.05
-Released: September 11, 2017
+Released: 2017-09-11
 - Initial beta release
 
 </div>
