@@ -8,6 +8,13 @@ title: Changelog
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.23
+Released: 2022-05-20
+### Fixed
+- (macOS 12) Sending shapes from Ae to Ai
+- Switch button
+- Opening multiple version of Ae
+
 ## 1.22
 Released: July 23, 2019
 ### Changed
