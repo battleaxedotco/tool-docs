@@ -83,7 +83,7 @@ When I start a project I will often have a target length in mind but I need to k
 <div class="changelog">
 
 ## 1.1 
-Released: September 22, 2020
+Released: 2020-09-22
 ### Added
 - Tap tempo button
 
@@ -93,7 +93,7 @@ Released: September 22, 2020
 - Removed the measure button for a single type of marker creation
 
 ## 1.0
-Released: January 14, 2020
+Released: 2020-01-14
 - Initial release
 
 </div>

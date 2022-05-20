@@ -176,7 +176,7 @@ If you don't know about [KBar](https://aescripts.com/kbar/), your productivity h
 <div class="changelog">
 
 ## 1.5 
-Released: September 15, 2020
+Released: 2020-09-15
 
 ### Added
 - Apply **[Maintain Stroke Width](https://battleaxe.tumblr.com/post/101945073972/maintain-stroke-weight-expression)** expression button
@@ -191,7 +191,7 @@ Released: September 15, 2020
 - Button color variation
 
 ## 1.1
-Released: August 18, 2015
+Released: 2015-08-18
 - Initial release
 
 </div>

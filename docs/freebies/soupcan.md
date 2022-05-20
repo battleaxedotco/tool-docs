@@ -87,7 +87,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
 <div class="changelog">
 
 ## 1.1
-Released: September 22, 2020
+Released: 2020-09-22
 ### Added
 - Separate Flip control
 - Invert control for full rotation
@@ -96,12 +96,12 @@ Released: September 22, 2020
 - Updates to shape layering for more stable drawing at thin sizes
 
 ## 1.02
-Released: September 15, 2020
+Released: 2020-09-15
 ### Changed
 - Renamed from `Cylindroid` to `Soupcan`
 
 ## 1.01 
-Released: December 03, 2019
+Released: 2019-12-03
 ### Added
 - Color pickers (top, bottom, side)
 
@@ -109,7 +109,7 @@ Released: December 03, 2019
 - Bottom edge when vertical size goes negative (thanks to Jack from [2deadfrog.com](http://2deadfrog.com))
 
 ## 1.00 
-Released: December 02, 2019
+Released: 2019-12-02
 - Initial release
 
 </div>

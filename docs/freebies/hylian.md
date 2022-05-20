@@ -99,11 +99,11 @@ If you don't know about [KBar](https://aescripts.com/kbar/), your productivity h
 
 
 ## 1.0.1
-Released: January 22, 2021
+Released: 2021-01-22
 ### Fixed
 - Essential Graphics panel properties 
 ## 1.0.0
-Released: December 22, 2020
+Released: 2020-12-22
 - Initial release
 
 </div>

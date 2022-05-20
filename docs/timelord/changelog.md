@@ -8,7 +8,7 @@ title: Changelog
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
 ## 1.1.2
-Released: May 23, 2021
+Released: 2021-05-23
 
 ### Fixed
 - Ps: `Left of undefined` error when saving to external drives on OS X
@@ -18,14 +18,14 @@ Released: May 23, 2021
 - Ae: Added note about open source used
 
 ## 1.1.1
-Released: Mar 15, 2021
+Released: 2021-03-15
 
 ### Fixed
 - Periods in Ps/An file names
 - Blank layers from Ps if nested in groups
 
 ## 1.1.0
-Released: Mar 05, 2021
+Released: 2021-03-05
 
 ### Added
 - Ps: Trim transparent pixels from static PSDs
@@ -49,7 +49,7 @@ Released: Mar 05, 2021
 - Ps: Re-render path error
   
 ## 1.0.5
-Released: Dec 16, 2020
+Released: 2020-12-16
 
 ### Added
 - Debug logging to better diagnose compression errors
@@ -60,7 +60,7 @@ Released: Dec 16, 2020
 
 
 ## 1.0.4
-Released: Dec 14, 2020
+Released: 2020-12-14
 
 ### Added
 - An: frame names sent to Ae as markers
@@ -80,14 +80,14 @@ Released: Dec 14, 2020
 
 
 ## 1.0.3
-Released: Nov 16, 2020
+Released: 2020-11-16
 
 ### Fixed
 - Failing to export a reference MP4 from Ae. **System error: macOS cannot verify the developer of "ffmpeg"**. Switching to a more universal build of FFMPEG. If flagged by your system, follow these steps to [allow FFMPEG](allow-ffmpeg).
 
 
 ## 1.0.2
-Released: Nov 12, 2020
+Released: 2020-11-12
 
 ### Added
 - PSD import into Ae may now be Layer Size
@@ -97,7 +97,7 @@ Released: Nov 12, 2020
   
 
 ## 1.0.1
-Released: Nov 09, 2020
+Released: 2020-11-09
 
 ### Fixed
 - An: error - `runScript: Argument number 1 is invalid`
@@ -105,11 +105,11 @@ Released: Nov 09, 2020
 
 
 ## 1.0.0 - Public release
-Released: Nov 06, 2020
+Released: 2020-11-06
 
 
 ## 0.8.9
-Released: Oct 25, 2020
+Released: 2020-10-25
 
 ### Changed
 - Render Ae comp to Ps/An places the new mp4 at the correct time
@@ -127,7 +127,7 @@ Released: Oct 25, 2020
 - Only scale Ps renders if adding to Ae –skip if already in comp
 
 ## 0.8.8
-Released: Sept 25, 2020
+Released: 2020-09-25
 
 ### Fixed
 - Compression from Ae looks a lot cleaner
@@ -149,14 +149,14 @@ Released: Sept 25, 2020
   - Japanese
 
 ## 0.8.7
-Released: Aug 14, 2020
+Released: 2020-08-14
 
 ### Fixed
 - Ps default buttons excluded Render Layer
 
 
 ## 0.8.6
-Released: Aug 14, 2020
+Released: 2020-08-14
 
 ### Added
 - Duplicate frame button
@@ -165,7 +165,7 @@ Released: Aug 14, 2020
 - Ps Render Layer button not responding to settings
 
 ## 0.8.5
-Released: July 29, 2020
+Released: 2020-07-29
 
 ### Added
 - Settings options to add timestamp to rendered filenames to work around Adobe caching issues
@@ -176,7 +176,7 @@ Released: July 29, 2020
 - An frame clear for multiple selected frames
 
 ## 0.8.4
-Released: July 24, 2020
+Released: 2020-07-024
 
 ### Added
 - An Render Timeline button for generating a single SWF instead of layers
@@ -192,7 +192,7 @@ Released: July 24, 2020
 - Adjust the vertical threshold for tooltips displaying to the right 
 
 ## 0.8.3
-Released: July 21, 2020
+Released: 2020-07-21
 
 ### Fixed 
 - Ps/An toolbar removes scrolling when below 60px tall
@@ -204,7 +204,7 @@ Released: July 21, 2020
 - Context menu moves *Show Tooltips* to Settings menu
 
 ## 0.8.2
-Released: July 15, 2020
+Released: 2020-07-15
 
 ### Fixed 
 - An masks: reapplying masking to layers
@@ -218,7 +218,7 @@ Released: July 15, 2020
 
 
 ## 0.8.1
-Released: July 12, 2020
+Released: 2020-07-12
 
 ### Added
 - An support for masks - its super rough
@@ -226,7 +226,7 @@ Released: July 12, 2020
 ### Fixed
 
 ## 0.8.0
-Released: July 9, 2020
+Released: 2020-07-09
 
 ### Fixed
 
@@ -240,7 +240,7 @@ Released: July 9, 2020
 
 
 ## 0.7.9
-Released: June 28, 2020
+Released: 2020-06-28
 
 ### Changed
 
@@ -254,7 +254,7 @@ Released: June 28, 2020
 - An removed error when processing empty frames like when box selecting
 
 ## 0.7.8
-Released: June 18, 2020
+Released: 2020-06-18
 
 ### Added
 
@@ -274,7 +274,7 @@ Released: June 18, 2020
 
 ## 0.7.7
 
-Released: June 8, 2020
+Released: 2020-06-08
 
 ### Added
 
@@ -282,7 +282,7 @@ Released: June 8, 2020
 
 ## 0.7.6
 
-Released: May 22, 2020
+Released: 2020-05-22
 
 ### Added
 
@@ -296,7 +296,7 @@ Released: May 22, 2020
 
 ## 0.7.5
 
-Released: May 21, 2020
+Released: 2020-05-21
 
 ### Added
 
@@ -315,7 +315,7 @@ Released: May 21, 2020
 
 ## 0.7.4
 
-Released: April 21, 2020
+Released: 2020-04-21
 
 ### Added
 
@@ -334,7 +334,7 @@ Released: April 21, 2020
 
 ## 0.7.3
 
-Released: March 19, 2020
+Released: 2020-03-19
 
 ### Fixed
 
@@ -351,7 +351,7 @@ Released: March 19, 2020
 - Ps New Frame moves the playhead forward one frame
 
 ## 0.7.2
-Released: March 4, 2020
+Released: 2020-03-04
 
 ### Initial beta release
 
