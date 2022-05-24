@@ -13,13 +13,16 @@
                     Manual install
                 </div>
                 <p>
-                    If you follow all the Ae instructions and {{name}} still isn't showing up in the AE Window>Extensions menu, do a manual install. You didn't do anything wrong, it just happens sometimes wth extensions.
+                    If you follow all the Ae instructions and {{name}} still isn't showing up in the AE Window>Extensions menu, do a manual install. You didn't do anything wrong, it just happens sometimes with extensions.
                     <ul>
                         <li>Change the extension of the <b>{{name}}.zxp</b> file to <b>.zip</b>. It might give you a dialog warning about changing the file type but ignore it.</li>
                         <li>Unzip this file to get a folder called <b>{{name}}</b></li>
                         <li>Navigate to the Adobe extensions folder:</li>
-                        <ul><li><b>Mac</b>: <code>/Users/**username**/Library/Application Support/Adobe/CEP/extensions/</code></li></ul>
-                        <ul><li><b>Win</b>: <code>C:/Users/**username**/AppData/Roaming/Adobe/CEP/extensions/</code></li></ul>
+                        <ul>
+                            <li><b>Win</b>: <code>C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\</code></li>
+                            <li><b>Mac</b>: <code>/Users/**username**/Library/Application Support/Adobe/CEP/extensions/</code></li>
+                            <ul><li>Open the <code>/Library/</code> folder by switching to Finder and opening the top <b>Go</b> menu. Hold the ALT key and <b>Library</b> will appear.</li></ul>
+                        </ul>
                         <li>Copy this {{name}} folder to the /extensions/ folder</li>
                         <ul><li><b>Note</b>: If you don't see these folders, go ahead and create them</li></ul>
                         <li>Restart Ae and look in the top <b>Window</b> menu for <b>Extensions</b> > <b>{{name}}</b></li>
