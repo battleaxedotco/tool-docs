@@ -8,6 +8,12 @@ title: Changelog
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.24
+Released: 2022-05-23
+
+### Fixed
+- Extending the 1.23 macOS fix to Windows
+
 ## 1.23
 Released: 2022-05-20
 ### Fixed
