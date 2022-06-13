@@ -64,12 +64,21 @@ Try turning off [Backup This Mac](https://aescripts.com/knowledgebase/index/view
 3. Disable **Prefer External GPU**
 4. Restart the Adobe app
 
+<br/>
+
+#### Delete the prefs file
+1. Go to Finder
+2. Pull down the GO menu
+3. Hold the ALT key and Library will appear
+4. Click to open the `/Library/` folder
+5. Navigate to `/Library/Application Support/BattleAxe/Anubis/config/`
+6. Delete `prefs.json`
 
 <br />
 
 ### Are you on Windows?
 Try deleting the preference file:
-`C:/Users/**username**/AppData/Roaming/BattleAxe/Overlord/`
+`C:/Users/**username**/AppData/Roaming/BattleAxe/Anubis/config/prefs.json`
 
 ### Still not working?
 Try uninstalling then reinstalling Ai/Ae.
