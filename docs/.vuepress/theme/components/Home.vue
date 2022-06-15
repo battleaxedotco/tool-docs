@@ -13,9 +13,9 @@
           <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
         </div>
         <div class="block half">
-          <!-- <h2>Community</h2>
-          <p><a href="https://00-00.co" target="_blank">NULLS</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
-          <a href="https://00-00.co" class="nav-link action-button" target="_blank">Join the conversation</a> -->
+          <h2>Community</h2>
+          <p><a href="https://discord.gg/Up4aQbey" target="_blank">Discord</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
+          <a href="https://discord.gg/Up4aQbey" class="nav-link action-button" target="_blank">Join the Discord</a>
         </div>
       </div>
 
@@ -62,7 +62,7 @@
       <div class="row">
         <div class="block half">
           <h2>Contact</h2>
-          <p>Can’t find what you’re looking for? Contact us and we’ll get back to you as soon as possible.</p>
+          <p>Need help with sales or licenses? Contact us and we’ll get back to you as soon as possible.</p>
           <a href="/contact" class="nav-link action-button">Contact</a>
         </div>
       </div>
@@ -161,6 +161,7 @@ header
   background rgba(128, 128, 128, 0.1)
   padding 16px
   min-width 270px
+  max-width 270px
   h2
     margin 0
     border none
