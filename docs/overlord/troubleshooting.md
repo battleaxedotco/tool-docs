@@ -21,6 +21,12 @@ This is a normal behavior for Ae on Windows machines. When Overlord calls Ae to 
 
 Instead of dragging the Ae window to the top of the screen to maximize, press `Ctrl + \` or by dragging the edges of the app. 
 
+## Centered layer in the Ae comp
+
+There is a [small switch](/overlord/modifiers.html#center-shape-in-comp) that, when enabled, will center all shapes in the middle of the comp. Disable that to position shapes in their correct place.
+
+It's there for folks who design everything in one big artboard and want to bring things into Ae and re-align things. 
+
 ## Layer are not separated in Ae
 
 ### Check the **[Split modifier](./modifiers.html#split-layers)**
