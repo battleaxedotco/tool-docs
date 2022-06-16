@@ -114,12 +114,7 @@ Click to apply the most optimized version of the [Maintain Stroke Expression](ht
 
 <br />
 
-## Download
-
-::: tip Subscribe to the newsletter to download freebies
-<Subscribe />
-<br />
-:::
+## [Download](https://battleaxe.gumroad.com/l/buttcapper)
 
 <eula
     name="Buttcapper" freebie />

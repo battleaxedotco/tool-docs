@@ -46,12 +46,7 @@ Each of these are correct, but in varying degrees of relativity and support for 
 
 <br />
 
-## Download
-
-::: tip Subscribe to the newsletter to download freebies
-<Subscribe />
-<br />
-:::
+## [Download](https://battleaxe.gumroad.com/l/hylian)
 
 <eula
     name="Hylian" freebie />
