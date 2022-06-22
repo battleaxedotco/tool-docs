@@ -4,7 +4,7 @@ title: Discord code of conduct
 
 # Battle Axe Discord - Code of Conduct
 
-<a href="https://discord.gg/Up4aQbey" target="_blank" class="nav-link action-button">Join Discord</a>
+<a href="https://discord.gg/6DcjdrcjpG" target="_blank" class="nav-link action-button">Join Discord</a>
 
 
 ## Welcome!

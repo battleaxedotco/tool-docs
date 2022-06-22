@@ -14,8 +14,8 @@
         </div>
         <div class="block half">
           <h2>Community</h2>
-          <p><a href="https://discord.gg/Up4aQbey" target="_blank">Discord</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
-          <a href="https://discord.gg/Up4aQbey" class="nav-link action-button" target="_blank">Join the Discord</a>
+          <p><a href="https://discord.gg/6DcjdrcjpG" target="_blank">Discord</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
+          <a href="https://discord.gg/6DcjdrcjpG" class="nav-link action-button" target="_blank">Join the Discord</a>
         </div>
       </div>
 

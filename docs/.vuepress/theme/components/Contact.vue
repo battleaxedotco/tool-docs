@@ -25,7 +25,7 @@
         <div class="block half">
           <h2>Conversation</h2>
           <p>Messages are reserved for sales and license requests. For product support, ideas, sharing, and everything else, join us on Discord.</p>
-          <a href="https://discord.gg/Up4aQbey" target="_blank" class="nav-link action-button">Join Discord</a>
+          <a href="https://discord.gg/6DcjdrcjpG" target="_blank" class="nav-link action-button">Join Discord</a>
         </div>
       </div>
       
