@@ -26,6 +26,7 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
     url="/freebies/Soupcan-panel.png" 
     alt="Cylintroid controls" 
     width="400px"
+    outline round
     center />
 
 - **Width**: The horizontal size of the shape 

@@ -87,6 +87,7 @@ module.exports = {
             'beatgrid',
             'soupcan',
             'sammich',
+            'schmeeer',
           ],
         }
       ],
