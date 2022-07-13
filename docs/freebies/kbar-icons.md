@@ -25,6 +25,7 @@ To get you started, here are the icons for all our tools.
     'Overlord', 
     'RubberHose',
     'Sammich',
+    'Schmeeer',
     'Soupcan',
     'Timelord',
 ]" />

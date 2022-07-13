@@ -70,6 +70,8 @@ products:
     url: /soupcan
   - name: Hylian
     url: /hylian
+  - name: Kbar icons
+    url: /kbar-icons
 faqs:
 - title: General
   links:
