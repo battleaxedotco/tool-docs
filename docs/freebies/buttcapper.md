@@ -6,6 +6,10 @@ title: Buttcapper
 
 The stroke cap selector Adobe kinda forgot.
 
+
+## [Download](https://battleaxe.gumroad.com/l/buttcapper)
+
+
 ## Usage
 Buttcapper is context sensitive, meaning it understands what you have selected and affects strokes based on this selection.
 
@@ -113,8 +117,6 @@ Click to apply the most optimized version of the [Maintain Stroke Expression](ht
 
 
 <br />
-
-## [Download](https://battleaxe.gumroad.com/l/buttcapper)
 
 <eula
     name="Buttcapper" freebie />

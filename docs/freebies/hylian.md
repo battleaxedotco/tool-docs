@@ -10,6 +10,8 @@ Sort of a *link to the past*.
 
 <Video url="https://www.youtube.com/embed/3phCo_VijFA" aspect="1x1" />
 
+## [Download](https://battleaxe.gumroad.com/l/hylian)
+
 ## Usage
 
 Click the button. There isn't much to it. 
@@ -45,8 +47,6 @@ Each of these are correct, but in varying degrees of relativity and support for 
     center />
 
 <br />
-
-## [Download](https://battleaxe.gumroad.com/l/hylian)
 
 <eula
     name="Hylian" freebie />

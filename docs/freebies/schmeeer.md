@@ -10,6 +10,9 @@ Because the [Echo effect](https://www.youtube.com/watch?v=N2qxF8V57FE) doesn't a
 
 Dynamic smearing is driven by the on-screen motion in *position*, *rotation*, *scale* and even *parented* movement.
 
+## [Download](https://battleaxe.gumroad.com/l/schmeeer)
+
+
 ## Controls
 
 <Screenshot 
@@ -43,7 +46,6 @@ Dynamic smearing is driven by the on-screen motion in *position*, *rotation*, *s
     center />
 
 
-## [Download](https://battleaxe.gumroad.com/l/schmeeer)
 
 ## Installation
 

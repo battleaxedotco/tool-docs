@@ -6,6 +6,8 @@ title: Beatgrid
 
 Based on a brilliant idea for a [BPM grid overlay](http://www.sandervandijk.tv/after-effects-features/timeline#1.2-bpm-grid) inside of Ae's timeline by [Sander Van Dijk](http://www.sandervandijk.tv/). Not nearly as integrated as a native solution, Beatgrid does provide enough to synchronize elements to 4/4 beats with markers and keyframes.
 
+
+## [Download](https://battleaxe.gumroad.com/l/beatgrid)
 ## Usage
 
 <Screenshot 
@@ -48,8 +50,6 @@ Rather than destroy your timeline with markers or wreck the ability to use `J`/`
 ### What's the point of all this?
 When I start a project I will often have a target length in mind but I need to know what musical timing would fit based on the number of measures and how I want the music to progress or resolve through the piece. Whether you're writing music or searching for a track that will fit a project length, knowing a rough musical timing can be pretty helpful.
 
-
-## [Download](https://battleaxe.gumroad.com/l/beatgrid)
 
 <eula
     name="Beatgrid" freebie />

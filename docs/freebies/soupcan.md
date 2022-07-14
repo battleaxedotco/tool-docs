@@ -11,6 +11,8 @@ Faux 3D cylinder preset built from simple shapes for easy animation.
     width="400px"
     center />
 
+## [Download](https://battleaxe.gumroad.com/l/soupcan)
+
 
 ## Create new shape
 
@@ -55,7 +57,6 @@ Create a shape layer with anything in it (keyboard shortcut Q) then click the ap
     center />
 </a>
 
-## [Download](https://battleaxe.gumroad.com/l/soupcan)
 
 ## Installation
 
