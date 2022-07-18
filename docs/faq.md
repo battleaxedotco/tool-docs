@@ -56,7 +56,7 @@ Stripe supports [certain countries](https://stripe.com/global) but if yours isn�
 
 ## How do I get a VAT refund?
 
-EU law requires Gumroad to collect VAT on all transactions made in the EU –but will issue a refund. [Find your receipt](http://license.battleaxe.co) and click **GENERATE** invoice button, you can enter your VAT registration number and Gumroad will automatically process a refund for the VAT you paid. This refund will take 2-3 days to arrive at your credit card or PayPal account. [Gumroad article](https://customers.gumroad.com/article/200-i-need-a-vat-refund)
+EU law requires Gumroad to collect VAT on all transactions made in the EU –but will issue a refund. [Find your receipt](http://license.battleaxe.co) and click **GENERATE** invoice button, you can enter your VAT registration number and Gumroad will automatically process a refund for the VAT you paid. This refund will take 2-3 days to arrive at your credit card or PayPal account. [Gumroad article](https://customers.gumroad.com/receipts-and-refunds/i-need-a-vat-refund)
 
 ## I'm having payment issues
 
