@@ -217,6 +217,6 @@ While Animate has a loop range to set the  playback area, these points are not v
 
 Drag and drop files into the Anubis panel to recompressing video files or gifs using the Anubis compressor. 
 
-New files will be created at the origin file path. The enabled compression settings within the panel (**MP4 Quality**, **Resize**) will be used but the anything related to rendering from the Adobe app (**Output module**, **Background render**, *Delete original render file*) will be ignored.
+New files will be created at the origin file path. The enabled compression settings within the panel (**MP4 Quality**, **Resize**) will be used but the anything related to rendering from the Adobe app (**Output module**, **Background render**, **Delete original render file**) will be ignored.
 
 <br />
