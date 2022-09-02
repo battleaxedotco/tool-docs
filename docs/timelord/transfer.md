@@ -108,6 +108,10 @@ Ps artboards typically contain a filled background that will show up in PNG laye
 
 ## After Effects → Ps/An
 
+::: warning Deprecated
+Ae comp rendering has been removed from Timelord as of 1.1.3. The functionality has been moved to [Anubis](../anubis/workflow.html#send-to-app).
+:::
+
 <Screenshot 
     url="/timelord/ae-compress.png" 
     alt="Export Ae comp reference" 
@@ -130,7 +134,7 @@ We are not installing or running anything harmful on your machine. Promise.
 ### Color shift
 h.264 is a requirement for Animate and keeps temporary file sizes low for Photoshop. This is a lossy compression and there will be a color shift. Do not color pick this layer and expect accurate color representation.
 
-::: warning Ps fails to update
+::: tip Ps fails to update
 If the imported video in Ps is unchanged upon re-rendering, restart Photoshop or enable [timestamps](settings.html#add-timestamp-to-render-filename) for renders from Ae. The way Ps stores video data in memory is related to the file name and it cannot always tell when you overwrite a video file. 
 :::
 

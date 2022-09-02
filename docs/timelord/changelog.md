@@ -7,6 +7,15 @@ title: Changelog
 <div class="changelog">
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.1.3
+Released: 2022-09-02
+
+### Fixed
+- Unable to transfer with Ae 22.6+
+
+### Changed
+- Removed comp rendering from Ae to Ps/An because it's a lot better in [Anubis](../anubis/workflow.html#send-to-app)
+
 ## 1.1.2
 Released: 2021-05-23
 

@@ -56,7 +56,7 @@ Arguably one of the most important aspects of Timelord is the ability to export 
 
 
 <Screenshot 
-    url="/timelord/ae-render.png" 
+    url="/timelord/ae-relative.png" 
     alt="Transfer art" 
     width="240px"
     right />
