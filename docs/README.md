@@ -64,12 +64,16 @@ products:
   links: 
   - name: Buttcapper
     url: /buttcapper
+  - name: Schmeeer
+    url: /schmeeer
   - name: Beatgrid
     url: /beatgrid
   - name: Soupcan
     url: /soupcan
   - name: Hylian
     url: /hylian
+  - name: Transform Sammich
+    url: /sammich
   - name: Kbar icons
     url: /kbar-icons
 faqs:

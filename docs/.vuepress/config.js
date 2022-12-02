@@ -83,11 +83,11 @@ module.exports = {
             // '',
             'kbar-icons',
             'buttcapper',
+            'schmeeer',
             'hylian',
             'beatgrid',
             'soupcan',
             'sammich',
-            'schmeeer',
           ],
         }
       ],

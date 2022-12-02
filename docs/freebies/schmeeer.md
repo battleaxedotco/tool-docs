@@ -73,6 +73,10 @@ Dynamic smearing is driven by the on-screen motion in *position*, *rotation*, *s
 ## Changelog
 <div class="changelog">
 
+## 1.0.2 
+Released: 2022-02-02
+- Universalize expressions
+- Kbar toolbar install included
 ## 1.0.0 
 Released: 2022-07-13
 - Initial release
