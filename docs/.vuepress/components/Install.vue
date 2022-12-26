@@ -58,6 +58,7 @@
         </div>
 
         <div v-else-if="scriptUI">
+            <h2>Dockable panel</h2>
             <h3>CC2019+</h3>
             <Screenshot 
                 url="/install/CC2019-Install.png" 
@@ -172,6 +173,25 @@
             </div>
 
         </div>
+
+        <div v-if="kbar">
+            <h2><a href="https://aescripts.com/kbar/" target="_blank">KBar</a> install</h2>
+            <p>Beginning in KBar 3, it is now possible to import new buttons.</p>
+            <Screenshot url="/install/KBar-import.jpg" alt="Kbar install" center outline round />
+        
+            <ul>
+                <li>Unzip the <b>{{ name }}.zip</b> download</li>
+                <li>Locate the included <b>{{ name }}.kbar</b> file</li>
+                <li>Inside of Ae, open KBar. Right click within the KBar panel > <b>KBar settings</b></li>
+                <li>Navigate to the <b>Settings</b>tab</li>
+                <li>Click <b>Import from .kbar</b></li>
+                <li>Navigate to <b>{{ name }}.kbar</b></li>
+                <li>Feel free to move and rearrange buttons to best fit your layout</li>
+            </ul>
+
+            </div>
+        
+        </div>
     </div>
 </template>
 
@@ -191,6 +211,10 @@ export default {
             default: false
         },
         scriptUI: {
+            type: Boolean,
+            default: false
+        },
+        kbar: {
             type: Boolean,
             default: false
         },

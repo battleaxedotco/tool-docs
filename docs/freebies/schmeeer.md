@@ -17,7 +17,7 @@ Dynamic smearing is driven by the on-screen motion in *position*, *rotation*, *s
 
 <Screenshot 
     url="/freebies/Schmeeer_ui.jpg" 
-    alt="Cylintroid controls" 
+    alt="Schmeeer controls" 
     width="400px"
     outline round
     center />
@@ -62,7 +62,7 @@ Dynamic smearing is driven by the on-screen motion in *position*, *rotation*, *s
 
 <Install 
     preset 
-    name="Soupcan"
+    name="Schmeeer"
     :hosts="['After Effects']"
 />
 
