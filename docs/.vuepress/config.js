@@ -83,6 +83,7 @@ module.exports = {
             // '',
             'kbar-icons',
             'buttcapper',
+            'void',
             'schmeeer',
             'hylian',
             'beatgrid',

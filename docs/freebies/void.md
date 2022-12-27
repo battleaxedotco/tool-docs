@@ -4,7 +4,7 @@ title: Void
 
 # Void
 
-<Video url="https://www.youtube.com/embed/EYKCa8Q6ZVU" />
+<Video url="https://www.youtube.com/embed/L1D_R83Slh4" />
 
 ### Yeah but why?
 Every time you create a null you are actually creating a solid layer that has to live in a **Solids** folder in the Ae project. Every time you import a project into another project this **Solids** folder comes with it, and if you import that project into another project you have 2 **Solids** folders, but in different locations unless you manually manage the project (which you wont do). You see where this is going. 

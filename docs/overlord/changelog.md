@@ -8,6 +8,14 @@ title: Changelog
 
 <a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
 
+## 1.25
+
+Released: 2022-12-26
+
+### Changed
+
+- Migrate off Gumroad license authentication (hotfix required for any keys purchased from gumroad.com)
+
 ## 1.24
 Released: 2022-05-23
 

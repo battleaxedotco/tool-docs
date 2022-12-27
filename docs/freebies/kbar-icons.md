@@ -28,4 +28,5 @@ To get you started, here are the icons for all our tools.
     'Schmeeer',
     'Soupcan',
     'Timelord',
+    'Void',
 ]" />

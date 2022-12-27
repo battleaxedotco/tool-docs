@@ -60,10 +60,12 @@ products:
     url: /changelog
 - title: Freebies
   link: /freebies
-  details: Animation rigging for everyone
+  details: 
   links: 
   - name: Buttcapper
     url: /buttcapper
+  - name: Void
+    url: /void
   - name: Schmeeer
     url: /schmeeer
   - name: Beatgrid
