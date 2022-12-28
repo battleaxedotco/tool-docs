@@ -137,6 +137,21 @@ Did you know that anything that exists as an Ae menu item may be set to a keyboa
 ## Changelog
 <div class="changelog">
 
+## 1.0.2
+Released: 2022-12-28
+
+### Added
+- Support for zeroing 3D layers
+- Support for finding the midpoint of 3D layers
+
+
+## 1.0.1 
+Released: 2022-12-28
+
+### Fixed
+- Replace solids was removing footage
+
+
 ## 1.0.0 
 Released: 2022-12-27
 - Initial release
