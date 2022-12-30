@@ -4,7 +4,17 @@ sidebar: auto
 
 ---
 
-## Is CC2022 supported?
+## Why isn't my license working?
+
+If you purchased Overlord, Anubis or Timelord through gumroad.com, download the most recent version at [battleaxe.co/lookup](https://www.battleaxe.co/lookup) with your license key. 
+
+From 2015 - 2023 we sold products through gumroad.com and utilized their license authentication system on most of our products. Because of changes to their licensing backend, an update is required for all products that use license keys. See changelogs:
+
+- [Overlord](./overlord/changelog.html)
+- [Anubis](/anubis/changelog.html)
+- [Timelord](/timelord/changelog.html)
+
+## Is the newest version of Creative Cloud supported?
 
 Yes, all of our tools support the newest versions of Adobe apps. There a couple extra steps for integrating [Timelord](./timelord/#extension-missing-in-photoshop) and [Anubis](./anubis/#extension-missing-in-photoshop) with the newest versions of Photoshop.
 

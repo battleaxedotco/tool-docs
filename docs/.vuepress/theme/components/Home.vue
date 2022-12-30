@@ -8,14 +8,16 @@
     <div class="support">
       <div class="row">
         <div class="block half">
-          <h2>License</h2>
-          <p>Access license keys, receipts and product updates with your purchase email.</p>
+          <h2>Updates</h2>
+          <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
+          <p>Download the most recent builds with your license key.</p>
           <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
+          <p>Find license keys and receipts with your purchase email.</p>
         </div>
         <div class="block half">
           <h2>Community</h2>
-          <p><a href="https://discord.gg/6DcjdrcjpG" target="_blank">Discord</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
           <a href="https://discord.gg/6DcjdrcjpG" class="nav-link action-button" target="_blank">Join the Discord</a>
+          <p><a href="https://discord.gg/6DcjdrcjpG" target="_blank">Discord</a> is the public forum for all things Battle Axe and a positive places for designers and animators. Ask questions and share what you know.</p>
         </div>
       </div>
 

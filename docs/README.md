@@ -81,8 +81,10 @@ products:
 faqs:
 - title: General
   links:
-  - name: Is CC2022 supported?
-    url: is-cc2022-supported
+  - name: Why isn't my license working?
+    url: why-isn-t-my-license-working
+  - name: Is CC2023 supported?
+    url: is-the-newest-version-of-creative-cloud-supported
   - name: Is there a trial version?
     url: is-there-a-trial-version
   - name: Installation failed because the extension is not compatible

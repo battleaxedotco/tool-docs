@@ -4,6 +4,12 @@ title:  Troubleshooting
 
 # Trouble&shy;shooting
 
+## Why isn't my license working?
+
+If you purchased Anubis through gumroad.com, download the most recent version at [battleaxe.co/lookup](https://www.battleaxe.co/lookup) with your license key.
+
+From 2015 - 2023 we sold products through gumroad.com and utilized their license authentication system on most of our products. Because of changes to their licensing backend, an update is required for all products that use license keys.
+
 ## Error: macOS cannot verify the developer of "ffmpeg"
 FFMPEG is used to compress the rendered MOV into an MP4, but due to increased security measures, macOS will ask for your approval before running it the first time.
 

@@ -4,6 +4,12 @@ title:  Troubleshooting
 
 # Trouble&shy;shooting
 
+## Why isn't my license working?
+
+If you purchased Overlord through gumroad.com, download the most recent version at [battleaxe.co/lookup](https://www.battleaxe.co/lookup) with your license key.
+
+From 2015 - 2023 we sold products through gumroad.com and utilized their license authentication system on most of our products. Because of changes to their licensing backend, an update is required for all products that use license keys.
+
 ## Shapes are not transferring
 
 1. The first thing to try is a system restart. That can clear out the connections between the apps.

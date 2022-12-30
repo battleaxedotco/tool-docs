@@ -79,7 +79,7 @@
             
             <ul>
                 <li>Unzip the <b>{{ name }}.zip</b> download</li>
-                <li>Copy <b>{{ name }}.jsxbin</b> to the ScriptUI Panels folder</li>
+                <li>Copy <b>{{ name }}.jsx (or .jsxbin)</b> to the ScriptUI Panels folder</li>
                 <li>Restart After Effects</li>
                 <li>{{ name }} will be available in the <b>Window</b> menu at the top of the screen. Scroll down to find the installed scripts.</li>
             </ul>

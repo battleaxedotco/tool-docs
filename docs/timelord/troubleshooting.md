@@ -4,17 +4,11 @@ title: Troubleshooting
 
 # Trouble&shy;shooting
 
-## FFmpeg missing on macOS
+## Why isn't my license working?
 
-If you see `ffmpeg.exe` but not a `ffmpeg` OSX app, then it failed to install correctly.
+If you purchased Timelord through gumroad.com, download the most recent version at [battleaxe.co/lookup](https://www.battleaxe.co/lookup) with your license key.
 
-<Screenshot 
-    url="/anubis/Missing-ffmpeg.jpg" 
-    alt="Missing FFmpeg" 
-    width="707px" 
-    />
-
-Unfortunately the FFmpeg app sometimes get skipped when installing the extension. Try uninstalling in ZXP Installer and doing a [manual install](./#installation) by copying the whole extension folder.
+From 2015 - 2023 we sold products through gumroad.com and utilized their license authentication system on most of our products. Because of changes to their licensing backend, an update is required for all products that use license keys.
 
 ## Transparency failing to export on static images
 

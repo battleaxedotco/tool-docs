@@ -6,7 +6,7 @@ title: Changelog
 <div class="changelog">
 
 
-<a href="http://license.battleaxe.co/" class="nav-link action-button">Download updates</a>
+<a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
 ## 1.25
 
