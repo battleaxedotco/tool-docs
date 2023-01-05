@@ -6,6 +6,20 @@ title: Changelog
 
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
+## 1.1.6
+
+Released: 2023-01-05
+
+### Fix
+- Ae BG render got broken
+- 
+## 1.1.5
+
+Released: 2023-01-02
+
+### Fix
+- Ae relative paths got broken
+
 ## 1.1.4
 
 Released: 2022-12-26
