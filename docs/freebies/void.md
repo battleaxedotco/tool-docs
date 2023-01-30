@@ -137,6 +137,24 @@ Did you know that anything that exists as an Ae menu item may be set to a keyboa
 ## Changelog
 <div class="changelog">
 
+## 1.0.4
+Released: 2023-01-03
+
+### Added
+- Void _roundness_ control
+- Copying effects from nulls to voids when replacing
+
+### Changed
+- Zero _Scale_ and _Rotation_ when selecting a single layer
+- New Void is inserted in parenting chain. If selected layer(s) have a single parent layer, this parent will become the parent of the new Void. 
+- New Void layer is locked when holding ALT to create a hidden Void
+
+## 1.0.3
+Released: 2022-12-29
+
+### Changed
+- Logic to preserve the parenting hierarchy and only parent the top-most selected layers to a new Void layer
+
 ## 1.0.2
 Released: 2022-12-28
 
