@@ -11,12 +11,6 @@ Every time you create a null you are actually creating a solid layer that has to
 
 And don't get me started on the top-left anchor point. 🙄
 
-<Screenshot 
-    url="/freebies/Void-Change my mind.jpg"
-    alt="Nulls are awful" 
-    full
-    center />
-
 **Void** layers are shape layers that do not exist in the project panel and make for a lighter project. They are truly empty. Stare into the void. 
 
 
