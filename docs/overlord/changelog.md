@@ -8,6 +8,16 @@ title: Changelog
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
+## 1.26
+
+Released: 2023-02-15
+
+### Added
+- `Disable app switch` button to prevent opening multiple versions of Ae 
+
+### Fixed
+- Update license authentication system for better stability
+
 ## 1.25
 
 Released: 2022-12-26

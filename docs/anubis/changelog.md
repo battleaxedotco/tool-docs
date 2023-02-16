@@ -6,13 +6,28 @@ title: Changelog
 
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
+
+## 1.1.7
+
+Released: 2023-02-15
+
+### Fix
+- File name entry field failed to respond on Apple silicon
+- License key entry field failed to respond on Apple silicon
+- Premiere: Custom EPR selection persistence
+- Update license authentication system for better stability
+
+### Added 
+- Source file path saved in meta data
+
 ## 1.1.6
 
 Released: 2023-01-05
 
 ### Fix
 - Ae BG render got broken
-- 
+
+
 ## 1.1.5
 
 Released: 2023-01-02

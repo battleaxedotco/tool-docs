@@ -7,6 +7,13 @@ title: Changelog
 <div class="changelog">
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
+## 1.1.5
+Released: 2023-02-15
+
+### Fixed
+- Update license authentication system for better stability
+- Ps → Ae live text SHIFT modifier was reversed
+
 ## 1.1.4
 Released: 2022-12-26
 
