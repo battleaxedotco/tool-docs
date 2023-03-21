@@ -21,7 +21,7 @@
                         <ul>
                             <li><b>Win</b>: <code>C:\Program Files (x86)\Common Files\Adobe\CEP\extensions\</code></li>
                             <li><b>Mac</b>: <code>/Users/**username**/Library/Application Support/Adobe/CEP/extensions/</code></li>
-                            <ul><li>Open the <code>/Library/</code> folder by switching to Finder and opening the top <b>Go</b> menu. Hold the ALT key and <b>Library</b> will appear.</li></ul>
+                            <ul><li>Open the <code>/Library/</code> folder by switching to Finder and opening the top <b>Go</b> menu. Hold the <b>Option</b> key and <b>Library</b> will appear.</li></ul>
                         </ul>
                         <li>Copy this {{name}} folder to the /extensions/ folder</li>
                         <ul><li><b>Note</b>: If you don't see these folders, go ahead and create them</li></ul>
