@@ -109,6 +109,24 @@ module.exports = {
           ],
         }
       ],
+      '/rubberhose3/': [
+        {
+          title: 'RubberHose3',
+          collapsable: false,
+          children: [
+            '',
+            'build',
+            'controls',
+            'style',
+            'manage',
+            'power',
+            'settings',
+            'system',
+            'troubleshooting',
+            'changelog',
+          ],
+        }
+      ],
       '/overlord/': [
         {
           title: 'Overlord',

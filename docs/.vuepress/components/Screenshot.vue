@@ -1,6 +1,11 @@
 <template>
     <div class="screenshot" :style="">
-        <div class="img" 
+        <div class="video" v-if="video"
+            :style="{ 'width': maxWidth }"
+            :class="{ center: center, left: left, right: right, toolbar: toolbar, outline: outline, round: round }">
+            <video width="100%" :src="url" :alt="alt" controls autoplay loop muted />
+        </div>  
+        <div class="img" v-else
             :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
             <img :src="url" :alt="alt" :style="{ 'width' : maxWidth }" :class="{ zoom : zoom, outline : outline, round : round }">
         </div>
@@ -10,6 +15,10 @@
 <script>
 export default {
     props: {
+        video: {
+            type: Boolean,
+            default: false
+        },
         url: {
             type: String,
             default: ''
@@ -89,6 +98,10 @@ export default {
     /* width: 100%; */
     height: auto;
     padding-top: 8px;
+}
+.video {
+    overflow: hidden;
+    padding: 0;
 }
 .text {
     font-size: 0.9rem;
