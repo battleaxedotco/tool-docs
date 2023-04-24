@@ -78,10 +78,11 @@ export default {
     margin-left: auto;
     margin-right: auto;
 }
-.toolbar>img {
+.toolbar > img {
     height: 40px;
     margin-right: 4px;
-    padding-top: 20px;
+    margin-top: 14px;
+    /* padding-top: 20px; */
 }
 .left, .toolbar {
     float: left;
@@ -103,6 +104,9 @@ export default {
     overflow: hidden;
     padding: 0;
 }
+video {
+    margin-bottom: -4px;
+}
 .text {
     font-size: 0.9rem;
     line-height: 1.6em;
@@ -112,6 +116,7 @@ export default {
 .outline {
     border: solid 1px rgba(128, 128, 128, 0.3);
     border-radius: 4px;
+    box-sizing: border-box;
 }
 .round {
     border-radius: 8px;
