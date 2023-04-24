@@ -19,7 +19,6 @@ sidebarDepth: 1
     url="/rubberhose3/build-new-hose.mp4"
     alt="New hose"
     video
-    round
     outline
     center />
 
@@ -45,7 +44,6 @@ The new hose will be created using the values in the [Settings](./settings) area
     url="/rubberhose3/build-path-to-hose.mp4"
     alt="Path to hose"
     video
-    round
     outline
     center />
 
@@ -61,7 +59,6 @@ Rubberhose approximates the shape of the path using hose math. Curves  probably 
     url="/rubberhose3/build-path-to-hose-gotcha.mp4"
     alt="3 point paths"
     video
-    round
     outline
     center />
     
@@ -82,7 +79,6 @@ While it is possible to draw a bendy line using only 2 points and long tangents 
     url="/rubberhose3/build-rubberrig.mp4"
     alt="RubberRig"
     video
-    round
     outline
     center />
 

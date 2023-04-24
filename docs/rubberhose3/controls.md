@@ -32,7 +32,6 @@ This separation between controls for the hose and bend allows you duplicate the 
     url="/rubberhose3/ctrl-hose-length.mp4"
     alt="Hose length"
     video
-    round
     outline
     center />
 
@@ -47,7 +46,6 @@ A hose may be stretched beyond this **Hose length** value (you will notice the c
     url="/rubberhose3/ctrl-realism.mp4"
     alt="Realism"
     video
-    round
     outline
     center />
 
@@ -62,7 +60,6 @@ When **Realism** is at 100% it a hose will behave similar to a snappy IK rig. De
     url="/rubberhose3/ctrl-slide.mp4"
     alt="Slide"
     video
-    round
     outline
     center />
 
@@ -81,7 +78,6 @@ There is an underlying curve to how the bend point moves between controllers to 
     url="/rubberhose3/ctrl-roundness.mp4"
     alt="Roundness"
     video
-    round
     outline
     center />
 
@@ -104,7 +100,6 @@ The stretchy bones system behind RubberRig places bone layers between the bend p
     url="/rubberhose3/ctrl-direction.mp4"
     alt="Direction"
     video
-    round
     outline
     center />
 

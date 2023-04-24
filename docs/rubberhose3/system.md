@@ -19,7 +19,6 @@ sidebarDepth: 1
     alt="Check for updates"
     width="320px"
     video
-    round
     outline
     left />
 
@@ -50,7 +49,6 @@ It’s just icon-only buttons without text. But also dangerous.
     alt="Update expressions"
     width="320px"
     video
-    round
     outline
     left />
 
@@ -71,7 +69,6 @@ As new versions of Rubberhose are released there might be updated expressions �
     alt="Deauthorize license"
     width="320px"
     video
-    round
     outline
     left />
 
@@ -88,5 +85,5 @@ A quick link to the documentation you are reading right now.
 
 ## Join newsletter
 
-If you like what we are doing around
+If you like what we are doing
 outline here and want to keep up with what’s happening then join us. We hate constant emails as much as you do and will not annoy you with dumb things.

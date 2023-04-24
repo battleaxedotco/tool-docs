@@ -18,7 +18,6 @@ sidebarDepth: 1
     url="/rubberhose3/manage-duplicate.mp4"
     alt="Duplicate"
     video
-    round
     outline
     center />
 
@@ -52,7 +51,6 @@ A hose group is an interconnected bundle of names and math that tells the system
     url="/rubberhose3/manage-rename.mp4"
     alt="Rename"
     video
-    round
     outline
     center />
 
@@ -78,7 +76,6 @@ But for a more organized approach to layer naming this button allows for batch r
     url="/rubberhose3/manage-add-bend.mp4"
     alt="Add bend"
     video
-    round
     outline
     center />
 
@@ -94,7 +91,6 @@ Multi-bends are a major improvement in version 3 and flexibility is the core Rub
     url="/rubberhose3/manage-add-bend-shift.mp4"
     alt="Add bend shift"
     video
-    round
     outline
     center />
 
@@ -126,7 +122,6 @@ For stretching art like a texture or a tattoo along segments of a hose, use [Rub
     url="/rubberhose3/manage-parent-to-hose.mp4"
     alt="Parent to hose"
     video
-    round
     outline
     center />
 
@@ -179,7 +174,6 @@ It’s gone. Hose parenting has increased accuracy and renders faster. You can s
     url="/rubberhose3/manage-add-bones.mp4"
     alt="Add bones"
     video
-    round
     outline
     center />
 
@@ -204,7 +198,6 @@ This process happens automatically with RubberRig but is available here as its o
     url="/rubberhose3/manage-autoflop.mp4"
     alt="Autoflop"
     video
-    round
     outline
     center />
 
@@ -253,7 +246,6 @@ To remove Autoflop from a hose group:
     url="/rubberhose3/manage-toggle-controllers.mp4"
     alt="Toggle controller visibility"
     video
-    round
     outline
     center />
 
@@ -273,7 +265,6 @@ Take control of the visual noise that may come from adding more hose groups to a
     url="/rubberhose3/manage-toggle-controllers-shift.mp4"
     alt="Toggle controller visibility - Shift"
     video
-    round
     outline
     center />
 
@@ -286,7 +277,6 @@ Take control of the visual noise that may come from adding more hose groups to a
     url="/rubberhose3/manage-toggle-controllers-alt.mp4"
     alt="Toggle controller visibility - ALT"
     video
-    round
     outline
     center />
 
@@ -313,7 +303,6 @@ Instead of toggling 👁️, toggle controller opacity between 100/0%. This hide
     url="/rubberhose3/manage-toggle-style.mp4"
     alt="Toggle style visibility"
     video
-    round
     outline
     center />
 
@@ -339,7 +328,6 @@ Hose styles may contain a lot of shape operators and could gradually slow down t
     url="/rubberhose3/manage-select-group.mp4"
     alt="Select group"
     video
-    round
     outline
     center />
 

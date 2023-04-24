@@ -23,7 +23,6 @@ For Rubberhose, this means it is possible to create a single character rig with 
     url="/rubberhose3/power-rig-to-egp.mp4"
     alt="Rig to EGP"
     video
-    round
     outline
     center />
 
@@ -60,7 +59,6 @@ This works the same as dragging properties into EGP but quicker.
     url="/rubberhose3/power-egp-to-rig.mp4"
     alt="EGP rig"
     video
-    round
     outline
     center />
 
@@ -82,7 +80,6 @@ This includes Duik, Limber and any other type of controllers you have in your pr
     url="/rubberhose3/power-egp-dup.mp4"
     alt="EGP rig duplication"
     video
-    round
     outline
     center />
 
