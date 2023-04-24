@@ -3,7 +3,7 @@
         <div class="video" v-if="video"
             :style="{ 'width': maxWidth }"
             :class="{ center: center, left: left, right: right, toolbar: toolbar, outline: outline, round: round }">
-            <video width="100%" :src="url" :alt="alt" controls autoplay loop muted playsinline />
+            <video width="100%" :src="url" :alt="alt" autoplay loop muted playsinline />
         </div>  
         <div class="img" v-else
             :class="{ center : center, left : left, right : right, toolbar : toolbar }" >
