@@ -20,6 +20,7 @@ sidebarDepth: 1
     alt="New hose"
     video
     outline
+    round
     center />
 
 Hoses are the foundation for everything in Rubberhose and this is the quickest way to create a hose. Click to create a hose group with 3 layers:
@@ -45,6 +46,7 @@ The new hose will be created using the values in the [Settings](./settings) area
     alt="Path to hose"
     video
     outline
+    round
     center />
 
 In addition to creating a new hose at the center of the comp, it is also possible to convert a path drawn with shape layers into a hose, or transfered a vector art path from Illustrator with [Overlord]([https://www.battleaxe.co/overlord](https://www.battleaxe.co/overlord)).
@@ -60,6 +62,7 @@ Rubberhose approximates the shape of the path using hose math. Curves  probably 
     alt="3 point paths"
     video
     outline
+    round
     center />
     
 While it is possible to draw a bendy line using only 2 points and long tangents it is important to draw your path with 3 points. Rubberhose is designed to look for that middle point
@@ -80,6 +83,7 @@ While it is possible to draw a bendy line using only 2 points and long tangents 
     alt="RubberRig"
     video
     outline
+    round
     center />
 
 Rig a set of 3+ layers quickly by parenting them in a chain, select the final layer (a hand, foot, etc), then click. Rubberhose will math up the positions of each layer’s anchor point in order to:

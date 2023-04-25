@@ -33,6 +33,7 @@ This separation between controls for the hose and bend allows you duplicate the 
     alt="Hose length"
     video
     outline
+    round
     center />
 
 The most fundamental element of a hose is its length. This value defines the pixel distance between the controllers at which the hose will be pulled straight.
@@ -47,6 +48,7 @@ A hose may be stretched beyond this **Hose length** value (you will notice the c
     alt="Realism"
     video
     outline
+    round
     center />
 
 Animators familiar with [Inverse Kinematics](https://youtu.be/-0BO_jn6HFk?t=222) will recognize the sharp snap that happens when a limb goes from bent to straight. This is mathematically accurate, but animation isn’t always about accuracy.
@@ -61,6 +63,7 @@ When **Realism** is at 100% it a hose will behave similar to a snappy IK rig. De
     alt="Slide"
     video
     outline
+    round
     center />
 
 Each bend point is capable of sliding between the controller layers.
@@ -79,6 +82,7 @@ There is an underlying curve to how the bend point moves between controllers to 
     alt="Roundness"
     video
     outline
+    round
     center />
 
 Bend point roundness works like a path’s tangent handle. Increasing its value softens the bend by extending its tangent handles.  
@@ -101,6 +105,7 @@ The stretchy bones system behind RubberRig places bone layers between the bend p
     alt="Direction"
     video
     outline
+    round
     center />
 
 A hose bends when the distance between controllers is less than the **Hose length** value but the *way* it bends is defined by **direction**.

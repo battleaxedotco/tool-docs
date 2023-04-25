@@ -19,6 +19,7 @@ sidebarDepth: 1
     alt="Duplicate"
     video
     outline
+    round
     center />
 
 Most creatures are fairly symmetrical, so once a hose has its bend values or style dialed in, quickly duplicate a hose, controllers and any [path parented](#parent-to-hose) layers for the other side.
@@ -52,6 +53,7 @@ A hose group is an interconnected bundle of names and math that tells the system
     alt="Rename"
     video
     outline
+    round
     center />
 
 In previous versions of Rubberhose, layer naming was *very* important and affected everything about how the expressions worked. This is no longer a concern and you are free to name layers as you please without fear of orange expression errors.
@@ -77,6 +79,7 @@ But for a more organized approach to layer naming this button allows for batch r
     alt="Add bend"
     video
     outline
+    round
     center />
 
 Multi-bends are a major improvement in version 3 and flexibility is the core Rubberhose ethos. Duplicating one of the RH Bend pseudo effects will add a new bend point, but it will be at the same position as the original. To add bends with more visual feedback use this button.
@@ -92,6 +95,7 @@ Multi-bends are a major improvement in version 3 and flexibility is the core Rub
     alt="Add bend shift"
     video
     outline
+    round
     center />
 
 Holding down the SHIFT key will add additional bends after the last bend on the hose, but will not redistribute each bend’s ([Slide](./control#slide)) property. Instead it will subdivide the remaining area of the hose.
@@ -123,6 +127,7 @@ For stretching art like a texture or a tattoo along segments of a hose, use [Rub
     alt="Parent to hose"
     video
     outline
+    round
     center />
 
 
@@ -175,6 +180,7 @@ It’s gone. Hose parenting has increased accuracy and renders faster. You can s
     alt="Add bones"
     video
     outline
+    round
     center />
 
 1. Select a hose
@@ -199,6 +205,7 @@ This process happens automatically with RubberRig but is available here as its o
     alt="Autoflop"
     video
     outline
+    round
     center />
 
 Originally designed in v2 to be quick way to ease between positive and negative [Direction](./controls.html#direction), Autoflop has been given a major upgrade to handle foreshortening and limb crossover.
@@ -247,6 +254,7 @@ To remove Autoflop from a hose group:
     alt="Toggle controller visibility"
     video
     outline
+    round
     center />
 
 Take control of the visual noise that may come from adding more hose groups to a comp by hiding and showing controllers. There are a few options based on selection and keyboard modifiers.
@@ -266,6 +274,7 @@ Take control of the visual noise that may come from adding more hose groups to a
     alt="Toggle controller visibility - Shift"
     video
     outline
+    round
     center />
 
 - All controllers that are part of selected hose groups will become visible
@@ -278,6 +287,7 @@ Take control of the visual noise that may come from adding more hose groups to a
     alt="Toggle controller visibility - ALT"
     video
     outline
+    round
     center />
 
 Instead of toggling 👁️, toggle controller opacity between 100/0%. This hides the controller from view while keeping motion paths visible.
@@ -304,6 +314,7 @@ Instead of toggling 👁️, toggle controller opacity between 100/0%. This hide
     alt="Toggle style visibility"
     video
     outline
+    round
     center />
 
 Hose styles may contain a lot of shape operators and could gradually slow down the comp preview. Batch toggle the hose styles in the comp to speed up render time to a comp or see how a hoses are actually bending.
@@ -329,6 +340,7 @@ Hose styles may contain a lot of shape operators and could gradually slow down t
     alt="Select group"
     video
     outline
+    round
     center />
 
 Controllers and hose layers do not need to be near one another in the layer stack to work correctly and sometimes stacking all controllers together can make it easier to animate. This button is used to locate all layers in a selected hose group.

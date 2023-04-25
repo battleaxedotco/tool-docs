@@ -20,6 +20,7 @@ sidebarDepth: 1
     width="320px"
     video
     outline
+    round
     left />
 
 Be notified as soon as a Rubberhose update is available in the panel.
@@ -50,6 +51,7 @@ It’s just icon-only buttons without text. But also dangerous.
     width="320px"
     video
     outline
+    round
     left />
 
 As new versions of Rubberhose are released there might be updated expressions –but this cannot automatically update rigs that have already been created. Click to compare the currently installed version of the Rubberhose extension with the expressions on layers that already exist. The updated expressions will be applied across.
@@ -70,6 +72,7 @@ As new versions of Rubberhose are released there might be updated expressions �
     width="320px"
     video
     outline
+    round
     left />
 
 Click to remove the license key from the current machine for use with a different Adobe ID.

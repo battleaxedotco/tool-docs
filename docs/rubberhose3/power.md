@@ -24,6 +24,7 @@ For Rubberhose, this means it is possible to create a single character rig with 
     alt="Rig to EGP"
     video
     outline
+    round
     center />
 
 Click to add Rubberhose control and other properties to the Essential Graphics panel based on what you have selected.
@@ -60,6 +61,7 @@ This works the same as dragging properties into EGP but quicker.
     alt="EGP rig"
     video
     outline
+    round
     center />
 
 1. Add a precomp with Essential Properties to the current comp
@@ -81,6 +83,7 @@ This includes Duik, Limber and any other type of controllers you have in your pr
     alt="EGP rig duplication"
     video
     outline
+    round
     center />
 
 The [Duplicate](./manage.html#duplicate) button has a secondary function to help with with EGP rigs.
