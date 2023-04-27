@@ -1,7 +1,7 @@
 <template>
     <div class="Install">
         <div v-if="extension">
-            <Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+            <Video url="https://www.youtube.com/embed/7vDkupI0udo" />
             <ol>
                 <li>Download <a href="https://aescripts.com/learn/zxp-installer/" target="_blank">ZXP/UXP Installer</a> from <a href="https://aescripts.com/">aescripts + aeplugins</a></li>
                 <li>Drag <b>{{ name.split(' ').join('') }}.zxp</b> into ZXP Installer</li>
