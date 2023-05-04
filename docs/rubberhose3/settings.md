@@ -10,7 +10,7 @@ sidebarDepth: 1
 
 <Screenshot
     url="/rubberhose3/settings-panel.png"
-    alt="Reset settings"
+    alt="Rubberhose 3 settings"
     width="312px"
     outline
     round

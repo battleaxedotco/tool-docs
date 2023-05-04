@@ -84,9 +84,9 @@ When you enter your license key, it will be linked to your Adobe ID on our licen
 
 ## Learn stuff
 
-A quick link to the documentation you are reading right now.
+A quick link to the [Rubberhose 3 documentation](https://link.battleaxe.co/rubberhose-manual) you are reading right now.
 
 ## Join newsletter
 
 If you like what we are doing
-outline here and want to keep up with what’s happening then join us. We hate constant emails as much as you do and will not annoy you with dumb things.
+outline here and want to keep up with what’s happening then [join us](https://link.battleaxe.co/subscribe). We hate constant emails as much as you do and will not annoy you with dumb things.
