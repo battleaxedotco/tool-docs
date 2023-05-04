@@ -5,7 +5,7 @@ sidebarDepth: 1
 
 # Powering up rigs
 
-<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+<Video url="https://www.youtube.com/embed/sQDPZDoKzBg" />
 
 The Essential Graphics Panel (EGP) is a powerful system inside of After Effects that allows properties inside of a precomp to become available in the parent comp. Precomps have always been reusable, but now these Essential Properties may act as overrides to existing values (colors, text, transforms, etc). If you have never explored EGP check out [this video](https://www.youtube.com/watch?v=Ku9LCNAV2pg).
 

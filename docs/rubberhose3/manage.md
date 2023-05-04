@@ -5,7 +5,7 @@ sidebarDepth: 1
 
 # Managing rigs
 
-<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+<Video url="https://www.youtube.com/embed/UXXKYM7ypig" />
 
 <Screenshot
     url="/rubberhose3/icon/duplicate.svg"
@@ -74,6 +74,11 @@ But for a more organized approach to layer naming this button allows for batch r
 
 ## Add bend
 
+<Video url="https://www.youtube.com/embed/Yo_Lcyx29Xk" />
+
+
+Multi-bends are a major improvement in version 3 and flexibility is the core Rubberhose ethos. Duplicating one of the RH Bend pseudo effects will add a new bend point, but it will be at the same position as the original. To add bends with more visual feedback use this button.
+
 <Screenshot
     url="/rubberhose3/manage-add-bend.mp4"
     alt="Add bend"
@@ -81,8 +86,6 @@ But for a more organized approach to layer naming this button allows for batch r
     outline
     round
     center />
-
-Multi-bends are a major improvement in version 3 and flexibility is the core Rubberhose ethos. Duplicating one of the RH Bend pseudo effects will add a new bend point, but it will be at the same position as the original. To add bends with more visual feedback use this button.
 
 1. Select a hose
 2. Click
@@ -109,7 +112,7 @@ If there is a bend at 50%, holding SHIFT will create a new bend at 75% (half the
 
 ## Parent to hose
 
-<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+<Video url="https://www.youtube.com/embed/IiqgRB6Taqc" />
 
 New in version 3, Parent to hose allows any layer to be attached to any part of a hose. This is a powerful way to add elements like watches and jewelry that are too complex to be built from shape layer operators.
 
@@ -175,6 +178,7 @@ It’s gone. Hose parenting has increased accuracy and renders faster. You can s
 
 ## Add bones
 
+
 <Screenshot
     url="/rubberhose3/manage-add-bones.mp4"
     alt="Add bones"
@@ -188,6 +192,8 @@ It’s gone. Hose parenting has increased accuracy and renders faster. You can s
 3. Bone layers will be added between the controllers and bend points
 
 ### What are bones?
+
+<Video url="https://www.youtube.com/embed/dcCS2vPYA-c" />
 
 Bones are invisible layers (guide layers that do not render) that move and stretch between bend points. They are used as parents for additional art layers (something too complicated or irregular shaped to be created with a hose style).
 

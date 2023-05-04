@@ -5,7 +5,17 @@ sidebarDepth: 1
 
 # Hose / controller settings
 
-<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+<Video url="https://www.youtube.com/embed/yjb2FXzLuNQ" />
+
+
+<Screenshot
+    url="/rubberhose3/settings-panel.png"
+    alt="Reset settings"
+    width="312px"
+    outline
+    round
+    left
+ />
 
 Every new hose will use the values in the **Settings** group to define the:
 
@@ -19,6 +29,7 @@ Every new hose will use the values in the **Settings** group to define the:
 - Controller stretch feedback
 - Controller pair naming options
 
+<br/>
 
 ### Get/apply settings
 

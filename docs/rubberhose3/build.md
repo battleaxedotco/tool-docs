@@ -5,7 +5,7 @@ sidebarDepth: 1
 
 # Building hoses
 
-<Video url="https://www.youtube.com/embed/rNkUD5dboJs" />
+<Video url="https://www.youtube.com/embed/SvIlCRiriuc" />
 
 
 <Screenshot
