@@ -78,6 +78,20 @@ Legacy layers may be replaced in a comp or the entire project by clicking any of
 After replacing, Void will check the Project panel to see if the source layers are used in any other comps, and if not, will delete them. Enjoy a lighter project. 
 
 
+## Secret menu
+
+With the UI open (from the docked ScriptUI panel or from KBar), there are 2 alternate Void creation options.
+
+### Shift + ALT/Opt + New Void
+
+`Ultra Void mode` : Create a new Void without pseudo effects or strokes.
+
+Absolute nothingness.
+
+### Shift + New Void 
+
+A new Void will be created at the center of comp, just like when you have no layers selected, even if you *do* have layers selected. Useful for scaling layers from comp center even with odd placement.
+
 ---
 
 ## Included files
@@ -130,6 +144,24 @@ Did you know that anything that exists as an Ae menu item may be set to a keyboa
 
 ## Changelog
 <div class="changelog">
+
+## 1.1.0
+
+Released: 2023-05-18
+
+### Added
+- Create Voids and link to selected 2D position properties
+- SHIFT + New Void: sets the Void position to comp center while setting it as the parent
+- ALT + SHIFT + New Void: Creates a Void without any pseudo effects or strokes - `Ultra Void mode`
+
+### Changed
+
+- New Void adopts the name of a single selected layer
+- ALT + New Void: Still creates a hidden Void at the bottom of the layer stack, but retains the previous selection
+
+### Fixed
+- Name incrementation logic improved
+
 
 ## 1.0.4
 Released: 2023-01-03
