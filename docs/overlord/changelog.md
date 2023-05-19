@@ -217,7 +217,7 @@ Released: 2017-10-09
 Released: 2017-09-30
 ### Added
 - **Detect Parametric Shapes** is now on the main panel because it didn't make sense to be hidden in settings.
-- Open the user folder with alt click on Update
+- Open the user folder with ALT/Opt click on Update
 
 ### Fixed
 - Zack Lovatt (the genius) found a crazy error that would break everything if you had never installed a Battle Axe tool before.

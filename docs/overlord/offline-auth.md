@@ -1,5 +1,5 @@
 ---
-title: Offline authentication
+title: Offline authentication - Overlord
 ---
 # Offline authentication
 
@@ -15,7 +15,7 @@ Overlord uses an internet connection when first authorizing its license key and 
  />
 
 1. Right click the Overlord panel to open the Settings
-2. ALT Click the **Check for Update** button
+2. ALT/Opt Click the **Check for Update** button
 3. This will open the Overlord `config` folder.
 
 ::: tip Config folder location

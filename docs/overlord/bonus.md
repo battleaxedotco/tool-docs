@@ -36,7 +36,7 @@ Color swatches live in the swatch palette. Select a set of Illustrator color swa
   - Enabling this preference (along with having Ray installed) will create a new Ray palette comp
 - Add to and replace a Ray palette
   - If you are currently inside of a Ray palette, sending swatches will add colors to the current palette
-  - Holding ALT on the keyboard will create a new layer to add colors to –nondestructively replacing the palette
+  - Holding ALT/Opt on the keyboard will create a new layer to add colors to –nondestructively replacing the palette
 
 
 ## Push guides

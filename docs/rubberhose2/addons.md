@@ -52,7 +52,7 @@ Many thanks to [Steve](https://stevekirby.co.uk/) for creating these super high 
 
 <br />
 
-*Option:* Hold ALT on the keyboard to reverse the controller order. Helpful if the art was drawn from the bottom up. 
+*Option:* Hold ALT/Opt on the keyboard to reverse the controller order. Helpful if the art was drawn from the bottom up. 
 
 It may be necessary to reposition the controllers within the comp to correctly align with the art. This depends on how the art was set up, how it was imported into After Effects, and transforms that may have been done after importing.
 

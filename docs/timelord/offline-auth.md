@@ -1,5 +1,5 @@
 ---
-title: Offline authentication
+title: Offline authentication - Timelord
 ---
 
 # Offline authentication
@@ -15,9 +15,9 @@ Timelord uses an internet connection when first authorizing its license key and 
     left
     round outline
  />
-- At the Timelord unlock screen, ALT-click the dog icon
+- At the Timelord unlock screen, ALT/Opt-click the dog icon
 - This will open the Timelord `config` folder
-- Clicking the eyeball without holding ALT will open [license.battleaxe.co](https://license.battleaxe.co/)
+- Clicking the eyeball without holding ALT/Opt will open [license.battleaxe.co](https://license.battleaxe.co/)
 
 <br />
 

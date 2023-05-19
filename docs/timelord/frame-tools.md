@@ -153,7 +153,7 @@ If the state of soloing becomes too unruly with all the layer renaming, Shift-cl
 
 ### Wait, solo is already in Photoshop?
 
-In the Layers panel, Alt-Click a layer's eyeball to solo that layer. Tip via [JT DiMartile](https://variablemedium.com/).
+In the Layers panel, ALT/Opt-click a layer's eyeball to solo that layer. Tip via [JT DiMartile](https://variablemedium.com/).
 
 
 

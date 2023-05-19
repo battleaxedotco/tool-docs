@@ -9,7 +9,7 @@ We think the [default settings](#default-crf-values) have been tuned pretty well
 
 ## Open the config settings
 
-Open the Anubis `prefs.json` file by twirling down **SYSTEM**, then ALT-click **Learn Stuff** to open the support folder.
+Open the Anubis `prefs.json` file by twirling down **SYSTEM**, then ALT/Opt-click **Learn Stuff** to open the support folder.
 
 <Screenshot 
     url="/anubis/Anubis-alt-learn.jpg" 

@@ -99,7 +99,7 @@ Thanks for your patience!
 The app switch is called by the app name and beta versions tend to confuse the switching code. Disable the app switch in the Overlord settings.
 
 1. Right-click > Settings
-2. ALT click Check for updates to open the settings folder
+2. ALT/Opt click Check for updates to open the settings folder
 3. Navigate to `/Overlord/config/prefs.json` and open this file in a text editor
 4. Change disableAppSwitching to `"disableAppSwitching": true,`
 5. Save and close this file
@@ -212,7 +212,7 @@ Try turning off [Backup This Mac](https://aescripts.com/knowledgebase/index/view
 #### Delete the prefs file
 1. Go to Finder
 2. Pull down the GO menu
-3. Hold the ALT key and Library will appear
+3. Hold the ALT/Opt key and Library will appear
 4. Click to open the `/Library/` folder
 5. Navigate to `/Library/Application Support/BattleAxe/Overlord/config/`
 6. Delete `prefs.json`

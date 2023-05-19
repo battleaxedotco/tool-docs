@@ -95,7 +95,7 @@ There is a lot going on under the hood of the Adobe apps, and sometimes things j
 ### After Effects, Photoshop, Illustrator, Animate
 
 - **macOS** - hold `CMD + Option + Shift` while the application is starting
-- **Windows** - hold `Ctrl + Alt + Shift` while the application is starting
+- **Windows** - hold `Ctrl + ALT/Opt + Shift` while the application is starting
 - When the popup asks if you really want to delete the preferences, click OK
 - New preferences files will be created
 

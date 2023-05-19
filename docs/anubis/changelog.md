@@ -60,7 +60,7 @@ Released: 2022-05-12
 ### Changed
 - Relative path (Ae) defaults to `./` targeting the project file's folder
 - (Ae) Output modules load when pressing `⟳` instead of with panel load
-- Alt click folder picker to open the folder on disk
+- ALT/Opt click folder picker to open the folder on disk
 - Compression time footer stays on screen until mouse over
 
 ### Fixed

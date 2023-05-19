@@ -82,7 +82,7 @@ Try turning off [Backup This Mac](https://aescripts.com/knowledgebase/index/view
 #### Delete the prefs file
 1. Go to Finder
 2. Pull down the GO menu
-3. Hold the ALT key and Library will appear
+3. Hold the ALT/Opt key and Library will appear
 4. Click to open the `/Library/` folder
 5. Navigate to `/Library/Application Support/BattleAxe/Timelord/config/`
 6. Delete `prefs.json`

@@ -152,12 +152,12 @@ Released: 2023-05-18
 ### Added
 - Create Voids and link to selected 2D position properties
 - SHIFT + New Void: sets the Void position to comp center while setting it as the parent
-- ALT + SHIFT + New Void: Creates a Void without any pseudo effects or strokes - `Ultra Void mode`
+- ALT/Opt + SHIFT + New Void: Creates a Void without any pseudo effects or strokes - `Ultra Void mode`
 
 ### Changed
 
 - New Void adopts the name of a single selected layer
-- ALT + New Void: Still creates a hidden Void at the bottom of the layer stack, but retains the previous selection
+- ALT/Opt + New Void: Still creates a hidden Void at the bottom of the layer stack, but retains the previous selection
 
 ### Fixed
 - Name incrementation logic improved
@@ -173,7 +173,7 @@ Released: 2023-01-03
 ### Changed
 - Zero _Scale_ and _Rotation_ when selecting a single layer
 - New Void is inserted in parenting chain. If selected layer(s) have a single parent layer, this parent will become the parent of the new Void. 
-- New Void layer is locked when holding ALT to create a hidden Void
+- New Void layer is locked when holding ALT/Opt to create a hidden Void
 
 ## 1.0.3
 Released: 2022-12-29
