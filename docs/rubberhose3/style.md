@@ -101,7 +101,7 @@ Bend presets *do not* adjust the Hose length or Realism values
     },
     {
         name: 'Flat / round',
-        text: 'Single layer hoses must be either Round or Flat ended. Sometimes you need pants or shorts and now that\'s easy. Remember, styles can be layered by holding ALT and clicking Apply.',
+        text: 'Single layer hoses must be either Round or Flat ended. Sometimes you need pants or shorts and now that\'s easy. Remember, styles can be layered by holding ALT/Opt and clicking Apply.',
         url: '/rubberhose2/styles-flat-round.png'
     },
     {

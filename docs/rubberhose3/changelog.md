@@ -9,7 +9,7 @@ title: Changelog
 
 ## 3.0.0
 
-Released: 2023-02-15
+Released: 2023-05-22
 
 ### Initial release
 
