@@ -5,6 +5,46 @@ sidebarDepth: 1
 
 # Troubleshooting 
 
+## How do get an upgrade coupon
+
+Go to [license.battelaxe.co](https://license.battleaxe.co/) and log in with the email you used to purchase.
+
+<Screenshot
+    url="/rubberhose3/upgrade-login.png"
+    alt="License login"
+    outline
+    round
+    center />
+
+Under an eligible purchase, you will see a link to **Generate Coupon**.
+
+<Screenshot
+    url="/rubberhose3/upgrade-generate.png"
+    alt="Generate coupon"
+    outline
+    round
+    center />
+
+Copy this coupon code and paste it in the check out window at [battleaxe.co/rubberhose](https://www.battleaxe.co/rubberhose) before entering your payment info.
+
+<Screenshot
+    url="/rubberhose3/upgrade-checkout.png"
+    alt="Checkout"
+    outline
+    round
+    center />
+
+
+## I bought Rubberhose 2, where is my upgrade?
+
+Upgrade paths are available for users who purchased within 2 years of the release of version 3. Log into [license.battleaxe.co](https://license.battleaxe.co/) with your purchase email and generate a coupon code for a discount at checkout.
+
+ - Purchased Rubberhose 2 after November 1, 2022 your upgrade to version 3 is free
+ - Purchased Rubberhose 2 after May 1, 2020 your upgrade to version 3 is 20% off
+ - Purchased more than 2 years ago, we hope you found value in version 2 and that you will continue dangerous journey with us
+
+
+
 ## Why aren’t controllers auto-rotating?
 
 TLDR: It’s gone. But [hose parenting](./manage.html#parent-to-hose) has increased accuracy and renders faster. You can still parent a layer to a controller, but it will not auto-rotate.
