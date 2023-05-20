@@ -5,7 +5,7 @@ sidebarDepth: 1
 
 # Troubleshooting 
 
-## How do get an upgrade coupon
+## How to generate an upgrade coupon?
 
 Go to [license.battelaxe.co](https://license.battleaxe.co/) and log in with the email you used to purchase.
 
@@ -37,7 +37,7 @@ Copy this coupon code and paste it in the check out window at [battleaxe.co/rubb
 
 ## I bought Rubberhose 2, where is my upgrade?
 
-Upgrade paths are available for users who purchased within 2 years of the release of version 3. Log into [license.battleaxe.co](https://license.battleaxe.co/) with your purchase email and generate a coupon code for a discount at checkout.
+Upgrade paths are available for users who purchased within 2 years of the release of version 3. 
 
  - Purchased Rubberhose 2 after November 1, 2022 your upgrade to version 3 is free
  - Purchased Rubberhose 2 after May 1, 2020 your upgrade to version 3 is 20% off
