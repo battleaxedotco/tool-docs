@@ -3,7 +3,7 @@ title: Style
 # sidebarDepth: 2
 ---
 
-# Hose styling - WIP
+# Hose styling
 
 <Video url="https://www.youtube.com/embed/wTumec0YZzk" />
 

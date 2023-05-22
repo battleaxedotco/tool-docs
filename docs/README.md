@@ -18,6 +18,24 @@ products:
     url: /troubleshooting
   - name: Changelog
     url: /changelog
+- title: Rubberhose 3
+  link: /rubberhose3
+  details: Vector workflow salvation
+  links: 
+  - name: Getting started
+    url: /
+  - name: Build
+    url: /build
+  - name: Style
+    url: /style
+  - name: Manage
+    url: /manage
+  - name: Rig to EGP
+    url: /power
+  - name: Troubleshooting
+    url: /troubleshooting
+  - name: Changelog
+    url: /changelog
 - title: Anubis
   link: /anubis
   details: Animating the hard way, but way easier
@@ -83,6 +101,8 @@ faqs:
   links:
   - name: Why isn't my license working?
     url: why-isn-t-my-license-working
+  - name: How to trash preferences?
+    url: trashing-preferences
   - name: Is CC2023 supported?
     url: is-the-newest-version-of-creative-cloud-supported
   - name: Is there a trial version?
