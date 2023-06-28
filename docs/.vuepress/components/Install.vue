@@ -56,6 +56,19 @@
                 <li>Navigate to the .ffx file on disk</li>
                 <li>Name it and set an icon</li>
             </ul>
+
+
+            <Screenshot 
+                    url="/install/Show-animation-presets.png" 
+                    alt="Ae script install" 
+                    width="380px"
+                    right />
+            <h3>Missing the preset?</h3>
+            <ol>
+                <li>Click the menu and <b>Refresh List</b></li>
+                <li>Be sure <b>Show Animation Presets</b> are enabled</li>
+            </ol>
+            ↑ This one is easy to miss.
         </div>
 
         <div v-else-if="scriptUI">
