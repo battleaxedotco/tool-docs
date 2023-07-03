@@ -14,7 +14,6 @@ Released: 2023-06-07
 
 ### Changed
 
-- Settings option to not switch to Ae (helps with multiple versions opening)
 - Better support for working offline
 
 
