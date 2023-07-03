@@ -27,6 +27,33 @@ This is a normal behavior for Ae on Windows machines. When Overlord calls Ae to 
 
 Instead of dragging the Ae window to the top of the screen to maximize, press `Ctrl + \` or by dragging the edges of the app. 
 
+## Multiple versions of Ae opening
+
+The app switch is called by the app name and beta versions tend to confuse the switching code. Disable the app switch in the Overlord settings.
+
+### 1.26 and above
+1. Right-click > Settings
+2. Uncheck **Disable app switching**
+3. Save settings
+
+<Screenshot
+    url="/overlord/disable-app-switching.png"
+    alt="Disable app switching"
+    width="600px"
+    />
+
+### 1.25 and below
+
+1. Right-click > Settings
+2. ALT/Opt click Check for updates to open the settings folder
+3. Navigate to `/Overlord/config/prefs.json` and open this file in a text editor
+4. Change disableAppSwitching to `"disableAppSwitching": true,`
+5. Save and close this file
+6. Right-click > Reload the Overlord panel
+
+Overlord will no longer try to switch to Ae.
+
+
 ## Centered layer in the Ae comp
 
 There is a [small switch](/overlord/modifiers.html#center-shape-in-comp) that, when enabled, will center all shapes in the middle of the comp. Disable that to position shapes in their correct place.
@@ -94,18 +121,6 @@ Images are coming in v2. For now the only way to transfer images from Ai to Ae i
 The vision of Overlord v1 was to rebuild shapes in Ae without intermediate Ai files and importing so images were not a priority. As that became more of an interest, Timelord was a project designed to better crystalize the process of saving and managing files behind the scene (so you don't need to tell it where to save and can keep working fast). Now that we have a good idea of how to manage images, it will become a part of Overlord in the future. Intuitive file management is a lot tougher than it sounds.
 
 Thanks for your patience!
-
-## Multiple (beta) versions of Ae opening
-The app switch is called by the app name and beta versions tend to confuse the switching code. Disable the app switch in the Overlord settings.
-
-1. Right-click > Settings
-2. ALT/Opt click Check for updates to open the settings folder
-3. Navigate to `/Overlord/config/prefs.json` and open this file in a text editor
-4. Change disableAppSwitching to `"disableAppSwitching": true,`
-5. Save and close this file
-6. Right-click > Reload the Overlord panel
-   
-Overlord will no longer try to switch to Ae.
 
 ## Unsupported elements
 
