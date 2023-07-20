@@ -37,34 +37,91 @@ module.exports = {
     logo: '/LogoType.svg',
     nav: [
       {
-        text: 'Tools',
+        text: 'Overlord',
+        link: '/overlord/'
+      },
+      {
+        text: 'RubberHose 3',
+        link: '/rubberhose3/',
+      },
+      {
+        text: 'Anubis',
+        link: '/anubis/'
+      },
+      {
+        text: 'Timelord',
+        link: '/timelord/'
+      },
+      {
+        text: 'RubberHose 2',
+        link: '/rubberhose2/',
+      },
+      {
+        text: 'Freebies',
         items: [
           {
-            text: 'Overlord',
-            link: '/overlord/'
+            text: 'KBar Icons',
+            link: '/freebies/kbar-icons'
           },
           {
-            text: 'RubberHose 3',
-            link: '/rubberhose3/',
+            text: 'Buttcapper',
+            link: '/freebies/buttcapper'
           },
           {
-            text: 'Anubis',
-            link: '/anubis/'
+            text: 'Void',
+            link: '/freebies/void'
           },
           {
-            text: 'Timelord',
-            link: '/timelord/'
+            text: 'Schmeeer',
+            link: '/freebies/schmeeer'
           },
           {
-            text: 'RubberHose 2',
-            link: '/rubberhose2/',
+            text: 'Hylian',
+            link: '/freebies/hylian'
           },
           {
-            text: 'Freebies',
-            link: '/freebies/',
+            text: 'BeatGrid',
+            link: '/freebies/beatgrid'
           },
-        ],
+          {
+            text: 'Soupcan',
+            link: '/freebies/soupcan'
+          },
+          {
+            text: 'Sammich',
+            link: '/freebies/sammich'
+          },
+        ]
       },
+      // {
+      //   text: 'Tools',
+      //   items: [
+      //     {
+      //       text: 'Overlord',
+      //       link: '/overlord/'
+      //     },
+      //     {
+      //       text: 'RubberHose 3',
+      //       link: '/rubberhose3/',
+      //     },
+      //     {
+      //       text: 'Anubis',
+      //       link: '/anubis/'
+      //     },
+      //     {
+      //       text: 'Timelord',
+      //       link: '/timelord/'
+      //     },
+      //     {
+      //       text: 'RubberHose 2',
+      //       link: '/rubberhose2/',
+      //     },
+      //     {
+      //       text: 'Freebies',
+      //       link: '/freebies/',
+      //     },
+      //   ],
+      // },
       {
         text: 'Licenses',
         link: 'https://license.battleaxe.co'
@@ -75,7 +132,7 @@ module.exports = {
       // },
       {
         text: 'Contact',
-        link: '/contact/'
+        link: 'https://battleaxe.co/help#contact'
       },
     ],
     sidebar: {

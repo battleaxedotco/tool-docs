@@ -145,6 +145,13 @@ Did you know that anything that exists as an Ae menu item may be set to a keyboa
 ## Changelog
 <div class="changelog">
 
+## 1.1.1
+
+Released: 2023-05-31
+
+### Fixed
+- Separate dimensions now respects the Ae preference correctly
+
 ## 1.1.0
 
 Released: 2023-05-18

@@ -44,11 +44,9 @@
         <p>Send an email to help@battleaxe.co and we’ll get you set up.</p>
       </div> -->
       
-      <a href="/faq"><h2 style="margin-top: 126px">Frequently asked questions</h2></a>
+      <!-- <a href="/faq"><h2 style="margin-top: 126px">Frequently asked questions</h2></a>
       <div class="row" v-if="data.faqs && data.faqs.length" style="justify-content: space-around; margin-top: 0">
-        <!-- <div class="row" > -->
           <div class="faq" v-for="(faq, faqIdx) in data.faqs" :key="faqIdx">
-            <!-- <a :href="faq.link">{{faq.title}}</a> -->
             <h4>{{faq.title}}</h4>
               <ul v-if="faq.links && faq.links.length">
                 <li v-for="(link, linkIdx) in faq.links" :key="linkIdx">
@@ -56,18 +54,17 @@
                   <a :href="link.url.charAt(0) == '/' ? link.url : `/faq.html#${link.url}`">{{link.name}}</a>
                 </li>
               </ul>
-          <!-- </div> -->
         </div>
-      </div>
+      </div> -->
 
 
-      <div class="row">
+      <!-- <div class="row">
         <div class="block half">
           <h2>Contact</h2>
           <p>Need help with sales or licenses? Contact us and we’ll get back to you as soon as possible.</p>
           <a href="/contact" class="nav-link action-button">Contact</a>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
