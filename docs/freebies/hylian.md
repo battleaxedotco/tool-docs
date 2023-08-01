@@ -10,7 +10,7 @@ Sort of a *link to the past*.
 
 <Video url="https://www.youtube.com/embed/3phCo_VijFA" aspect="1x1" />
 
-## [Download](https://battleaxe.gumroad.com/l/hylian)
+<FreebieSubscribe />
 
 ## Usage
 

@@ -7,7 +7,7 @@ title: Buttcapper
 The stroke cap selector Adobe kinda forgot.
 
 
-## [Download](https://battleaxe.gumroad.com/l/buttcapper)
+<FreebieSubscribe />
 
 
 ## Usage

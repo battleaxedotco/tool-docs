@@ -81,7 +81,7 @@ export default {
 .toolbar > img {
     height: 40px;
     margin-right: 4px;
-    margin-top: 14px;
+    margin-top: 28px;
     /* padding-top: 20px; */
 }
 .left, .toolbar {

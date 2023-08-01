@@ -11,7 +11,7 @@ Faux 3D cylinder preset built from simple shapes for easy animation.
     width="400px"
     center />
 
-## [Download](https://battleaxe.gumroad.com/l/soupcan)
+<FreebieSubscribe />
 
 
 ## Create new shape

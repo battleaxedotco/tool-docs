@@ -16,8 +16,7 @@ And don't get me started on the top-left anchor point. 🙄
 
 
 
-## Download
-<a href="https://battleaxe.lemonsqueezy.com/checkout/buy/980120bd-43ef-4b5d-b7f0-fdf956009cbd?embed=1&desc=0&discount=0&dark=1" class="lemonsqueezy-button action-button">Pay what you want</a><script src="https://app.lemonsqueezy.com/js/lemon.js" defer></script>
+<FreebieSubscribe />
 
 
 

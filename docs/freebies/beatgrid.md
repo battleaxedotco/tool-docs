@@ -7,7 +7,8 @@ title: Beatgrid
 Based on a brilliant idea for a [BPM grid overlay](http://www.sandervandijk.tv/after-effects-features/timeline#1.2-bpm-grid) inside of Ae's timeline by [Sander Van Dijk](http://www.sandervandijk.tv/). Not nearly as integrated as a native solution, Beatgrid does provide enough to synchronize elements to 4/4 beats with markers and keyframes.
 
 
-## [Download](https://battleaxe.gumroad.com/l/beatgrid)
+<FreebieSubscribe />
+
 ## Usage
 
 <Screenshot 
