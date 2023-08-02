@@ -2,6 +2,8 @@
 title: Schmeeer
 ---
 
+<Redirect to="https://battleaxe.co/schmeeer" />
+
 # Schmeeer
 
 <Video url="https://www.youtube.com/embed/EYKCa8Q6ZVU" />
