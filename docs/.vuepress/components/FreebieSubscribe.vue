@@ -1,6 +1,6 @@
 <template>
     <div class="download">
-        <a href="https://link.battleaxe.co/freebies" class="nav-link action-button" target="_blank">Subscribe to download</a>
+        <a href="https://link.battleaxe.co/freebies" class="nav-link action-button" target="_blank">Download</a>
 
         <h4>A newsletter? Ew.</h4>
         <p>
