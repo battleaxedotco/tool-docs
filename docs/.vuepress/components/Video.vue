@@ -40,8 +40,8 @@ export default {
   overflow: hidden;
   width: 100%; 
   height: auto;
-  margin-bottom: 16px;
-  margin-top: 16px;
+  margin-bottom: 36px;
+  margin-top: 36px;
 }
 
 .video-block iframe {
