@@ -114,3 +114,92 @@ The way we communicate to Rubberhose where to set controls and bend points is by
 
 The creation of bones is defined by the location of anchor points in the parenting chain. The last layer is required to tell Rubberhose where the end controller should be. Without the 3rd layer, Rubberhose would not know how long the last segment should be. You are free to delete it after creating a rig.
 :::
+
+
+<Screenshot
+    url="/rubberhose3/icon/rubberpin.svg"
+    alt="New RubberPin"
+    toolbar />
+
+## New RubberPin
+
+<Screenshot
+    url="/rubberhose3/build-rubberpin.mp4"
+    alt="RubberPin"
+    video
+    outline
+    round
+    center />
+
+**New in v3.1.0** RubberPins is more intuitive than ever before. Simply add pins to a footage layer or precomp ([not a shape layer](#shape-layers-don-t-work)) and click the button.
+
+Rubberhose will then:
+1. Create a hose and controller group using your [settings](./settings)
+2. This new hose will be a guide layers that will not render (it is only used to position all the pins)
+3. The pins will be parented to the new hose starting with the first pin that is set
+
+
+<Screenshot
+    url="/rubberhose3/pin-slide.png"
+    alt="Pin slide"
+    width="334px"
+    right
+ />
+ 
+### Slide
+
+Each pin connected to the hose is positioned along the hose by pseudo effects named `Pin 1`, `Pin 2`, etc. This works similarly to [Parent to hose](./manage.html#parent-to-hose), where it is possible to slide the pin along the length of the hose –or snap to a bend point. 
+
+- 0% is at the start of the hose
+- 50% is at the exact center (this may not be at the bend point)
+- 100% is at the end of the hose
+
+
+<br/>
+
+### Always raster layers
+
+Puppet pins use a fixed coordinate on the layer to know how to best deform the art. Footage and precomp layers are raster based and have solid coordinates to draw with, while Shape layers are vector based and are constantly redrawing themselves to be infinitely scalable –the same thing happens if you have **Continuously Rasterize** (☀) turned on.
+
+> If you are using pins, do not use shape layers. 
+> 
+> If you are using pins, do not use Continuously Rasterize.
+
+#### If you want to start with a shape layer, or you need the extra resolution
+- Precomp your layer (CMD/Ctrl+SHIFT+C)
+- Double click the new precomp layer to go inside of it 
+- Scale the layer up and make note of the factor you are scaling by 
+  - 200% is a scale factor of 2
+  - 500% is a scale factor of 5
+- Open the comp settings (CMD+Ctrl+K)
+- Multiply the comp width and height by the scale factor 
+  - If your width is 1080 and your scale factor is 2, you could do the math, or just type `1080 * 2` to update the width to `2160`
+  - Do the same for the height or enable **Lock aspect ratio**
+- Exit back out to your work comp
+- Scale the precomp down to a usable size
+- Add pins like usually 
+- Start rigging
+
+### Supported pin types
+
+There are several pin types now available, but not all of them may be linked to a hose. 
+
+| Type     | Engine   | Support |
+|----------|----------|---------|
+| Position | Advanced | ✅       |
+| Starch   | Advanced | ❌       |
+| Bend     | Advanced | ❌       |
+| Advanced | Advanced | ✅       |
+| -        | Legacy   | ✅       |
+
+- **Starch** and **Bend** will be skipped with connecting pins
+- When rigging with **Advanced > Advanced** pins the **position** and **rotation** properties will both be linked to the hose
+
+
+::: tip What kind of pin type should I use?
+Recent versions of Ae have introduced several new pin types, but our personal preference is still **Legacy** mode with the resolution turned way up. It just feels more hose-like. 
+
+The next recommendation is **Advanced > Position**. This is still pretty simple but can require some **Starch** pins to bend smoothly. But using starch pins can provided some additional flexibility with how the art bends.
+
+The 3rd option is **Advanced > Advanced** but we have not noticed any additional flexibility, but if you find some cool ways to use it, let us know.
+:::

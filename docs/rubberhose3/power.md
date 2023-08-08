@@ -100,10 +100,18 @@ Yes. If you end up with a bunch of extra controller in the main comp (like Start
 You will get an expression error. Disable or delete that expression and the controller value within the precomp will revert to its previous location
 :::
 
+## Essential property rigging
+
+<Video url="https://www.youtube.com/embed/RwZvUzXzQTI" />
+
+We encourage you to make friends with the EGP panel. It will make your work-life better. 
+
+
 <Screenshot
     url="/rubberhose3/icon/bake.svg"
     alt="Bake hoses"
     toolbar />
+
 
 ## Bake hoses
 

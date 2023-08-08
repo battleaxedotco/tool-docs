@@ -7,7 +7,24 @@ title: Changelog
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
-## 3.0.1
+## 3.1.0
+
+Released: 2023-08-10
+
+### Added 
+
+- RubberPin build system
+- Korean language
+
+### Fix
+
+- Essential properties inside of groups would break **EGP to Rig**
+- Reduce warning when opening finder
+- SHIFT key was unresponsive in RubberRig
+- Support preference when non-separated dimensions
+
+
+## 3.0.2
 
 Released: 2023-05-31
 
