@@ -7,6 +7,22 @@ title: Changelog
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
+## 1.1.10
+
+Released: 2023-08-10
+
+### Added
+- Version update check
+- Metadata property stores the path to the project file (visible in Bridge)
+
+### Changed
+- All Ae output modules now supported if not compressing
+- Removed the `_anubis` at the end of file name if rendering `.mp4` from Ae 
+
+### Fix
+- Folder picker opening twice
+- Folder names with `x` replaced with comp size
+
 ## 1.1.7
 
 Released: 2023-02-15
