@@ -53,6 +53,4 @@ Context: Rubberhose 2 introduced the concept of controller rotation to the world
 
 ## Where is RubberPin?
 
-It’s gone. Adobe has made a series of changes to their Puppet Pins system that improve usability in many ways. Unfortunately, it is currently very difficult to distort a layer in a Rubberhose-like way using pins.
-
-If the Puppet tool is a part of your workflow, jump on Discord and help us make sense of how this could work with Rubberhose 3.  
+It's back! It was missing in the initial launch because we could not figure out how to make it feel right. [Download v3.1.0+](https://license.battleaxe.co/) to start working with the improved [RubberPin](./build.html#new-rubberpin).
