@@ -2,24 +2,28 @@
 title: Changelog
 ---
 # Changelog
+
 <div class="changelog">
 
 
 <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
 
-## 1.1.10
+## 1.1.9
 
 Released: 2023-08-10
 
 ### Added
-- Version update check
+
+- Version update notification in panel
 - Metadata property stores the path to the project file (visible in Bridge)
 
 ### Changed
+
 - All Ae output modules now supported if not compressing
 - Removed the `_anubis` at the end of file name if rendering `.mp4` from Ae 
 
 ### Fix
+
 - Folder picker opening twice
 - Folder names with `x` replaced with comp size
 
@@ -28,6 +32,7 @@ Released: 2023-08-10
 Released: 2023-02-15
 
 ### Fix
+
 - File name entry field failed to respond on Apple silicon
 - License key entry field failed to respond on Apple silicon
 - Premiere: Custom EPR selection persistence
