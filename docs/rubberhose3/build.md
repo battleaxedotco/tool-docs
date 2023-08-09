@@ -5,7 +5,7 @@ sidebarDepth: 1
 
 # Building hoses
 
-<Video url="https://www.youtube.com/embed/SvIlCRiriuc" />
+<Video url="https://www.youtube.com/embed/uZb8F2ub5yc" />
 
 
 <Screenshot
@@ -192,7 +192,7 @@ There are several pin types now available, but not all of them may be linked to 
 | Advanced | Advanced | ✅       |
 | -        | Legacy   | ✅       |
 
-- **Starch** and **Bend** will be skipped with connecting pins
+- **Starch** and **Bend** will be skipped
 - When rigging with **Advanced > Advanced** pins the **position** and **rotation** properties will both be linked to the hose
 
 
