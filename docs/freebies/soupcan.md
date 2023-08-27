@@ -1,6 +1,8 @@
 ---
 title: Soupcan
 ---
+
+<Redirect to="https://battleaxe.co/soupcan" />
 # Soupcan
 
 Faux 3D cylinder preset built from simple shapes for easy animation.
