@@ -6,7 +6,15 @@ title: Changelog
 <div class="changelog">
 
 
-<a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
+<a href="https://license.battleaxe.co" class="nav-link action-button" target="_blank">Download updates</a>
+
+## 1.1.10
+
+Released: 2023-09-28
+
+### Changed
+
+- Signed the MacOS FFMpeg binary for more reliable install
 
 ## 1.1.9
 

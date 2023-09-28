@@ -2,6 +2,7 @@
 title: Buttcapper
 ---
 
+<Redirect to="https://battleaxe.co/buttcapper" />
 # Buttcapper
 
 The stroke cap selector Adobe kinda forgot.

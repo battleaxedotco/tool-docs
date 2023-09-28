@@ -9,10 +9,8 @@
       <div class="row">
         <div class="block half">
           <h2>Updates</h2>
-          <a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
-          <p>Download the most recent builds with your license key.</p>
           <a href="http://license.battleaxe.co" class="nav-link action-button">License lookup</a>
-          <p>Find license keys and receipts with your purchase email.</p>
+          <p>Download updates with your license key or lookup license keys with your purchase email.</p>
         </div>
         <div class="block half">
           <h2>Community</h2>

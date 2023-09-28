@@ -6,7 +6,7 @@ sidebar: auto
 
 ## Why isn't my license working?
 
-If you purchased Overlord, Anubis or Timelord through gumroad.com, download the most recent version at [battleaxe.co/lookup](https://www.battleaxe.co/lookup) with your license key. 
+If you purchased Overlord, Anubis or Timelord through gumroad.com, download the most recent version at [license.battleaxe.co](https://license.battleaxe.co/) with your license key.
 
 From 2015 - 2023 we sold products through gumroad.com and utilized their license authentication system on most of our products. Because of changes to their licensing backend, an update is required for all products that use license keys. See changelogs:
 

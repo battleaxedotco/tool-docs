@@ -3,6 +3,12 @@ title: Allow FFmpeg
 ---
 # Allow FFmpeg
 
+::: warning Update to 1.1.10
+Starting with v1.1.10, FFmpeg is now a signed binary and will no longer throw security error on MacOS. [Download the update](https://license.battleaxe.co/) with your license key.
+:::
+
+## Deprecated workaround ↓
+
 <Screenshot 
     url="/timelord/ffmpeg-trash.jpg" 
     alt="move ffmpeg to trash" 

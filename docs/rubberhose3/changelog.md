@@ -1,11 +1,13 @@
 ---
 title: Changelog
 ---
+
+<Redirect to="https://www.battleaxe.co/rubberhose/knowledge#changelog" />
 # Changelog
 <div class="changelog">
 
 
-<a href="https://www.battleaxe.co/lookup" class="nav-link action-button" target="_blank">Download updates</a>
+<a href="https://license.battleaxe.co" class="nav-link action-button" target="_blank">Download updates</a>
 
 ## 3.1.0
 
