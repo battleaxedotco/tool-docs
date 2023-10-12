@@ -41,7 +41,7 @@ module.exports = {
         link: '/overlord/'
       },
       {
-        text: 'RubberHose 3',
+        text: 'Rubberhose 3',
         link: '/rubberhose3/',
       },
       {
