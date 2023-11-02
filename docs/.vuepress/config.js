@@ -59,33 +59,33 @@ module.exports = {
       {
         text: 'Freebies',
         items: [
-          {
-            text: 'KBar Icons',
-            link: '/freebies/kbar-icons'
-          },
+          // {
+          //   text: 'KBar Icons',
+          //   link: '/freebies/kbar-icons'
+          // },
           {
             text: 'Buttcapper',
-            link: '/freebies/buttcapper'
+            link: 'https://battleaxe.co/buttcapper'
           },
           {
             text: 'Void',
-            link: '/freebies/void'
+            link: 'https://battleaxe.co/void'
           },
           {
             text: 'Schmeeer',
-            link: '/freebies/schmeeer'
+            link: 'https://battleaxe.co/schmeeer'
           },
           {
             text: 'Hylian',
-            link: '/freebies/hylian'
+            link: 'https://battleaxe.co/hylian'
           },
           {
-            text: 'BeatGrid',
-            link: '/freebies/beatgrid'
+            text: 'Beatgrid',
+            link: 'https://battleaxe.co/beatgrid'
           },
           {
             text: 'Soupcan',
-            link: '/freebies/soupcan'
+            link: 'https://battleaxe.co/soupcan'
           },
           {
             text: 'Sammich',

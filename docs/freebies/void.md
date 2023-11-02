@@ -2,6 +2,8 @@
 title: Void
 ---
 
+<Redirect to="https://battleaxe.co/void" />
+
 # Void
 
 <Video url="https://www.youtube.com/embed/L1D_R83Slh4" />

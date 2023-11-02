@@ -1,6 +1,7 @@
 ---
 title: Hylian
 ---
+<Redirect to="https://battleaxe.co/hylian" />
 
 # Hylian
 

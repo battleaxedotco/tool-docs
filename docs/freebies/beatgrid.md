@@ -1,6 +1,7 @@
 ---
 title: Beatgrid
 ---
+<Redirect to="https://battleaxe.co/beatgrid" />
 
 # Beatgrid
 
