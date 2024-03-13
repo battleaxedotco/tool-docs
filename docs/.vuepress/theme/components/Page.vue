@@ -2,6 +2,8 @@
   <main class="page" :class="{changelog: $page.frontmatter.contact }">
     <slot name="top" />
 
+    <div class="outdated">These pages are no longer maintained. Visit <a href="https://link.battleaxe.co/help">battleaxe.co</a> for up to date docs.</div>
+
     <Content class="theme-default-content" />
     <PageEdit />
 
