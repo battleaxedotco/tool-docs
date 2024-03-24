@@ -20,13 +20,13 @@ Yes, all of our tools support the newest versions of Adobe apps. There a couple 
 
 ## Is there a trial version?
 
-Unfortunately, no. Tool development is currently handled by one person so its more effective to focus energy on full versions rather than trials. If, after giving it a try, you find a tool doesn’t work for you then just ask for a [refund](./contact#refund). We’re happy to get that for you.
+Unfortunately, no. Tool development is currently handled by one person so its more effective to focus energy on full versions rather than trials. If, after giving it a try, you find a tool doesn’t work for you then just ask for a [refund](https://battleaxe.co/contact). We’re happy to get that for you.
 
 ## Can I have a refund?
 
 Everyone has different ways of working and if one of these tools doesn’t fit your workflow it’s better to find something that does. 
 
-Submit a [refund request](./contact#refund) and we’ll get you a refund right away.
+Submit a [refund request](https://battleaxe.co/contact) and we’ll get you a refund right away.
 
 ## Do I have to pay a subscription fee?
 
@@ -75,7 +75,7 @@ Unfortunately, all payment issues are handled directly by Gumroad and we do not 
 ## Is there a student discount?
 Yes! We were once broke students and totally get it. At least you aren't trying to pirate this stuff. Thanks for that. 
 
-Submit a request for a [student discount](./contact#student) code.
+Submit a request for a [student discount](https://battleaxe.co/contact) code.
 
 ## Can I buy as a gift for someone?
 

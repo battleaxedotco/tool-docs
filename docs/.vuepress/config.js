@@ -132,7 +132,7 @@ module.exports = {
       // },
       {
         text: 'Contact',
-        link: 'https://battleaxe.co/help#contact'
+        link: 'https://battleaxe.co/contact'
       },
     ],
     sidebar: {
