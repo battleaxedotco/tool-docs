@@ -1,13 +1,13 @@
 ---
 title: Homepage
 home: true
-heroImage: 
+heroImage:
 tagline: Battle Axe tool documentation
 products:
 - title: Overlord
   link: /overlord
   details: Vector workflow salvation
-  links: 
+  links:
   - name: Getting started
     url: /
   - name: Workflow
@@ -21,7 +21,7 @@ products:
 - title: Rubberhose 3
   link: /rubberhose3
   details: Vector workflow salvation
-  links: 
+  links:
   - name: Getting started
     url: /
   - name: Build
@@ -39,7 +39,7 @@ products:
 - title: Anubis
   link: /anubis
   details: Animating the hard way, but way easier
-  links: 
+  links:
   - name: Getting started
     url: /
   - name: Workflow
@@ -53,7 +53,7 @@ products:
 - title: Timelord
   link: /timelord
   details: Animating the hard way, but way easier
-  links: 
+  links:
   - name: Getting started
     url: /
   - name: Workflow
@@ -65,7 +65,7 @@ products:
 - title: RubberHose 2
   link: /rubberhose2
   details: Animation rigging for everyone
-  links: 
+  links:
   - name: Getting started
     url: /
   - name: Workflow
@@ -78,8 +78,8 @@ products:
     url: /changelog
 - title: Freebies
   link: /freebies
-  details: 
-  links: 
+  details:
+  links:
   - name: Buttcapper
     url: /buttcapper
   - name: Void
@@ -130,13 +130,13 @@ faqs:
   - name: Can I buy as a gift?
     url: can-i-buy-as-a-gift-for-someone
 # - title: Tool questions
-#   links: 
+#   links:
 #   - name: Can Overlord send images?
 #     url: images-are-not-transferring
 #   - name: Why does Ae resize when sending with Overlord?
 #     url: ae-window-shrinks-when-transferring-windows
 - title: EULA
-  links: 
+  links:
   - name: Anubis
     url: /EULA/Anubis_EULA.pdf
   - name: Timelord
@@ -165,4 +165,4 @@ footer: © 2022 Battle Axe Inc. Atlanta, GA.
 ---
 
 <!-- <Redirect to="https://kazoo-herring-p7sw.squarespace.com/help" /> -->
-<!-- <Redirect to="https://battleaxe.co/help" /> -->
+<Redirect to="https://battleaxe.co/help" />
